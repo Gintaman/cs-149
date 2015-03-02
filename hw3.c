@@ -5,6 +5,7 @@
 #include <semaphore.h>
 #include <signal.h>
 #include <sys/time.h>
+#include <string.h>
 
 #define GS 2
 #define RS 1
@@ -27,6 +28,8 @@ struct Student {
 int numStudents = 1;
 int current = 0; //0 for ee, 1 for rs, 2 for gs
 int droppedCount = 0;
+
+int turnAroundTimes[76];
 
 struct Student* gsHead = NULL; //create 3 queues
 struct Student* rsHead = NULL;
@@ -65,12 +68,6 @@ time_t startTime;
 struct itimerval timer;
 int timesUp = 0; //1 means time is up
 
-
-void print(char* event)
-{
-        
-}
-
 struct Student* createStudent()
 {
     struct Student* s = (struct Student*) malloc(sizeof(struct Student)); 
@@ -99,8 +96,7 @@ void addFirst(struct Student* current)
     if(current->status == 2) {
         if(gsHead == NULL) {
         	gsCount++;
-            gsHead = current;
-            
+            gsHead = current; 
             return;
         }
         gsHead->previous = current;
@@ -132,19 +128,40 @@ void addFirst(struct Student* current)
         eeCount++;
     }  
 }
-/*
- *  Student waits for 10 seconds and leaves the queue. Pass in the student's id and head of its respective queue
- */
-void leaveQueue(int id, struct Student* current)
-{
-    ;
-}
 
 /*
  *  Add a student to the tail of its respective queue
  */
 void addLast(struct Student* current)
 {
+    time_t now;
+    time(&now);
+    double elapsed = difftime(now, startTime);
+    int min = 0;
+    int sec = (int) elapsed;
+    current->arrival = sec;
+    if(sec >= 60) {
+        min++;
+        sec -= 60;
+    }
+    char studentStatus[30];
+    char studentSection[30];
+    if(current->section == 1)
+        strcpy(studentSection, "Section 1");
+    else if(current->section == 2)
+        strcpy(studentSection, "Section 2");
+    else if(current->section == 3)
+        strcpy(studentSection, "Section 3");
+    else
+        strcpy(studentSection, "Any Section");
+
+    if(current->status == 2)
+        strcpy(studentStatus, "Graduating Senior");
+    else if(current->status == 1)
+        strcpy(studentStatus, "Regular Senior");
+    else
+        strcpy(studentStatus, "Everyone Else");
+    printf("Time: %1d:%02d   |  Student Arrived | ID: %d | Status: %s | Section: %s\n", min, sec, current->id, studentStatus, studentSection);
     if(current->status == 2) {
         struct Student* temp = gsHead;
         if(gsHead == NULL) {
@@ -227,59 +244,101 @@ void timerHandler(int signal)
 
 void *processEE()
 {
+    sem_wait(&eeSem);
 	if(gsCount > 0)
-        	sem_wait(&waitForGSEE);//bookmark
-        if(rsCount > 0)
-        	sem_wait(&waitForRS);
-	sem_wait(&eeSem);
+        sem_wait(&waitForGSEE);//bookmark
+    if(rsCount > 0)
+        sem_wait(&waitForRS);
+	
     if(!timesUp) {
         pthread_mutex_lock(&eeQueueMutex);    
         struct Student* currentStudent = removeEEHead(eeHead);
         sleep(currentStudent->processTime);
         int sectionNumber = currentStudent->section;
-        printf("Status: %d, Section: %d", currentStudent->status, currentStudent->section);
+
+        time_t now;
+        time(&now);
+        double elapsed = difftime(now, startTime);
+        int min = 0;
+        int sec = (int) elapsed;
+
+        turnAroundTimes[currentStudent->id] = (sec - currentStudent->arrival) + currentStudent->processTime;
+
+        if(sec >= 60) {
+            min++;
+            sec -= 60;
+        }
+
+        
+
+        //bookmark
         //sem_wait(&waitFor)
         switch(sectionNumber) {
             case 1: 
             	if(section1size < SECTION_SIZE) {
-            		section1[++section1size] = currentStudent;
-
+            		section1[section1size++] = currentStudent;
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
+                    printf("Time: %1d:%02d   |  ", min, sec);
                 	printf("Student %d enrolled into Section 1\n", currentStudent->id);
                 	eeCount--;
-            	}           	
+            	}    
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }       	
                 break;
             case 2: 
             	if(section2size < SECTION_SIZE) {
-            		section2[++section2size] = currentStudent;
+            		section2[section2size++] = currentStudent;
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
+                    printf("Time: %1d:%02d   |  ", min, sec);
                 	printf("Student %d enrolled into Section 2\n", currentStudent->id);
                 	eeCount--;
             	}
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }
                 break;
             case 3:
             	if(section3size < SECTION_SIZE) {
-            		section3[++section3size] = currentStudent;
+            		section3[section3size++] = currentStudent;
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
+                    printf("Time: %1d:%02d   |  ", min, sec);
                 	printf("Student %d enrolled into Section 3\n", currentStudent->id);
                 	eeCount--;
-            	}          
+            	}       
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }  
             	break; 
             case 4: 
                 if(section1size < SECTION_SIZE) {
-                    section1[++section1size] = currentStudent; 
+                    section1[section1size++] = currentStudent; 
+                    //printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
+                    printf("Time: %1d:%02d   |  ", min, sec);
                     printf("Student %d enrolled into Section 1\n", currentStudent->id);  
                     eeCount--; 
                 }
                 else if(section2size < SECTION_SIZE) {
-                    section2[++section2size] = currentStudent;  
+                    section2[section2size++] = currentStudent;  
+                    //printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
+                    printf("Time: %1d:%02d   |  ", min, sec);
                     printf("Student %d enrolled into Section 2\n", currentStudent->id);  
                     eeCount--;
                 }
                 else if(section3size < SECTION_SIZE) {
-                	section3[++section3size] = currentStudent;
+                	section3[section3size++] = currentStudent;
+                	//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
+                    printf("Time: %1d:%02d   |  ", min, sec);
                 	printf("Student %d enrolled into Section 3\n", currentStudent->id);
                 	eeCount--;
                 }
                 else {
-                	printf("All sections filled.\n");
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                	//addLast(currentStudent); //MAYBE THIS FIXES ISSUE. STUDENTS NEED TO BE READDED TO QUEUE
                 }
                 break;
         }
@@ -289,50 +348,83 @@ void *processEE()
 
 void *processRS()
 {
+    sem_wait(&rsSem);
 	if(gsCount > 0)
         	sem_wait(&waitForGS);
-    sem_wait(&rsSem);
+    
+
     if(!timesUp) {
         pthread_mutex_lock(&rsQueueMutex);    
         struct Student* currentStudent = removeRSHead(rsHead);
         sleep(currentStudent->processTime);
         int sectionNumber = currentStudent->section;
+        time_t now;
+        time(&now);
+        double elapsed = difftime(now, startTime);
+        int min = 0;
+        int sec = (int) elapsed;
+        turnAroundTimes[currentStudent->id] = (sec - currentStudent->arrival) + currentStudent->processTime;
+        if(sec >= 60) {
+            min++;
+            sec -= 60;
+        }
+
+        
          //if there are seniors, we wait for them
-        printf("Status: %d, Section: %d", currentStudent->status, currentStudent->section);
         switch(sectionNumber) {
             case 1: 
             	if(section1size < SECTION_SIZE) {
-            		section1[++section1size] = currentStudent;
+            		section1[section1size++] = currentStudent;
+                    printf("Time: %1d:%02d   |  ", min, sec);
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                 	printf("Student %d enrolled into Section 1\n", currentStudent->id);
                 	rsCount--;
                 	sem_post(&waitForGS);
                 	sem_post(&waitForGSEE);
                 	sem_post(&waitForRS);
             	}           	
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }
                 break;
             case 2: 
             	if(section2size < SECTION_SIZE) {
-            		section2[++section2size] = currentStudent;
+            		section2[section2size++] = currentStudent;
+                    printf("Time: %1d:%02d   |  ", min, sec);
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                 	printf("Student %d enrolled into Section 2\n", currentStudent->id);
                 	rsCount--;
                 	sem_post(&waitForGS);
                 	sem_post(&waitForGSEE);
                 	sem_post(&waitForRS);
             	}
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }
                 break;
             case 3:
             	if(section3size < SECTION_SIZE) {
-            		section3[++section3size] = currentStudent;
+            		section3[section3size++] = currentStudent;
+                    printf("Time: %1d:%02d   |  ", min, sec);
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                 	printf("Student %d enrolled into Section 3\n", currentStudent->id);
                 	rsCount--;
                 	sem_post(&waitForGS);
                 	sem_post(&waitForGSEE);
                 	sem_post(&waitForRS);
             	}          
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }
             	break; 
             case 4: 
                 if(section1size < SECTION_SIZE) {
-                    section1[++section1size] = currentStudent; 
+                    section1[section1size++] = currentStudent; 
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    //printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                     printf("Student %d enrolled into Section 1\n", currentStudent->id);  
                     rsCount--; 
                     sem_post(&waitForGS);
@@ -340,7 +432,9 @@ void *processRS()
                 	sem_post(&waitForRS);
                 }
                 else if(section2size < SECTION_SIZE) {
-                    section2[++section2size] = currentStudent;  
+                    section2[section2size++] = currentStudent;  
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    //printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                     printf("Student %d enrolled into Section 2\n", currentStudent->id);  
                     rsCount--;
                     sem_post(&waitForGS);
@@ -348,7 +442,9 @@ void *processRS()
                 	sem_post(&waitForRS);
                 }
                 else if(section3size < SECTION_SIZE) {
-                	section3[++section3size] = currentStudent;
+                	section3[section3size++] = currentStudent;
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                	//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                 	printf("Student %d enrolled into Section 3\n", currentStudent->id);
                 	rsCount--;
                 	sem_post(&waitForGS);
@@ -356,7 +452,9 @@ void *processRS()
                 	sem_post(&waitForRS);
                 }
                 else {
-                	printf("All sections filled.\n");
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                	//addLast(currentStudent);
                 }
                 break;
         }
@@ -372,59 +470,96 @@ void *processGS()
         struct Student* currentStudent = removeGSHead(gsHead);
         sleep(currentStudent->processTime);
         int sectionNumber = currentStudent->section;  
-        printf("Status: %d, Section: %d", currentStudent->status, currentStudent->section);     
+        time_t now;
+        time(&now);
+        double elapsed = difftime(now, startTime);
+        int min = 0;
+        int sec = (int) elapsed;
+        turnAroundTimes[currentStudent->id] = (sec - currentStudent->arrival) + currentStudent->processTime;
+        if(sec >= 60) {
+            min++;
+            sec -= 60;
+        }
+
+        
         switch(sectionNumber) {
             case 1: 
             	if(section1size < SECTION_SIZE) {
-            		section1[++section1size] = currentStudent;
+            		section1[section1size++] = currentStudent;
+                    printf("Time: %1d:%02d   |  ", min, sec);
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                 	printf("Student %d enrolled into Section 1\n", currentStudent->id);
                 	gsCount--;
                 	sem_post(&waitForGS);
                 	sem_post(&waitForGSEE);
-            	}           	
+            	}         
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }  	
                 break;
             case 2: 
             	if(section2size < SECTION_SIZE) {
-            		section2[++section2size] = currentStudent;
+            		section2[section2size++] = currentStudent;
+                    printf("Time: %1d:%02d   |  ", min, sec);
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                 	printf("Student %d enrolled into Section 2\n", currentStudent->id);
                 	gsCount--;
                 	sem_post(&waitForGS);
                 	sem_post(&waitForGSEE);
-            	}
+            	} 
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }
                 break;
             case 3:
             	if(section3size < SECTION_SIZE) {
-            		section3[++section3size] = currentStudent;
+            		section3[section3size++] = currentStudent;
+                    printf("Time: %1d:%02d   |  ", min, sec);
+            		//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                 	printf("Student %d enrolled into Section 3\n", currentStudent->id);
                 	gsCount--;
                 	sem_post(&waitForGS);
                 	sem_post(&waitForGSEE);
             	}          
+                else {
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                }
             	break; 
             case 4: 
                 if(section1size < SECTION_SIZE) {
-                    section1[++section1size] = currentStudent; 
+                    section1[section1size++] = currentStudent; 
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    //printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                     printf("Student %d enrolled into Section 1\n", currentStudent->id);  
                     gsCount--; 
                     sem_post(&waitForGS);
                     sem_post(&waitForGSEE);
                 }
                 else if(section2size < SECTION_SIZE) {
-                    section2[++section2size] = currentStudent;  
+                    section2[section2size++] = currentStudent;  
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    //printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                     printf("Student %d enrolled into Section 2\n", currentStudent->id);  
                     gsCount--;
                     sem_post(&waitForGS);
                     sem_post(&waitForGSEE);
                 }
                 else if(section3size < SECTION_SIZE) {
-                	section3[++section3size] = currentStudent;
+                	section3[section3size++] = currentStudent;
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                	//printf("Status: %d, Section: %d ---", currentStudent->status, currentStudent->section);
                 	printf("Student %d enrolled into Section 3\n", currentStudent->id);
                 	gsCount--;
                 	sem_post(&waitForGS);
                 	sem_post(&waitForGSEE);
                 }
                 else {
-                	printf("All sections filled.\n");
+                    printf("Time: %1d:%02d   |  ", min, sec);
+                    printf("Student %d dropped.\n", currentStudent->id);
+                	//addLast(currentStudent);
                 }
                 break;
         } 
@@ -463,7 +598,7 @@ void *studentArrives() //add student to queue
 {
     pthread_mutex_lock(&studentMutex);
     struct Student* arrivingStudent = createStudent();
-    addFirst(arrivingStudent); //student is added to its correct queue
+    addLast(arrivingStudent); //student is added to its correct queue
     if(arrivingStudent->status == 2)
     	sem_post(&gsSem); 
     else if(arrivingStudent->status == 1)
@@ -502,7 +637,7 @@ int main(int argc, char *argv)
     
     setitimer(ITIMER_REAL, &timer, NULL);
 
-    pthread_t gsQueueThreadId; //its magic, i aint gotta explain shi
+    pthread_t gsQueueThreadId; 
     pthread_attr_t gsAttr;
     pthread_attr_init(&gsAttr);
     pthread_create(&gsQueueThreadId, &gsAttr, gsQueue, NULL);
@@ -528,7 +663,61 @@ int main(int argc, char *argv)
     
     signal(SIGALRM, timerHandler);
     pthread_join(gsQueueThreadId, NULL); //all student threads will hit this code eventually.
+
+    char studentStatus[30];
     printf("Number of students who did not manage to enroll: %d\n", MAX_STUDENTS - (section1size + section2size + section3size));
+    printf("\n");
+    printf("---------- Students enrolled in section 1 ----------\n");
+    for(i = 0; i < section1size; i++) {
+        if(section1[i]->status == 2)
+            strcpy(studentStatus, "Graduating Senior");
+        else if(section1[i]->status ==1)
+            strcpy(studentStatus, "Regular Senior");
+        else
+            strcpy(studentStatus, "Everyone Else");
+        printf("Student: %d | Status: %s\n", section1[i]->id, studentStatus);
+    }
+    printf("---------- Students enrolled in section 1 ----------\n");
+    printf("\n");
+    printf("---------- Students enrolled in section 2 ----------\n");
+    for(i = 0; i < section2size; i++) {
+        if(section2[i]->status == 2)
+            strcpy(studentStatus, "Graduating Senior");
+        else if(section2[i]->status ==1)
+            strcpy(studentStatus, "Regular Senior");
+        else
+            strcpy(studentStatus, "Everyone Else");
+        printf("Student: %d | Status: %s\n", section2[i]->id, studentStatus);
+    }
+    printf("---------- Students enrolled in section 2 ----------\n");
+    printf("\n");
+    printf("---------- Students enrolled in section 3 ----------\n");
+    for(i = 0; i < section3size; i++) {
+        if(section3[i]->status == 2)
+            strcpy(studentStatus, "Graduating Senior");
+        else if(section3[i]->status ==1)
+            strcpy(studentStatus, "Regular Senior");
+        else
+            strcpy(studentStatus, "Everyone Else");
+        printf("Student: %d | Status: %s\n", section3[i]->id, studentStatus);
+    }
+    printf("---------- Students enrolled in section 3 ----------\n");
+    printf("\n");
+    int acc = 0;
+    float total;
+    printf("---------- Turn Around Times ----------\n");
+    for(i = 1; i < 76; i++) {
+        if(turnAroundTimes[i] > 0) {
+            acc += turnAroundTimes[i];
+            printf("Student %d | %d\n", i, turnAroundTimes[i]);
+        }
+        else {
+            printf("Student %d was not processed.\n", i);
+        }
+    }
+    total = (float) acc / (float) (section1size + section2size + section3size);
+    printf("AVERAGE TURN AROUND TIME: %f\n", total);
+    printf("---------- Turn Around Times ----------\n");
     //printf("%d\n", section1[0]->id);
     return 0;    
 }
