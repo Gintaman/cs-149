@@ -1,0 +1,296 @@
+Time: 0:00   |  Student Arrived | ID: 1 | Status: Everyone Else | Section: Section 3
+Time: 0:00   |  Student Arrived | ID: 2 | Status: Graduating Senior | Section: Section 3
+Time: 0:02   |  Student Arrived | ID: 3 | Status: Graduating Senior | Section: Section 2
+Time: 0:02   |  Student 2 enrolled into Section 3
+Time: 0:04   |  Student Arrived | ID: 4 | Status: Regular Senior | Section: Section 3
+Time: 0:04   |  Student 3 enrolled into Section 2
+Time: 0:05   |  Student Arrived | ID: 5 | Status: Regular Senior | Section: Any Section
+Time: 0:05   |  Student 1 enrolled into Section 3
+Time: 0:08   |  Student Arrived | ID: 6 | Status: Regular Senior | Section: Section 2
+Time: 0:08   |  Student Arrived | ID: 7 | Status: Regular Senior | Section: Any Section
+Time: 0:08   |  Student 4 enrolled into Section 3
+Time: 0:08   |  Student Arrived | ID: 8 | Status: Graduating Senior | Section: Section 3
+Time: 0:09   |  Student Arrived | ID: 9 | Status: Everyone Else | Section: Section 3
+Time: 0:09   |  Student 8 enrolled into Section 3
+Time: 0:11   |  Student 5 enrolled into Section 1
+Time: 0:13   |  Student 6 enrolled into Section 2
+Time: 0:15   |  Student Arrived | ID: 10 | Status: Graduating Senior | Section: Section 3
+Time: 0:15   |  Student 9 enrolled into Section 3
+Time: 0:15   |  Student 7 enrolled into Section 1
+Time: 0:16   |  Student 10 enrolled into Section 3
+Time: 0:19   |  Student Arrived | ID: 11 | Status: Regular Senior | Section: Section 3
+Time: 0:19   |  Student Arrived | ID: 12 | Status: Graduating Senior | Section: Section 3
+Time: 0:21   |  Student 12 enrolled into Section 3
+Time: 0:21   |  Student Arrived | ID: 13 | Status: Everyone Else | Section: Section 2
+Time: 0:23   |  Student 11 enrolled into Section 3
+Time: 0:25   |  Student Arrived | ID: 14 | Status: Regular Senior | Section: Section 3
+Time: 0:26   |  Student Arrived | ID: 15 | Status: Regular Senior | Section: Any Section
+Time: 0:26   |  Student Arrived | ID: 16 | Status: Graduating Senior | Section: Section 2
+Time: 0:26   |  Student Arrived | ID: 17 | Status: Everyone Else | Section: Section 2
+Time: 0:26   |  Student 13 enrolled into Section 2
+Time: 0:27   |  Student Arrived | ID: 18 | Status: Regular Senior | Section: Section 2
+Time: 0:28   |  Student 16 enrolled into Section 2
+Time: 0:28   |  Student Arrived | ID: 19 | Status: Regular Senior | Section: Section 1
+Time: 0:29   |  Student Arrived | ID: 20 | Status: Graduating Senior | Section: Section 2
+Time: 0:29   |  Student 14 enrolled into Section 3
+Time: 0:29   |  Student 17 enrolled into Section 2
+Time: 0:30   |  Student Arrived | ID: 21 | Status: Graduating Senior | Section: Section 1
+Time: 0:30   |  Student Arrived | ID: 22 | Status: Regular Senior | Section: Any Section
+Time: 0:31   |  Student 20 enrolled into Section 2
+Time: 0:32   |  Student 15 enrolled into Section 1
+Time: 0:33   |  Student Arrived | ID: 23 | Status: Regular Senior | Section: Any Section
+Time: 0:33   |  Student 21 enrolled into Section 1
+Time: 0:33   |  Student Arrived | ID: 24 | Status: Graduating Senior | Section: Section 1
+Time: 0:34   |  Student Arrived | ID: 25 | Status: Graduating Senior | Section: Section 2
+Time: 0:34   |  Student 24 enrolled into Section 1
+Time: 0:35   |  Student 18 enrolled into Section 2
+Time: 0:35   |  Student Arrived | ID: 26 | Status: Everyone Else | Section: Section 3
+Time: 0:35   |  Student Arrived | ID: 27 | Status: Graduating Senior | Section: Section 2
+Time: 0:36   |  Student 25 enrolled into Section 2
+Time: 0:36   |  Student Arrived | ID: 28 | Status: Everyone Else | Section: Section 3
+Time: 0:37   |  Student Arrived | ID: 29 | Status: Regular Senior | Section: Any Section
+Time: 0:37   |  Student 19 enrolled into Section 1
+Time: 0:37   |  Student 27 enrolled into Section 2
+Time: 0:39   |  Student 22 enrolled into Section 1
+Time: 0:40   |  Student Arrived | ID: 30 | Status: Regular Senior | Section: Any Section
+Time: 0:40   |  Student 26 enrolled into Section 3
+Time: 0:42   |  Student Arrived | ID: 31 | Status: Regular Senior | Section: Section 3
+Time: 0:42   |  Student 23 enrolled into Section 1
+Time: 0:43   |  Student Arrived | ID: 32 | Status: Everyone Else | Section: Section 3
+Time: 0:43   |  Student Arrived | ID: 33 | Status: Regular Senior | Section: Section 1
+Time: 0:44   |  Student 28 enrolled into Section 3
+Time: 0:45   |  Student Arrived | ID: 34 | Status: Graduating Senior | Section: Section 1
+Time: 0:45   |  Student 29 enrolled into Section 1
+Time: 0:46   |  Student Arrived | ID: 35 | Status: Regular Senior | Section: Section 2
+Time: 0:46   |  Student 34 enrolled into Section 1
+Time: 0:47   |  Student Arrived | ID: 36 | Status: Graduating Senior | Section: Section 3
+Time: 0:47   |  Student 30 enrolled into Section 1
+Time: 0:49   |  Student 36 enrolled into Section 3
+Time: 0:49   |  Student 32 enrolled into Section 3
+Time: 0:50   |  Student Arrived | ID: 37 | Status: Graduating Senior | Section: Section 1
+Time: 0:50   |  Student 31 enrolled into Section 3
+Time: 0:51   |  Student Arrived | ID: 38 | Status: Everyone Else | Section: Any Section
+Time: 0:51   |  Student 37 enrolled into Section 1
+Time: 0:51   |  Student Arrived | ID: 39 | Status: Graduating Senior | Section: Section 2
+Time: 0:52   |  Student 33 enrolled into Section 1
+Time: 0:53   |  Student Arrived | ID: 40 | Status: Regular Senior | Section: Any Section
+Time: 0:53   |  Student Arrived | ID: 41 | Status: Graduating Senior | Section: Section 2
+Time: 0:53   |  Student 39 enrolled into Section 2
+Time: 0:54   |  Student 38 enrolled into Section 1
+Time: 0:55   |  Student 35 enrolled into Section 2
+Time: 0:55   |  Student 41 enrolled into Section 2
+Time: 0:57   |  Student Arrived | ID: 42 | Status: Regular Senior | Section: Section 2
+Time: 0:58   |  Student Arrived | ID: 43 | Status: Everyone Else | Section: Section 1
+Time: 0:59   |  Student 40 enrolled into Section 1
+Time: 1:01   |  Student 43 enrolled into Section 1
+Time: 1:01   |  Student 42 enrolled into Section 2
+Time: 1:02   |  Student Arrived | ID: 44 | Status: Regular Senior | Section: Any Section
+Time: 1:04   |  Student 44 enrolled into Section 1
+Time: 1:07   |  Student Arrived | ID: 45 | Status: Regular Senior | Section: Section 2
+Time: 1:08   |  Student Arrived | ID: 46 | Status: Everyone Else | Section: Section 2
+Time: 1:09   |  Student Arrived | ID: 47 | Status: Regular Senior | Section: Any Section
+Time: 1:09   |  Student Arrived | ID: 48 | Status: Regular Senior | Section: Section 2
+Time: 1:10   |  Student Arrived | ID: 49 | Status: Graduating Senior | Section: Section 1
+Time: 1:11   |  Student 45 enrolled into Section 2
+Time: 1:11   |  Student 49 enrolled into Section 1
+Time: 1:14   |  Student 47 enrolled into Section 1
+Time: 1:14   |  Student 46 enrolled into Section 2
+Time: 1:18   |  Student Arrived | ID: 50 | Status: Regular Senior | Section: Section 3
+Time: 1:18   |  Student 48 enrolled into Section 2
+Time: 1:19   |  Student Arrived | ID: 51 | Status: Regular Senior | Section: Section 3
+Time: 1:19   |  Student Arrived | ID: 52 | Status: Everyone Else | Section: Section 3
+Time: 1:20   |  Student 50 enrolled into Section 3
+Time: 1:20   |  Student Arrived | ID: 53 | Status: Everyone Else | Section: Section 2
+Time: 1:23   |  Student 51 enrolled into Section 3
+Time: 1:23   |  Student Arrived | ID: 54 | Status: Everyone Else | Section: Section 2
+Time: 1:24   |  Student Arrived | ID: 55 | Status: Regular Senior | Section: Any Section
+Time: 1:24   |  Student 52 enrolled into Section 3
+Time: 1:25   |  Student Arrived | ID: 56 | Status: Regular Senior | Section: Section 1
+Time: 1:27   |  Student Arrived | ID: 57 | Status: Everyone Else | Section: Section 3
+Time: 1:28   |  Student 55 enrolled into Section 1
+Time: 1:29   |  Student 53 enrolled into Section 2
+Time: 1:31   |  Student 56 dropped.
+Time: 1:33   |  Student Arrived | ID: 58 | Status: Everyone Else | Section: Any Section
+Time: 1:33   |  Student 54 enrolled into Section 2
+Time: 1:33   |  Student Arrived | ID: 59 | Status: Everyone Else | Section: Section 2
+Time: 1:33   |  Student Arrived | ID: 60 | Status: Graduating Senior | Section: Section 3
+Time: 1:34   |  Student 60 enrolled into Section 3
+Time: 1:35   |  Student Arrived | ID: 61 | Status: Graduating Senior | Section: Section 3
+Time: 1:36   |  Student Arrived | ID: 62 | Status: Regular Senior | Section: Any Section
+Time: 1:37   |  Student 61 enrolled into Section 3
+Time: 1:38   |  Student 62 enrolled into Section 2
+Time: 1:39   |  Student 57 enrolled into Section 3
+Time: 1:40   |  Student Arrived | ID: 63 | Status: Graduating Senior | Section: Section 2
+Time: 1:41   |  Student Arrived | ID: 64 | Status: Everyone Else | Section: Section 3
+Time: 1:41   |  Student 63 enrolled into Section 2
+Time: 1:42   |  Student Arrived | ID: 65 | Status: Graduating Senior | Section: Section 1
+Time: 1:42   |  Student Arrived | ID: 66 | Status: Graduating Senior | Section: Section 3
+Time: 1:42   |  Student 58 dropped.
+Time: 1:43   |  Student 65 dropped.
+Time: 1:43   |  Student Arrived | ID: 67 | Status: Regular Senior | Section: Section 1
+Time: 1:44   |  Student 66 dropped.
+Time: 1:45   |  Student 59 dropped.
+Time: 1:46   |  Student Arrived | ID: 68 | Status: Regular Senior | Section: Section 2
+Time: 1:47   |  Student 67 dropped.
+Time: 1:47   |  Student Arrived | ID: 69 | Status: Everyone Else | Section: Section 2
+Time: 1:48   |  Student Arrived | ID: 70 | Status: Regular Senior | Section: Section 2
+Time: 1:49   |  Student 64 dropped.
+Time: 1:50   |  Student Arrived | ID: 71 | Status: Regular Senior | Section: Section 1
+Time: 1:51   |  Student Arrived | ID: 72 | Status: Everyone Else | Section: Section 2
+Time: 1:51   |  Student 68 dropped.
+Time: 1:52   |  Student Arrived | ID: 73 | Status: Regular Senior | Section: Any Section
+Time: 1:54   |  Student Arrived | ID: 74 | Status: Everyone Else | Section: Section 1
+Time: 1:54   |  Student 70 dropped.
+Time: 1:55   |  Student 69 dropped.
+Time: 1:58   |  Student 71 dropped.
+Time: 1:59   |  Student Arrived | ID: 75 | Status: Everyone Else | Section: Section 3
+Time's up
+Number of students who did not manage to enroll: 15
+
+---------- Students enrolled in section 1 ----------
+Student: 5 | Status: Regular Senior
+Student: 7 | Status: Regular Senior
+Student: 15 | Status: Regular Senior
+Student: 21 | Status: Graduating Senior
+Student: 24 | Status: Graduating Senior
+Student: 19 | Status: Regular Senior
+Student: 22 | Status: Regular Senior
+Student: 23 | Status: Regular Senior
+Student: 29 | Status: Regular Senior
+Student: 34 | Status: Graduating Senior
+Student: 30 | Status: Regular Senior
+Student: 37 | Status: Graduating Senior
+Student: 33 | Status: Regular Senior
+Student: 38 | Status: Everyone Else
+Student: 40 | Status: Regular Senior
+Student: 43 | Status: Everyone Else
+Student: 44 | Status: Regular Senior
+Student: 49 | Status: Graduating Senior
+Student: 47 | Status: Regular Senior
+Student: 55 | Status: Regular Senior
+---------- Students enrolled in section 1 ----------
+
+---------- Students enrolled in section 2 ----------
+Student: 3 | Status: Graduating Senior
+Student: 6 | Status: Regular Senior
+Student: 13 | Status: Everyone Else
+Student: 16 | Status: Graduating Senior
+Student: 17 | Status: Everyone Else
+Student: 20 | Status: Graduating Senior
+Student: 18 | Status: Regular Senior
+Student: 25 | Status: Graduating Senior
+Student: 27 | Status: Graduating Senior
+Student: 39 | Status: Graduating Senior
+Student: 35 | Status: Regular Senior
+Student: 41 | Status: Graduating Senior
+Student: 42 | Status: Regular Senior
+Student: 45 | Status: Regular Senior
+Student: 46 | Status: Everyone Else
+Student: 48 | Status: Regular Senior
+Student: 53 | Status: Everyone Else
+Student: 54 | Status: Everyone Else
+Student: 62 | Status: Regular Senior
+Student: 63 | Status: Graduating Senior
+---------- Students enrolled in section 2 ----------
+
+---------- Students enrolled in section 3 ----------
+Student: 2 | Status: Graduating Senior
+Student: 1 | Status: Everyone Else
+Student: 4 | Status: Regular Senior
+Student: 8 | Status: Graduating Senior
+Student: 9 | Status: Everyone Else
+Student: 10 | Status: Graduating Senior
+Student: 12 | Status: Graduating Senior
+Student: 11 | Status: Regular Senior
+Student: 14 | Status: Regular Senior
+Student: 26 | Status: Everyone Else
+Student: 28 | Status: Everyone Else
+Student: 36 | Status: Graduating Senior
+Student: 32 | Status: Everyone Else
+Student: 31 | Status: Regular Senior
+Student: 50 | Status: Regular Senior
+Student: 51 | Status: Regular Senior
+Student: 52 | Status: Everyone Else
+Student: 60 | Status: Graduating Senior
+Student: 61 | Status: Graduating Senior
+Student: 57 | Status: Everyone Else
+---------- Students enrolled in section 3 ----------
+
+---------- Turn Around Times ----------
+Student 1 | 10
+Student 2 | 4
+Student 3 | 4
+Student 4 | 8
+Student 5 | 9
+Student 6 | 7
+Student 7 | 9
+Student 8 | 2
+Student 9 | 12
+Student 10 | 2
+Student 11 | 8
+Student 12 | 4
+Student 13 | 10
+Student 14 | 8
+Student 15 | 9
+Student 16 | 4
+Student 17 | 6
+Student 18 | 11
+Student 19 | 11
+Student 20 | 4
+Student 21 | 5
+Student 22 | 11
+Student 23 | 12
+Student 24 | 2
+Student 25 | 4
+Student 26 | 10
+Student 27 | 3
+Student 28 | 12
+Student 29 | 11
+Student 30 | 9
+Student 31 | 11
+Student 32 | 11
+Student 33 | 11
+Student 34 | 2
+Student 35 | 12
+Student 36 | 4
+Student 37 | 2
+Student 38 | 6
+Student 39 | 4
+Student 40 | 10
+Student 41 | 4
+Student 42 | 6
+Student 43 | 6
+Student 44 | 4
+Student 45 | 8
+Student 46 | 12
+Student 47 | 8
+Student 48 | 13
+Student 49 | 2
+Student 50 | 4
+Student 51 | 7
+Student 52 | 10
+Student 53 | 14
+Student 54 | 14
+Student 55 | 8
+Student 56 | 9
+Student 57 | 18
+Student 58 | 12
+Student 59 | 15
+Student 60 | 2
+Student 61 | 4
+Student 62 | 4
+Student 63 | 2
+Student 64 | 12
+Student 65 | 2
+Student 66 | 3
+Student 67 | 8
+Student 68 | 9
+Student 69 | 14
+Student 70 | 9
+Student 71 | 12
+Student 72 was not processed.
+Student 73 was not processed.
+Student 74 was not processed.
+Student 75 was not processed.
+AVERAGE TURN AROUND TIME: 9.150000
+---------- Turn Around Times ----------
