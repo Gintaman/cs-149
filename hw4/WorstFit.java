@@ -1,11 +1,11 @@
 import java.util.*;
-public class BestFit 
+public class WorstFit 
 {
 	private static LinkedList<Process> queue = new LinkedList<Process>();
 	private static LinkedList<Process> segments = new LinkedList<Process>();
 	
 	public int swaps = 0;
-	public BestFit() {
+	public WorstFit() {
 		//begin init
 		for(int i = 0; i < 300; i++) {
 			queue.addLast(new Process(i));
@@ -55,8 +55,8 @@ public class BestFit
 			//
 			//
 
-			int smallest = 0;
-			int smallestindex = 0;
+			int largest = 0;
+			int largestindex = 0;
 			int temp = 0;
 			index = 0;
 			Process p = queue.getFirst();
@@ -67,38 +67,38 @@ public class BestFit
 				for(int j = 0; j < segments.size(); j++) { //first hole
 					Process pp = queue.getFirst();
 					if(segments.get(j).name() == '.' && pp.size() <= segments.get(j).size()) {
-						smallestindex = j;
-						smallest = segments.get(j).size() - pp.size();
+						largestindex = j;
+						largest = segments.get(j).size() - pp.size();
 						break;
 					}
 				}
-				for(int j = smallestindex + 1; j < segments.size(); j++) {
+				for(int j = largestindex + 1; j < segments.size(); j++) {
 					Process pp = queue.getFirst();
 					if(segments.get(j).name() == '.' && pp.size() <= segments.get(j).size()) {
 						
-						if((segments.get(j).size() - pp.size()) < smallest) {
-							smallest = segments.get(j).size() - pp.size();
-							smallestindex = j;
+						if((segments.get(j).size() - pp.size()) > largest) {
+							largest = segments.get(j).size() - pp.size();
+							largestindex = j;
 						}
 					}
 				}
-				index += smallestindex + queue.getFirst().size();
+				index += largestindex + queue.getFirst().size();
 				//Process p = queue.removeFirst();
 				//System.out.println("REMOVED PROCESS: " + p.name() + " SIZE " + p.size());
 				p = queue.getFirst();
-				if(segments.get(smallestindex).size() >= p.size()) {
+				if(segments.get(largestindex).size() >= p.size()) {
 					p = queue.removeFirst();
 					Process newHole = new Process(0);
 					newHole.setName('.');
-					newHole.setSize(segments.get(smallestindex).size() - p.size());
+					newHole.setSize(segments.get(largestindex).size() - p.size());
 					newHole.setDuration(0);
-					segments.remove(smallestindex);
-					segments.add(smallestindex, p);
-					//segments.set(smallestindex, p);
-					segments.add(smallestindex+1, newHole);
+					segments.remove(largestindex);
+					segments.add(largestindex, p);
+					//segments.set(largestindex, p);
+					segments.add(largestindex+1, newHole);
 					System.out.println("Time " + i + ": Process " + p.name() + " swapped in.");
 					swaps++;
-					index += smallestindex;
+					index += largestindex;
 					
 				}
 

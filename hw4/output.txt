@@ -1,0 +1,2949 @@
+BEST FIT ###################################################
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCC.......................
+Time 1: Process D swapped in.
+Time 1: Process E swapped in.
+Time 1: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCEEEEEEEEEEE............
+Time 2: Process F swapped in.
+Time 2: Process G swapped in.
+Time 2: Process H swapped in.
+Time 2: Process I swapped in.
+Time 2: Process J swapped in.
+Time 2: Process K swapped in.
+Time 2: HHHHHHHHHHHHHHHHHJJJJJJJJJJJKKKKKBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCEEEEEEEEEEEIIIII.......
+Time 3: Process H swapped out.
+Time 3: Process J swapped out.
+Time 3: Process C swapped out.
+Time 3: Process E swapped out.
+Time 3: ............................KKKKKBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB......................IIIII.......
+Time 4: Process I swapped out.
+Time 4: Process L swapped in.
+Time 4: Process M swapped in.
+Time 4: Process N swapped in.
+Time 4: Process O swapped in.
+Time 4: MMMMMNNNNNNNNNNNOOOOOOOOOOO.KKKKKBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL.
+Time 5: Process B swapped out.
+Time 5: Process L swapped out.
+Time 5: Process P swapped in.
+Time 5: Process Q swapped in.
+Time 5: Process R swapped in.
+Time 5: MMMMMNNNNNNNNNNNOOOOOOOOOOO.KKKKKPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPQQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRR
+Time 6: Process O swapped out.
+Time 6: Process Q swapped out.
+Time 6: MMMMMNNNNNNNNNNN............KKKKKPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP.................RRRRRRRRRRRRRRRRR
+Time 7: Process N swapped out.
+Time 7: Process K swapped out.
+Time 7: MMMMM............................PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP.................RRRRRRRRRRRRRRRRR
+Time 8: MMMMM............................PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP.................RRRRRRRRRRRRRRRRR
+Time 9: Process M swapped out.
+Time 9: Process S swapped in.
+Time 9: Process T swapped in.
+Time 9: Process U swapped in.
+Time 9: Process V swapped in.
+Time 9: UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPVVVVVVVVVVVVVVVVVRRRRRRRRRRRRRRRRR
+Time 10: Process U swapped out.
+Time 10: Process P swapped out.
+Time 10: Process V swapped out.
+Time 10: Process R swapped out.
+Time 10: Process W swapped in.
+Time 10: Process X swapped in.
+Time 10: Process Y swapped in.
+Time 10: Process Z swapped in.
+Time 10: Process A swapped in.
+Time 10: Process B swapped in.
+Time 10: XXXXXXXXXXXXXXXXXYYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZAAAAAAAAAAA.....................WWWWWWWWWWWBBBBB.
+Time 11: Process C swapped in.
+Time 11: Process D swapped in.
+Time 11: XXXXXXXXXXXXXXXXXYYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZAAAAAAAAAAACCCCCDDDDD...........WWWWWWWWWWWBBBBB.
+Time 12: Process X swapped out.
+Time 12: Process C swapped out.
+Time 12: Process B swapped out.
+Time 12: .................YYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZAAAAAAAAAAA.....DDDDD...........WWWWWWWWWWW......
+Time 13: Process A swapped out.
+Time 13: Process D swapped out.
+Time 13: Process W swapped out.
+Time 13: Process E swapped in.
+Time 13: .................YYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE................
+Time 14: Process Y swapped out.
+Time 14: Process Z swapped out.
+Time 14: Process F swapped in.
+Time 14: Process G swapped in.
+Time 14: Process H swapped in.
+Time 14: Process I swapped in.
+Time 14: Process J swapped in.
+Time 14: GGGGGGGGGGGGGGGGG.................FFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHIIIIIJJJJJ.
+Time 15: GGGGGGGGGGGGGGGGG.................FFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHIIIIIJJJJJ.
+Time 16: GGGGGGGGGGGGGGGGG.................FFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHIIIIIJJJJJ.
+Time 17: Process E swapped out.
+Time 17: Process H swapped out.
+Time 17: Process I swapped out.
+Time 17: Process K swapped in.
+Time 17: Process L swapped in.
+Time 17: Process M swapped in.
+Time 17: GGGGGGGGGGGGGGGGGLLLLLLLLLLLLLLLLLFFFFFFFFFFFFFFFFFKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKMMMMM.....JJJJJ.
+Time 18: Process G swapped out.
+Time 18: Process L swapped out.
+Time 18: Process M swapped out.
+Time 18: Process J swapped out.
+Time 18: Process N swapped in.
+Time 18: Process O swapped in.
+Time 18: Process P swapped in.
+Time 18: Process Q swapped in.
+Time 18: NNNNNNNNNNNNNNNNNPPPPPPPPPPPPPPPPPFFFFFFFFFFFFFFFFFKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKQQQQQ...........
+Time 19: Process N swapped out.
+Time 19: Process F swapped out.
+Time 19: Process Q swapped out.
+Time 19: Process R swapped in.
+Time 19: Process S swapped in.
+Time 19: Process T swapped in.
+Time 19: Process U swapped in.
+Time 19: RRRRRRRRRRRRRRRRRPPPPPPPPPPPPPPPPPUUUUUUUUUUU......KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKSSSSSTTTTTTTTTTT
+Time 20: Process U swapped out.
+Time 20: Process K swapped out.
+Time 20: Process S swapped out.
+Time 20: Process V swapped in.
+Time 20: Process W swapped in.
+Time 20: RRRRRRRRRRRRRRRRRPPPPPPPPPPPPPPPPPWWWWWWWWWWW......VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV.....TTTTTTTTTTT
+Time 21: Process X swapped in.
+Time 21: XXXXXXXXXXXXXXXXXPPPPPPPPPPPPPPPPPWWWWWWWWWWW......VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV.....TTTTTTTTTTT
+Time 22: Process T swapped out.
+Time 22: XXXXXXXXXXXXXXXXXPPPPPPPPPPPPPPPPPWWWWWWWWWWW......VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV................
+Time 23: Process P swapped out.
+Time 23: XXXXXXXXXXXXXXXXX.................WWWWWWWWWWW......VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV................
+Time 24: Process W swapped out.
+Time 24: Process Y swapped in.
+Time 24: Process Z swapped in.
+Time 24: XXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV................
+Time 25: Process V swapped out.
+Time 25: Process A swapped in.
+Time 25: Process B swapped in.
+Time 25: Process C swapped in.
+Time 25: XXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBCCCCCCCCCCC.....
+Time 26: Process X swapped out.
+Time 26: Process A swapped out.
+Time 26: Process B swapped out.
+Time 26: Process D swapped in.
+Time 26: Process E swapped in.
+Time 26: DDDDDDDDDDDDDDDDDZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZEEEEEEEEEEEEEEEEE.................CCCCCCCCCCC.....
+Time 27: DDDDDDDDDDDDDDDDDZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZEEEEEEEEEEEEEEEEE.................CCCCCCCCCCC.....
+Time 28: Process E swapped out.
+Time 28: Process C swapped out.
+Time 28: Process F swapped in.
+Time 28: Process G swapped in.
+Time 28: DDDDDDDDDDDDDDDDDZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGGGGGGG......
+Time 29: Process Z swapped out.
+Time 29: Process H swapped in.
+Time 29: Process I swapped in.
+Time 29: Process J swapped in.
+Time 29: DDDDDDDDDDDDDDDDDHHHHHHHHHHHHHHHHHIIIIIIIIIIIJJJJJFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGGGGGGG......
+Time 30: Process H swapped out.
+Time 30: Process G swapped out.
+Time 30: DDDDDDDDDDDDDDDDD.................IIIIIIIIIIIJJJJJFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.................
+Time 31: Process D swapped out.
+Time 31: Process F swapped out.
+Time 31: Process K swapped in.
+Time 31: Process L swapped in.
+Time 31: Process M swapped in.
+Time 31: MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.IIIIIIIIIIIJJJJJKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK.................
+Time 32: Process N swapped in.
+Time 32: Process O swapped in.
+Time 32: Process P swapped in.
+Time 32: MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.IIIIIIIIIIIJJJJJKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKPPPPPPPPPPP......
+Time 33: Process I swapped out.
+Time 33: Process P swapped out.
+Time 33: Process Q swapped in.
+Time 33: Process R swapped in.
+Time 33: Process S swapped in.
+Time 33: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQSSSSS.......JJJJJKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKRRRRRRRRRRRRRRRRR
+Time 34: Process Q swapped out.
+Time 34: Process J swapped out.
+Time 34: Process T swapped in.
+Time 34: Process U swapped in.
+Time 34: TTTTTTTTTTTTTTTTT................SSSSSUUUUU.......KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKRRRRRRRRRRRRRRRRR
+Time 35: Process S swapped out.
+Time 35: Process K swapped out.
+Time 35: Process V swapped in.
+Time 35: Process W swapped in.
+Time 35: Process X swapped in.
+Time 35: Process Y swapped in.
+Time 35: Process Z swapped in.
+Time 35: TTTTTTTTTTTTTTTTTVVVVVVVVVVVVVVVVV....UUUUUWWWWWWWWWWWXXXXXXXXXXXXXXXXXYYYYYZZZZZ..RRRRRRRRRRRRRRRRR
+Time 36: Process V swapped out.
+Time 36: Process U swapped out.
+Time 36: Process X swapped out.
+Time 36: Process A swapped in.
+Time 36: Process B swapped in.
+Time 36: Process C swapped in.
+Time 36: Process D swapped in.
+Time 36: Process E swapped in.
+Time 36: Process F swapped in.
+Time 36: TTTTTTTTTTTTTTTTTFFFFFFFFFFF..........AAAAAWWWWWWWWWWWBBBBBBBBBBBBBBBBBYYYYYZZZZZ..RRRRRRRRRRRRRRRRR
+Time 37: Process T swapped out.
+Time 37: Process Z swapped out.
+Time 37: Process R swapped out.
+Time 37: Process G swapped in.
+Time 37: Process H swapped in.
+Time 37: Process I swapped in.
+Time 37: Process J swapped in.
+Time 37: GGGGGGGGGGG......FFFFFFFFFFF..........AAAAAWWWWWWWWWWWBBBBBBBBBBBBBBBBBYYYYYHHHHHHHHHHHJJJJJJJJJJJ..
+Time 38: Process W swapped out.
+Time 38: Process B swapped out.
+Time 38: Process K swapped in.
+Time 38: Process L swapped in.
+Time 38: GGGGGGGGGGGKKKKK.FFFFFFFFFFF..........AAAAALLLLLLLLLLLLLLLLL...........YYYYYHHHHHHHHHHHJJJJJJJJJJJ..
+Time 39: Process Y swapped out.
+Time 39: Process H swapped out.
+Time 39: Process J swapped out.
+Time 39: Process M swapped in.
+Time 39: Process N swapped in.
+Time 39: GGGGGGGGGGGKKKKK.FFFFFFFFFFF..........AAAAALLLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNNN.......................
+Time 40: Process G swapped out.
+Time 40: Process F swapped out.
+Time 40: Process O swapped in.
+Time 40: OOOOOOOOOOOKKKKK......................AAAAALLLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNNN.......................
+Time 41: Process O swapped out.
+Time 41: Process K swapped out.
+Time 41: Process A swapped out.
+Time 41: Process P swapped in.
+Time 41: Process Q swapped in.
+Time 41: Process R swapped in.
+Time 41: RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR..........LLLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNNN.......................
+Time 42: Process L swapped out.
+Time 42: Process S swapped in.
+Time 42: Process T swapped in.
+Time 42: Process U swapped in.
+Time 42: Process V swapped in.
+Time 42: RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRVVVVVVVVVVV................NNNNNNNNNNNNNNNNNSSSSSTTTTTUUUUU........
+Time 43: Process N swapped out.
+Time 43: Process W swapped in.
+Time 43: Process X swapped in.
+Time 43: RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRVVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWSSSSSTTTTTUUUUUXXXXX...
+Time 44: Process R swapped out.
+Time 44: Process Y swapped in.
+Time 44: YYYYYYYYYYY......................VVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWSSSSSTTTTTUUUUUXXXXX...
+Time 45: Process S swapped out.
+Time 45: Process T swapped out.
+Time 45: Process U swapped out.
+Time 45: Process X swapped out.
+Time 45: YYYYYYYYYYY......................VVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.......................
+Time 46: Process Y swapped out.
+Time 46: Process V swapped out.
+Time 46: Process Z swapped in.
+Time 46: Process A swapped in.
+Time 46: Process B swapped in.
+Time 46: ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZAAAAAAAAAAAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWBBBBBBBBBBBBBBBBB......
+Time 47: Process Z swapped out.
+Time 47: Process B swapped out.
+Time 47: Process C swapped in.
+Time 47: Process D swapped in.
+Time 47: Process E swapped in.
+Time 47: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCAAAAAAAAAAAWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWDDDDDDDDDDDEEEEEEEEEEE.
+Time 48: Process W swapped out.
+Time 48: Process F swapped in.
+Time 48: Process G swapped in.
+Time 48: Process H swapped in.
+Time 48: Process I swapped in.
+Time 48: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCAAAAAAAAAAAIIIIIIIIIIIIIIIII................DDDDDDDDDDDEEEEEEEEEEE.
+Time 49: Process A swapped out.
+Time 49: Process J swapped in.
+Time 49: Process K swapped in.
+Time 49: Process L swapped in.
+Time 49: Process M swapped in.
+Time 49: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLL......IIIIIIIIIIIIIIIIIMMMMMMMMMMM.....DDDDDDDDDDDEEEEEEEEEEE.
+Time 50: Process E swapped out.
+Time 50: Process N swapped in.
+Time 50: Process O swapped in.
+Time 50: OOOOOOOOOOOOOOOOO................LLLLL......IIIIIIIIIIIIIIIIIMMMMMMMMMMM.....DDDDDDDDDDD............
+Time 51: OOOOOOOOOOOOOOOOO................LLLLL......IIIIIIIIIIIIIIIIIMMMMMMMMMMM.....DDDDDDDDDDD............
+Time 52: Process L swapped out.
+Time 52: Process I swapped out.
+Time 52: Process M swapped out.
+Time 52: Process D swapped out.
+Time 52: Process P swapped in.
+Time 52: Process Q swapped in.
+Time 52: OOOOOOOOOOOOOOOOOQQQQQQQQQQQQQQQQQ...........................PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP......
+Time 53: Process O swapped out.
+Time 53: Process P swapped out.
+Time 53: Process R swapped in.
+Time 53: Process S swapped in.
+Time 53: Process T swapped in.
+Time 53: Process U swapped in.
+Time 53: Process V swapped in.
+Time 53: SSSSSSSSSSS......QQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRVVVVVVVVVVVVVVVVV................
+Time 54: Process Q swapped out.
+Time 54: Process R swapped out.
+Time 54: Process W swapped in.
+Time 54: Process X swapped in.
+Time 54: Process Y swapped in.
+Time 54: Process Z swapped in.
+Time 54: Process A swapped in.
+Time 54: Process B swapped in.
+Time 54: SSSSSSSSSSSWWWWWWWWWWWWWWWWWZZZZZZZZZZZAAAAABBBBBBBBBBBBBBBBB......VVVVVVVVVVVVVVVVVXXXXXYYYYYYYYYYY
+Time 55: Process Z swapped out.
+Time 55: Process Y swapped out.
+Time 55: SSSSSSSSSSSWWWWWWWWWWWWWWWWW...........AAAAABBBBBBBBBBBBBBBBB......VVVVVVVVVVVVVVVVVXXXXX...........
+Time 56: Process B swapped out.
+Time 56: SSSSSSSSSSSWWWWWWWWWWWWWWWWW...........AAAAA.......................VVVVVVVVVVVVVVVVVXXXXX...........
+Time 57: SSSSSSSSSSSWWWWWWWWWWWWWWWWW...........AAAAA.......................VVVVVVVVVVVVVVVVVXXXXX...........
+Time 58: Process S swapped out.
+Time 58: Process V swapped out.
+Time 58: Process C swapped in.
+Time 58: Process D swapped in.
+Time 58: Process E swapped in.
+Time 58: EEEEEEEEEEEWWWWWWWWWWWWWWWWW...........AAAAADDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.......XXXXX...........
+Time 59: Process W swapped out.
+Time 59: Process A swapped out.
+Time 59: Process D swapped out.
+Time 59: Process X swapped out.
+Time 59: Process F swapped in.
+Time 59: Process G swapped in.
+Time 59: Process H swapped in.
+Time 59: Process I swapped in.
+Time 59: Process J swapped in.
+Time 59: EEEEEEEEEEEFFFFFFFFFFFFFFFFFHHHHHHHHHHHJJJJJGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGIIIIIIIIIII............
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: Process D swapped in.
+Time 0: Process E swapped in.
+Time 0: Process F swapped in.
+Time 0: AAAAABBBBBBBBBBBCCCCCCCCCCCDDDDDDDDDDDDDDDDDEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF..................
+Time 1: Process C swapped out.
+Time 1: AAAAABBBBBBBBBBB...........DDDDDDDDDDDDDDDDDEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF..................
+Time 2: Process A swapped out.
+Time 2: .....BBBBBBBBBBB...........DDDDDDDDDDDDDDDDDEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF..................
+Time 3: .....BBBBBBBBBBB...........DDDDDDDDDDDDDDDDDEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF..................
+Time 4: Process D swapped out.
+Time 4: .....BBBBBBBBBBB............................EEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF..................
+Time 5: Process B swapped out.
+Time 5: Process E swapped out.
+Time 5: Process F swapped out.
+Time 5: Process G swapped in.
+Time 5: Process H swapped in.
+Time 5: Process I swapped in.
+Time 5: Process J swapped in.
+Time 5: Process K swapped in.
+Time 5: IIIIIJJJJJ......GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHKKKKKKKKKKK.......................
+Time 6: Process J swapped out.
+Time 6: Process K swapped out.
+Time 6: Process L swapped in.
+Time 6: Process M swapped in.
+Time 6: Process N swapped in.
+Time 6: Process O swapped in.
+Time 6: Process P swapped in.
+Time 6: IIIIINNNNNNNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMMMOOOOOPPPPPPPPPPP.
+Time 7: Process H swapped out.
+Time 7: Process Q swapped in.
+Time 7: IIIIINNNNNNNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGQQQQQ............MMMMMMMMMMMMMMMMMOOOOOPPPPPPPPPPP.
+Time 8: Process I swapped out.
+Time 8: Process P swapped out.
+Time 8: .....NNNNNNNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGQQQQQ............MMMMMMMMMMMMMMMMMOOOOO............
+Time 9: Process G swapped out.
+Time 9: Process Q swapped out.
+Time 9: Process R swapped in.
+Time 9: Process S swapped in.
+Time 9: Process T swapped in.
+Time 9: TTTTTNNNNNNNNNNNSSSSSSSSSSSSSSSSS................RRRRRRRRRRRRRRRRRMMMMMMMMMMMMMMMMMOOOOO............
+Time 10: Process T swapped out.
+Time 10: Process O swapped out.
+Time 10: Process U swapped in.
+Time 10: .....NNNNNNNNNNNSSSSSSSSSSSSSSSSS................RRRRRRRRRRRRRRRRRMMMMMMMMMMMMMMMMMUUUUUUUUUUUUUUUUU
+Time 11: Process N swapped out.
+Time 11: Process S swapped out.
+Time 11: Process M swapped out.
+Time 11: Process V swapped in.
+Time 11: Process W swapped in.
+Time 11: Process X swapped in.
+Time 11: XXXXX...........WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRRRRRRRRRRRRRRRRR.................UUUUUUUUUUUUUUUUU
+Time 12: XXXXX...........WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWRRRRRRRRRRRRRRRRR.................UUUUUUUUUUUUUUUUU
+Time 13: Process X swapped out.
+Time 13: Process W swapped out.
+Time 13: Process R swapped out.
+Time 13: Process Y swapped in.
+Time 13: Process Z swapped in.
+Time 13: Process A swapped in.
+Time 13: Process B swapped in.
+Time 13: ZZZZZZZZZZZ.....YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.UUUUUUUUUUUUUUUUU
+Time 14: Process U swapped out.
+Time 14: ZZZZZZZZZZZ.....YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB..................
+Time 15: Process Z swapped out.
+Time 15: Process Y swapped out.
+Time 15: Process C swapped in.
+Time 15: Process D swapped in.
+Time 15: Process E swapped in.
+Time 15: EEEEEEEEEEE.....CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDDDD.
+Time 16: EEEEEEEEEEE.....CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDDDDDDD.
+Time 17: Process E swapped out.
+Time 17: Process C swapped out.
+Time 17: Process B swapped out.
+Time 17: Process F swapped in.
+Time 17: Process G swapped in.
+Time 17: Process H swapped in.
+Time 17: HHHHH...........FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGDDDDDDDDDDDDDDDDD.
+Time 18: Process F swapped out.
+Time 18: Process I swapped in.
+Time 18: Process J swapped in.
+Time 18: Process K swapped in.
+Time 18: HHHHHIIIIIIIIIIIIIIIIIJJJJJJJJJJJKKKKKKKKKKK.....GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGDDDDDDDDDDDDDDDDD.
+Time 19: HHHHHIIIIIIIIIIIIIIIIIJJJJJJJJJJJKKKKKKKKKKK.....GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGDDDDDDDDDDDDDDDDD.
+Time 20: Process H swapped out.
+Time 20: Process K swapped out.
+Time 20: Process G swapped out.
+Time 20: Process D swapped out.
+Time 20: Process L swapped in.
+Time 20: Process M swapped in.
+Time 20: Process N swapped in.
+Time 20: Process O swapped in.
+Time 20: Process P swapped in.
+Time 20: Process Q swapped in.
+Time 20: PPPPPIIIIIIIIIIIIIIIIIJJJJJJJJJJJMMMMMMMMMMMNNNNNNNNNNNOOOOOOOOOOOQQQQQ...........LLLLLLLLLLLLLLLLL.
+Time 21: Process P swapped out.
+Time 21: Process I swapped out.
+Time 21: Process J swapped out.
+Time 21: Process R swapped in.
+Time 21: RRRRR............................MMMMMMMMMMMNNNNNNNNNNNOOOOOOOOOOOQQQQQ...........LLLLLLLLLLLLLLLLL.
+Time 22: Process M swapped out.
+Time 22: Process Q swapped out.
+Time 22: Process S swapped in.
+Time 22: Process T swapped in.
+Time 22: Process U swapped in.
+Time 22: Process V swapped in.
+Time 22: RRRRRTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUU.NNNNNNNNNNNOOOOOOOOOOOVVVVVVVVVVV.....LLLLLLLLLLLLLLLLL.
+Time 23: Process O swapped out.
+Time 23: Process W swapped in.
+Time 23: RRRRRTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUU.NNNNNNNNNNNWWWWWWWWWWWVVVVVVVVVVV.....LLLLLLLLLLLLLLLLL.
+Time 24: Process R swapped out.
+Time 24: Process N swapped out.
+Time 24: Process V swapped out.
+Time 24: Process L swapped out.
+Time 24: Process X swapped in.
+Time 24: Process Y swapped in.
+Time 24: Process Z swapped in.
+Time 24: Process A swapped in.
+Time 24: AAAAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUUZZZZZZZZZZZ.WWWWWWWWWWWYYYYYYYYYYYXXXXXXXXXXXXXXXXX......
+Time 25: Process U swapped out.
+Time 25: AAAAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT.....ZZZZZZZZZZZ.WWWWWWWWWWWYYYYYYYYYYYXXXXXXXXXXXXXXXXX......
+Time 26: Process T swapped out.
+Time 26: Process Z swapped out.
+Time 26: Process B swapped in.
+Time 26: Process C swapped in.
+Time 26: AAAAACCCCCCCCCCC......................BBBBBBBBBBB......WWWWWWWWWWWYYYYYYYYYYYXXXXXXXXXXXXXXXXX......
+Time 27: Process W swapped out.
+Time 27: Process Y swapped out.
+Time 27: AAAAACCCCCCCCCCC......................BBBBBBBBBBB............................XXXXXXXXXXXXXXXXX......
+Time 28: Process X swapped out.
+Time 28: Process D swapped in.
+Time 28: Process E swapped in.
+Time 28: Process F swapped in.
+Time 28: AAAAACCCCCCCCCCC......................BBBBBBBBBBBEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFFF.
+Time 29: Process A swapped out.
+Time 29: Process E swapped out.
+Time 29: Process G swapped in.
+Time 29: Process H swapped in.
+Time 29: .....CCCCCCCCCCCHHHHHHHHHHHHHHHHH.....BBBBBBBBBBBGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFF.
+Time 30: .....CCCCCCCCCCCHHHHHHHHHHHHHHHHH.....BBBBBBBBBBBGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFF.
+Time 31: Process C swapped out.
+Time 31: Process H swapped out.
+Time 31: Process B swapped out.
+Time 31: Process G swapped out.
+Time 31: Process I swapped in.
+Time 31: Process J swapped in.
+Time 31: Process K swapped in.
+Time 31: KKKKKKKKKKKKKKKKK.....................IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJJJJJJJFFFFFFFFFFFFFFFFF.
+Time 32: Process F swapped out.
+Time 32: KKKKKKKKKKKKKKKKK.....................IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJJJJJJJ..................
+Time 33: Process J swapped out.
+Time 33: KKKKKKKKKKKKKKKKK.....................IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII.............................
+Time 34: Process K swapped out.
+Time 34: Process L swapped in.
+Time 34: Process M swapped in.
+Time 34: Process N swapped in.
+Time 34: Process O swapped in.
+Time 34: MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIOOOOO........................
+Time 35: Process I swapped out.
+Time 35: Process O swapped out.
+Time 35: Process P swapped in.
+Time 35: Process Q swapped in.
+Time 35: Process R swapped in.
+Time 35: Process S swapped in.
+Time 35: MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRRSSSSSSSSSSS.
+Time 36: Process M swapped out.
+Time 36: Process N swapped out.
+Time 36: Process Q swapped out.
+Time 36: Process T swapped in.
+Time 36: Process U swapped in.
+Time 36: Process V swapped in.
+Time 36: Process W swapped in.
+Time 36: WWWWWWWWWWW...........................TTTTTUUUUUUUUUUUVVVVVVVVVVV......RRRRRRRRRRRRRRRRRSSSSSSSSSSS.
+Time 37: WWWWWWWWWWW...........................TTTTTUUUUUUUUUUUVVVVVVVVVVV......RRRRRRRRRRRRRRRRRSSSSSSSSSSS.
+Time 38: Process V swapped out.
+Time 38: Process S swapped out.
+Time 38: WWWWWWWWWWW...........................TTTTTUUUUUUUUUUU.................RRRRRRRRRRRRRRRRR............
+Time 39: WWWWWWWWWWW...........................TTTTTUUUUUUUUUUU.................RRRRRRRRRRRRRRRRR............
+Time 40: Process W swapped out.
+Time 40: Process T swapped out.
+Time 40: Process U swapped out.
+Time 40: Process R swapped out.
+Time 40: Process X swapped in.
+Time 40: Process Y swapped in.
+Time 40: Process Z swapped in.
+Time 40: Process A swapped in.
+Time 40: Process B swapped in.
+Time 40: ZZZZZAAAAAAAAAAABBBBBBBBBBBBBBBBB.....................XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYYYYYYYYYYY..
+Time 41: Process Z swapped out.
+Time 41: Process B swapped out.
+Time 41: Process C swapped in.
+Time 41: Process D swapped in.
+Time 41: Process E swapped in.
+Time 41: DDDDDAAAAAAAAAAACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYYYYYYYYYYY..
+Time 42: DDDDDAAAAAAAAAAACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYYYYYYYYYYY..
+Time 43: Process D swapped out.
+Time 43: Process E swapped out.
+Time 43: Process Y swapped out.
+Time 43: Process F swapped in.
+Time 43: .....AAAAAAAAAAACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.....XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXFFFFFFFFFFF..
+Time 44: .....AAAAAAAAAAACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.....XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXFFFFFFFFFFF..
+Time 45: Process A swapped out.
+Time 45: Process X swapped out.
+Time 45: Process G swapped in.
+Time 45: Process H swapped in.
+Time 45: ................CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHFFFFFFFFFFF..
+Time 46: Process C swapped out.
+Time 46: Process F swapped out.
+Time 46: Process I swapped in.
+Time 46: Process J swapped in.
+Time 46: IIIIIIIIIIIIIIIII................................GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHJJJJJ........
+Time 47: IIIIIIIIIIIIIIIII................................GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHJJJJJ........
+Time 48: Process I swapped out.
+Time 48: Process H swapped out.
+Time 48: Process J swapped out.
+Time 48: Process K swapped in.
+Time 48: Process L swapped in.
+Time 48: Process M swapped in.
+Time 48: Process N swapped in.
+Time 48: Process O swapped in.
+Time 48: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLLMMMMMOOOOO.GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGNNNNNNNNNNN.......
+Time 49: Process G swapped out.
+Time 49: Process P swapped in.
+Time 49: Process Q swapped in.
+Time 49: Process R swapped in.
+Time 49: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLLMMMMMOOOOOPPPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRRRNNNNNNNNNNN.......
+Time 50: Process M swapped out.
+Time 50: Process P swapped out.
+Time 50: Process R swapped out.
+Time 50: Process S swapped in.
+Time 50: Process T swapped in.
+Time 50: Process U swapped in.
+Time 50: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLL.....OOOOOUUUUUUUUUUUUUUUUU.................NNNNNNNNNNN.......
+Time 51: Process L swapped out.
+Time 51: Process V swapped in.
+Time 51: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK..........OOOOOUUUUUUUUUUUUUUUUUVVVVVVVVVVV......NNNNNNNNNNN.......
+Time 52: Process K swapped out.
+Time 52: Process O swapped out.
+Time 52: Process U swapped out.
+Time 52: Process N swapped out.
+Time 52: Process W swapped in.
+Time 52: Process X swapped in.
+Time 52: Process Y swapped in.
+Time 52: Process Z swapped in.
+Time 52: YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY................................VVVVVVVVVVVZZZZZ...................
+Time 53: Process Y swapped out.
+Time 53: Process A swapped in.
+Time 53: Process B swapped in.
+Time 53: Process C swapped in.
+Time 53: Process D swapped in.
+Time 53: Process E swapped in.
+Time 53: BBBBBBBBBBBCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE................VVVVVVVVVVVZZZZZAAAAAAAAAAAAAAAAA..
+Time 54: Process A swapped out.
+Time 54: Process F swapped in.
+Time 54: Process G swapped in.
+Time 54: BBBBBBBBBBBCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFFFFFGGGGGGGGGGGVVVVVVVVVVVZZZZZ...................
+Time 55: Process B swapped out.
+Time 55: ...........CCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFFFFFGGGGGGGGGGGVVVVVVVVVVVZZZZZ...................
+Time 56: Process G swapped out.
+Time 56: Process V swapped out.
+Time 56: ...........CCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFFFFF......................ZZZZZ...................
+Time 57: Process C swapped out.
+Time 57: Process Z swapped out.
+Time 57: Process H swapped in.
+Time 57: Process I swapped in.
+Time 57: ................EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFFFFFHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHIIIII........
+Time 58: Process E swapped out.
+Time 58: Process J swapped in.
+Time 58: Process K swapped in.
+Time 58: Process L swapped in.
+Time 58: Process M swapped in.
+Time 58: JJJJJJJJJJJJJJJJJLLLLLMMMMMMMMMMMMMMMMM..........FFFFFHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHIIIIIKKKKK...
+Time 59: Process F swapped out.
+Time 59: Process I swapped out.
+Time 59: JJJJJJJJJJJJJJJJJLLLLLMMMMMMMMMMMMMMMMM...............HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.....KKKKK...
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: Process D swapped in.
+Time 0: Process E swapped in.
+Time 0: AAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCDDDDDDDDDDDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.............
+Time 1: Process F swapped in.
+Time 1: Process G swapped in.
+Time 1: AAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCDDDDDDDDDDDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGGGGG........
+Time 2: Process B swapped out.
+Time 2: Process D swapped out.
+Time 2: Process H swapped in.
+Time 2: Process I swapped in.
+Time 2: AAAAAIIIIIIIIIII......................CCCCCHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGGGGG........
+Time 3: AAAAAIIIIIIIIIII......................CCCCCHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGGGGG........
+Time 4: Process I swapped out.
+Time 4: Process J swapped in.
+Time 4: Process K swapped in.
+Time 4: Process L swapped in.
+Time 4: Process M swapped in.
+Time 4: AAAAAKKKKKKKKKKKLLLLLLLLLLLMMMMMMMMMMMCCCCCHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGGGGG........
+Time 5: Process A swapped out.
+Time 5: Process K swapped out.
+Time 5: Process C swapped out.
+Time 5: Process E swapped out.
+Time 5: Process G swapped out.
+Time 5: Process N swapped in.
+Time 5: Process O swapped in.
+Time 5: Process P swapped in.
+Time 5: ................LLLLLLLLLLLMMMMMMMMMMMPPPPPHHHHHHHHHHHNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNOOOOOOOOOOO..
+Time 6: Process P swapped out.
+Time 6: Process H swapped out.
+Time 6: ................LLLLLLLLLLLMMMMMMMMMMM................NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNOOOOOOOOOOO..
+Time 7: Process L swapped out.
+Time 7: Process M swapped out.
+Time 7: Process Q swapped in.
+Time 7: Process R swapped in.
+Time 7: Process S swapped in.
+Time 7: QQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSS...NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNOOOOOOOOOOO..
+Time 8: QQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSS...NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNOOOOOOOOOOO..
+Time 9: Process N swapped out.
+Time 9: Process O swapped out.
+Time 9: Process T swapped in.
+Time 9: Process U swapped in.
+Time 9: Process V swapped in.
+Time 9: Process W swapped in.
+Time 9: QQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSSUUUUUUUUUUUUUUUUUVVVVVVVVVVVWWWWWWWWWWWWWWWWW....
+Time 10: Process S swapped out.
+Time 10: Process X swapped in.
+Time 10: QQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRRXXXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUUUVVVVVVVVVVVWWWWWWWWWWWWWWWWW....
+Time 11: Process Q swapped out.
+Time 11: Process R swapped out.
+Time 11: Process Y swapped in.
+Time 11: Process Z swapped in.
+Time 11: Process A swapped in.
+Time 11: ZZZZZZZZZZZZZZZZZAAAAAAAAAAA......XXXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUUUVVVVVVVVVVVWWWWWWWWWWWWWWWWW....
+Time 12: Process X swapped out.
+Time 12: Process B swapped in.
+Time 12: Process C swapped in.
+Time 12: Process D swapped in.
+Time 12: Process E swapped in.
+Time 12: ZZZZZZZZZZZZZZZZZAAAAAAAAAAADDDDDDDDDDDDDDDDDEEEEE.UUUUUUUUUUUUUUUUUVVVVVVVVVVVWWWWWWWWWWWWWWWWW....
+Time 13: Process E swapped out.
+Time 13: Process W swapped out.
+Time 13: Process F swapped in.
+Time 13: Process G swapped in.
+Time 13: ZZZZZZZZZZZZZZZZZAAAAAAAAAAADDDDDDDDDDDDDDDDD......UUUUUUUUUUUUUUUUUVVVVVVVVVVVGGGGGGGGGGG..........
+Time 14: Process U swapped out.
+Time 14: Process V swapped out.
+Time 14: Process H swapped in.
+Time 14: Process I swapped in.
+Time 14: ZZZZZZZZZZZZZZZZZAAAAAAAAAAADDDDDDDDDDDDDDDDDIIIIIIIIIIIIIIIII.................GGGGGGGGGGG..........
+Time 15: Process A swapped out.
+Time 15: Process G swapped out.
+Time 15: Process J swapped in.
+Time 15: Process K swapped in.
+Time 15: ZZZZZZZZZZZZZZZZZ...........DDDDDDDDDDDDDDDDDIIIIIIIIIIIIIIIIIKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK.....
+Time 16: Process Z swapped out.
+Time 16: Process D swapped out.
+Time 16: Process L swapped in.
+Time 16: Process M swapped in.
+Time 16: Process N swapped in.
+Time 16: Process O swapped in.
+Time 16: Process P swapped in.
+Time 16: Process Q swapped in.
+Time 16: MMMMMMMMMMMOOOOOPPPPPPPPPPPQQQQQQQQQQQ.......IIIIIIIIIIIIIIIIIKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLL
+Time 17: MMMMMMMMMMMOOOOOPPPPPPPPPPPQQQQQQQQQQQ.......IIIIIIIIIIIIIIIIIKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLL
+Time 18: Process K swapped out.
+Time 18: Process R swapped in.
+Time 18: Process S swapped in.
+Time 18: MMMMMMMMMMMOOOOOPPPPPPPPPPPQQQQQQQQQQQSSSSS..IIIIIIIIIIIIIIIIIRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRLLLLL
+Time 19: Process M swapped out.
+Time 19: Process P swapped out.
+Time 19: Process Q swapped out.
+Time 19: Process I swapped out.
+Time 19: Process T swapped in.
+Time 19: Process U swapped in.
+Time 19: Process V swapped in.
+Time 19: UUUUUUUUUUUOOOOOVVVVVVVVVVVVVVVVV.....SSSSSTTTTTTTTTTTTTTTTT..RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRLLLLL
+Time 20: Process U swapped out.
+Time 20: ...........OOOOOVVVVVVVVVVVVVVVVV.....SSSSSTTTTTTTTTTTTTTTTT..RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRLLLLL
+Time 21: Process O swapped out.
+Time 21: Process V swapped out.
+Time 21: Process L swapped out.
+Time 21: Process W swapped in.
+Time 21: Process X swapped in.
+Time 21: Process Y swapped in.
+Time 21: Process Z swapped in.
+Time 21: XXXXXXXXXXXYYYYYYYYYYYZZZZZZZZZZZ.....SSSSSTTTTTTTTTTTTTTTTT..RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR.....
+Time 22: Process S swapped out.
+Time 22: Process A swapped in.
+Time 22: Process B swapped in.
+Time 22: Process C swapped in.
+Time 22: BBBBBBBBBBBYYYYYYYYYYYZZZZZZZZZZZ..........TTTTTTTTTTTTTTTTT..RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRCCCCC
+Time 23: Process T swapped out.
+Time 23: Process R swapped out.
+Time 23: Process D swapped in.
+Time 23: Process E swapped in.
+Time 23: Process F swapped in.
+Time 23: Process G swapped in.
+Time 23: BBBBBBBBBBBYYYYYYYYYYYZZZZZZZZZZZDDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEEFFFFFGGGGGGGGGGGGGGGGG......CCCCC
+Time 24: Process Z swapped out.
+Time 24: Process C swapped out.
+Time 24: Process H swapped in.
+Time 24: Process I swapped in.
+Time 24: Process J swapped in.
+Time 24: BBBBBBBBBBBYYYYYYYYYYYHHHHHHHHHHHDDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEEFFFFFGGGGGGGGGGGGGGGGGJJJJJ......
+Time 25: Process Y swapped out.
+Time 25: Process H swapped out.
+Time 25: Process K swapped in.
+Time 25: Process L swapped in.
+Time 25: BBBBBBBBBBBLLLLLLLLLLL...........DDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEEFFFFFGGGGGGGGGGGGGGGGGJJJJJ......
+Time 26: Process B swapped out.
+Time 26: Process D swapped out.
+Time 26: Process F swapped out.
+Time 26: Process G swapped out.
+Time 26: Process M swapped in.
+Time 26: Process N swapped in.
+Time 26: Process O swapped in.
+Time 26: NNNNNNNNNNNLLLLLLLLLLLOOOOOOOOOOOOOOOOO...........EEEEEEEEEEEEEEEEEMMMMMMMMMMMMMMMMM.....JJJJJ......
+Time 27: Process O swapped out.
+Time 27: Process J swapped out.
+Time 27: NNNNNNNNNNNLLLLLLLLLLL............................EEEEEEEEEEEEEEEEEMMMMMMMMMMMMMMMMM................
+Time 28: Process E swapped out.
+Time 28: Process P swapped in.
+Time 28: Process Q swapped in.
+Time 28: NNNNNNNNNNNLLLLLLLLLLLQQQQQQQQQQQQQQQQQ............................MMMMMMMMMMMMMMMMM................
+Time 29: NNNNNNNNNNNLLLLLLLLLLLQQQQQQQQQQQQQQQQQ............................MMMMMMMMMMMMMMMMM................
+Time 30: Process L swapped out.
+Time 30: NNNNNNNNNNN...........QQQQQQQQQQQQQQQQQ............................MMMMMMMMMMMMMMMMM................
+Time 31: Process N swapped out.
+Time 31: Process M swapped out.
+Time 31: Process R swapped in.
+Time 31: Process S swapped in.
+Time 31: Process T swapped in.
+Time 31: ......................QQQQQQQQQQQQQQQQQTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT............................
+Time 32: Process Q swapped out.
+Time 32: Process U swapped in.
+Time 32: Process V swapped in.
+Time 32: Process W swapped in.
+Time 32: Process X swapped in.
+Time 32: VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV......TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTWWWWWWWWWWWXXXXXXXXXXX......
+Time 33: Process Y swapped in.
+Time 33: VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVYYYYY.TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTWWWWWWWWWWWXXXXXXXXXXX......
+Time 34: Process W swapped out.
+Time 34: Process Z swapped in.
+Time 34: Process A swapped in.
+Time 34: Process B swapped in.
+Time 34: Process C swapped in.
+Time 34: Process D swapped in.
+Time 34: Process E swapped in.
+Time 34: ZZZZZZZZZZZZZZZZZEEEEEEEEEEE.....YYYYY.TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTBBBBB......XXXXXXXXXXXAAAAA.
+Time 35: ZZZZZZZZZZZZZZZZZEEEEEEEEEEE.....YYYYY.TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTBBBBB......XXXXXXXXXXXAAAAA.
+Time 36: Process Z swapped out.
+Time 36: Process T swapped out.
+Time 36: Process X swapped out.
+Time 36: Process F swapped in.
+Time 36: Process G swapped in.
+Time 36: Process H swapped in.
+Time 36: GGGGGGGGGGG......EEEEEEEEEEE.....YYYYYFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.BBBBBHHHHHHHHHHHHHHHHHAAAAA.
+Time 37: Process G swapped out.
+Time 37: Process E swapped out.
+Time 37: Process Y swapped out.
+Time 37: Process I swapped in.
+Time 37: Process J swapped in.
+Time 37: Process K swapped in.
+Time 37: KKKKKKKKKKKKKKKKK.....................FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.BBBBBHHHHHHHHHHHHHHHHHAAAAA.
+Time 38: Process A swapped out.
+Time 38: Process L swapped in.
+Time 38: Process M swapped in.
+Time 38: Process N swapped in.
+Time 38: KKKKKKKKKKKKKKKKKMMMMMNNNNN...........FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.BBBBBHHHHHHHHHHHHHHHHHLLLLL.
+Time 39: Process F swapped out.
+Time 39: Process B swapped out.
+Time 39: Process H swapped out.
+Time 39: Process L swapped out.
+Time 39: Process O swapped in.
+Time 39: Process P swapped in.
+Time 39: Process Q swapped in.
+Time 39: Process R swapped in.
+Time 39: KKKKKKKKKKKKKKKKKMMMMMNNNNNPPPPPPPPPPPPPPPPPRRRRR............................OOOOOOOOOOOOOOOOOQQQQQ.
+Time 40: Process K swapped out.
+Time 40: .................MMMMMNNNNNPPPPPPPPPPPPPPPPPRRRRR............................OOOOOOOOOOOOOOOOOQQQQQ.
+Time 41: .................MMMMMNNNNNPPPPPPPPPPPPPPPPPRRRRR............................OOOOOOOOOOOOOOOOOQQQQQ.
+Time 42: Process N swapped out.
+Time 42: Process P swapped out.
+Time 42: .................MMMMM......................RRRRR............................OOOOOOOOOOOOOOOOOQQQQQ.
+Time 43: Process M swapped out.
+Time 43: Process S swapped in.
+Time 43: Process T swapped in.
+Time 43: Process U swapped in.
+Time 43: Process V swapped in.
+Time 43: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTT......RRRRRUUUUUUUUUUUVVVVVVVVVVV......OOOOOOOOOOOOOOOOOQQQQQ.
+Time 44: Process T swapped out.
+Time 44: Process R swapped out.
+Time 44: Process V swapped out.
+Time 44: Process O swapped out.
+Time 44: Process Q swapped out.
+Time 44: Process W swapped in.
+Time 44: Process X swapped in.
+Time 44: Process Y swapped in.
+Time 44: Process Z swapped in.
+Time 44: Process A swapped in.
+Time 44: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSZZZZZZZZZZZAAAAAUUUUUUUUUUUWWWWWWWWWWWWWWWWWYYYYYYYYYYYYYYYYY......
+Time 45: Process A swapped out.
+Time 45: Process B swapped in.
+Time 45: Process C swapped in.
+Time 45: BBBBBBBBBBBCCCCCCCCCCC...........ZZZZZZZZZZZ.....UUUUUUUUUUUWWWWWWWWWWWWWWWWWYYYYYYYYYYYYYYYYY......
+Time 46: Process U swapped out.
+Time 46: BBBBBBBBBBBCCCCCCCCCCC...........ZZZZZZZZZZZ................WWWWWWWWWWWWWWWWWYYYYYYYYYYYYYYYYY......
+Time 47: Process W swapped out.
+Time 47: Process Y swapped out.
+Time 47: Process D swapped in.
+Time 47: Process E swapped in.
+Time 47: Process F swapped in.
+Time 47: Process G swapped in.
+Time 47: BBBBBBBBBBBCCCCCCCCCCCGGGGGGGGGGGZZZZZZZZZZZEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDD......
+Time 48: Process C swapped out.
+Time 48: BBBBBBBBBBB...........GGGGGGGGGGGZZZZZZZZZZZEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDDDDDD......
+Time 49: Process G swapped out.
+Time 49: Process Z swapped out.
+Time 49: Process D swapped out.
+Time 49: Process H swapped in.
+Time 49: Process I swapped in.
+Time 49: Process J swapped in.
+Time 49: Process K swapped in.
+Time 49: Process L swapped in.
+Time 49: BBBBBBBBBBBJJJJJJJJJJJLLLLLLLLLLLLLLLLL.....EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHHHHHHHHHHHHH......
+Time 50: Process B swapped out.
+Time 50: Process J swapped out.
+Time 50: ......................LLLLLLLLLLLLLLLLL.....EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHHHHHHHHHHHHH......
+Time 51: ......................LLLLLLLLLLLLLLLLL.....EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHHHHHHHHHHHHH......
+Time 52: Process E swapped out.
+Time 52: Process M swapped in.
+Time 52: Process N swapped in.
+Time 52: Process O swapped in.
+Time 52: Process P swapped in.
+Time 52: Process Q swapped in.
+Time 52: OOOOOOOOOOOPPPPPPPPPPPLLLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNQQQQQHHHHHHHHHHHHHHHHH......
+Time 53: Process L swapped out.
+Time 53: Process Q swapped out.
+Time 53: OOOOOOOOOOOPPPPPPPPPPP.................NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN.....HHHHHHHHHHHHHHHHH......
+Time 54: Process O swapped out.
+Time 54: Process H swapped out.
+Time 54: ...........PPPPPPPPPPP.................NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN............................
+Time 55: Process N swapped out.
+Time 55: Process R swapped in.
+Time 55: Process S swapped in.
+Time 55: Process T swapped in.
+Time 55: Process U swapped in.
+Time 55: Process V swapped in.
+Time 55: TTTTT......PPPPPPPPPPPRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSSUUUUUUUUUUUVVVVVVVVVVV......
+Time 56: Process P swapped out.
+Time 56: TTTTT.................RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSSUUUUUUUUUUUVVVVVVVVVVV......
+Time 57: TTTTT.................RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSSUUUUUUUUUUUVVVVVVVVVVV......
+Time 58: Process T swapped out.
+Time 58: ......................RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSSUUUUUUUUUUUVVVVVVVVVVV......
+Time 59: ......................RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRSSSSSSSSSSSSSSSSSUUUUUUUUUUUVVVVVVVVVVV......
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.
+Time 1: Process D swapped in.
+Time 1: DDDDD............................BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.
+Time 2: DDDDD............................BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.
+Time 3: Process D swapped out.
+Time 3: Process E swapped in.
+Time 3: Process F swapped in.
+Time 3: Process G swapped in.
+Time 3: Process H swapped in.
+Time 3: Process I swapped in.
+Time 3: GGGGGGGGGGGHHHHHHHHHHHHHHHHHIIIIIBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.
+Time 4: Process C swapped out.
+Time 4: Process J swapped in.
+Time 4: GGGGGGGGGGGHHHHHHHHHHHHHHHHHIIIIIBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBJJJJJJJJJJJ.......................
+Time 5: Process B swapped out.
+Time 5: Process J swapped out.
+Time 5: Process K swapped in.
+Time 5: Process L swapped in.
+Time 5: Process M swapped in.
+Time 5: Process N swapped in.
+Time 5: GGGGGGGGGGGHHHHHHHHHHHHHHHHHIIIIIKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKMMMMMMMMMMMNNNNNNNNNNN............
+Time 6: GGGGGGGGGGGHHHHHHHHHHHHHHHHHIIIIIKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKMMMMMMMMMMMNNNNNNNNNNN............
+Time 7: Process G swapped out.
+Time 7: Process I swapped out.
+Time 7: ...........HHHHHHHHHHHHHHHHH.....KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKMMMMMMMMMMMNNNNNNNNNNN............
+Time 8: Process H swapped out.
+Time 8: Process K swapped out.
+Time 8: Process O swapped in.
+Time 8: Process P swapped in.
+Time 8: Process Q swapped in.
+Time 8: Process R swapped in.
+Time 8: Process S swapped in.
+Time 8: SSSSSSSSSSS.................PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPQQQQQMMMMMMMMMMMNNNNNNNNNNNRRRRR.......
+Time 9: Process T swapped in.
+Time 9: SSSSSSSSSSSTTTTTTTTTTT......PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPQQQQQMMMMMMMMMMMNNNNNNNNNNNRRRRR.......
+Time 10: Process M swapped out.
+Time 10: Process N swapped out.
+Time 10: Process R swapped out.
+Time 10: Process U swapped in.
+Time 10: SSSSSSSSSSSTTTTTTTTTTT......PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPQQQQQUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.
+Time 11: Process Q swapped out.
+Time 11: SSSSSSSSSSSTTTTTTTTTTT......PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP.....UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.
+Time 12: Process P swapped out.
+Time 12: Process V swapped in.
+Time 12: SSSSSSSSSSSTTTTTTTTTTTVVVVVVVVVVVVVVVVV...........................UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.
+Time 13: Process S swapped out.
+Time 13: Process T swapped out.
+Time 13: ......................VVVVVVVVVVVVVVVVV...........................UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.
+Time 14: ......................VVVVVVVVVVVVVVVVV...........................UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.
+Time 15: Process U swapped out.
+Time 15: Process W swapped in.
+Time 15: Process X swapped in.
+Time 15: Process Y swapped in.
+Time 15: YYYYYYYYYYYYYYYYY.....VVVVVVVVVVVVVVVVVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX............................
+Time 16: Process Y swapped out.
+Time 16: ......................VVVVVVVVVVVVVVVVVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX............................
+Time 17: Process V swapped out.
+Time 17: Process Z swapped in.
+Time 17: Process A swapped in.
+Time 17: Process B swapped in.
+Time 17: ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZBBBBB.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAA.................
+Time 18: Process A swapped out.
+Time 18: Process C swapped in.
+Time 18: Process D swapped in.
+Time 18: Process E swapped in.
+Time 18: CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCBBBBB.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDDDDDEEEEEEEEEEE............
+Time 19: Process B swapped out.
+Time 19: Process F swapped in.
+Time 19: Process G swapped in.
+Time 19: Process H swapped in.
+Time 19: GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHH.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXDDDDDEEEEEEEEEEE............
+Time 20: Process X swapped out.
+Time 20: Process D swapped out.
+Time 20: Process I swapped in.
+Time 20: Process J swapped in.
+Time 20: GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJ.EEEEEEEEEEE............
+Time 21: Process K swapped in.
+Time 21: Process L swapped in.
+Time 21: LLLLLLLLLLLLLLLLL................HHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJ.EEEEEEEEEEE............
+Time 22: Process E swapped out.
+Time 22: LLLLLLLLLLLLLLLLL................HHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJ........................
+Time 23: Process H swapped out.
+Time 23: LLLLLLLLLLLLLLLLL.....................IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJ........................
+Time 24: Process L swapped out.
+Time 24: Process I swapped out.
+Time 24: Process J swapped out.
+Time 24: Process M swapped in.
+Time 24: Process N swapped in.
+Time 24: Process O swapped in.
+Time 24: Process P swapped in.
+Time 24: Process Q swapped in.
+Time 24: Process R swapped in.
+Time 24: MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMPPPPPPPPPPPQQQQQQQQQQQRRRRRRRRRRR..........NNNNNNNNNNNOOOOOOOOOOO..
+Time 25: Process Q swapped out.
+Time 25: Process R swapped out.
+Time 25: Process S swapped in.
+Time 25: Process T swapped in.
+Time 25: Process U swapped in.
+Time 25: MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMPPPPPPPPPPPSSSSSSSSSSSSSSSSSTTTTTUUUUU.....NNNNNNNNNNNOOOOOOOOOOO..
+Time 26: Process N swapped out.
+Time 26: Process V swapped in.
+Time 26: Process W swapped in.
+Time 26: VVVVVVVVVVVVVVVVVWWWWW...........PPPPPPPPPPPSSSSSSSSSSSSSSSSSTTTTTUUUUU................OOOOOOOOOOO..
+Time 27: Process W swapped out.
+Time 27: VVVVVVVVVVVVVVVVV................PPPPPPPPPPPSSSSSSSSSSSSSSSSSTTTTTUUUUU................OOOOOOOOOOO..
+Time 28: Process S swapped out.
+Time 28: Process T swapped out.
+Time 28: Process U swapped out.
+Time 28: Process O swapped out.
+Time 28: Process X swapped in.
+Time 28: Process Y swapped in.
+Time 28: Process Z swapped in.
+Time 28: Process A swapped in.
+Time 28: VVVVVVVVVVVVVVVVVYYYYYZZZZZAAAAA.PPPPPPPPPPPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.......................
+Time 29: Process V swapped out.
+Time 29: Process Z swapped out.
+Time 29: Process P swapped out.
+Time 29: Process X swapped out.
+Time 29: Process B swapped in.
+Time 29: Process C swapped in.
+Time 29: Process D swapped in.
+Time 29: .................YYYYYCCCCCAAAAADDDDD.......BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.......................
+Time 30: .................YYYYYCCCCCAAAAADDDDD.......BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.......................
+Time 31: Process Y swapped out.
+Time 31: Process C swapped out.
+Time 31: Process B swapped out.
+Time 31: Process E swapped in.
+Time 31: Process F swapped in.
+Time 31: Process G swapped in.
+Time 31: Process H swapped in.
+Time 31: FFFFFGGGGGHHHHHHHHHHH......AAAAADDDDDEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE..............................
+Time 32: Process D swapped out.
+Time 32: FFFFFGGGGGHHHHHHHHHHH......AAAAA.....EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE..............................
+Time 33: Process G swapped out.
+Time 33: Process H swapped out.
+Time 33: Process A swapped out.
+Time 33: Process E swapped out.
+Time 33: Process I swapped in.
+Time 33: Process J swapped in.
+Time 33: Process K swapped in.
+Time 33: FFFFFJJJJJJJJJJJJJJJJJ..........IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIKKKKKKKKKKKKKKKKK..................
+Time 34: Process F swapped out.
+Time 34: Process I swapped out.
+Time 34: Process L swapped in.
+Time 34: Process M swapped in.
+Time 34: Process N swapped in.
+Time 34: .....JJJJJJJJJJJJJJJJJMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM..........KKKKKKKKKKKKKKKKKNNNNNNNNNNNNNNNNN.
+Time 35: Process J swapped out.
+Time 35: Process K swapped out.
+Time 35: ......................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...........................NNNNNNNNNNNNNNNNN.
+Time 36: ......................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...........................NNNNNNNNNNNNNNNNN.
+Time 37: ......................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...........................NNNNNNNNNNNNNNNNN.
+Time 38: ......................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...........................NNNNNNNNNNNNNNNNN.
+Time 39: Process M swapped out.
+Time 39: Process N swapped out.
+Time 39: Process O swapped in.
+Time 39: Process P swapped in.
+Time 39: Process Q swapped in.
+Time 39: Process R swapped in.
+Time 39: Process S swapped in.
+Time 39: Process T swapped in.
+Time 39: QQQQQQQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTT................OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPPPPPPPPP.
+Time 40: Process O swapped out.
+Time 40: Process U swapped in.
+Time 40: Process V swapped in.
+Time 40: QQQQQQQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUVVVVV...........PPPPPPPPPPP.
+Time 41: Process P swapped out.
+Time 41: Process W swapped in.
+Time 41: QQQQQQQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUVVVVVWWWWWWWWWWWWWWWWW......
+Time 42: Process R swapped out.
+Time 42: QQQQQQQQQQQ...........TTTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUVVVVVWWWWWWWWWWWWWWWWW......
+Time 43: Process Q swapped out.
+Time 43: Process T swapped out.
+Time 43: Process W swapped out.
+Time 43: Process X swapped in.
+Time 43: Process Y swapped in.
+Time 43: Process Z swapped in.
+Time 43: Process A swapped in.
+Time 43: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXZZZZZ.UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUVVVVVYYYYYYYYYYYAAAAA.......
+Time 44: Process X swapped out.
+Time 44: Process V swapped out.
+Time 44: Process Y swapped out.
+Time 44: Process B swapped in.
+Time 44: Process C swapped in.
+Time 44: Process D swapped in.
+Time 44: Process E swapped in.
+Time 44: Process F swapped in.
+Time 44: CCCCCCCCCCCCCCCCCDDDDDDDDDDDEEEEEZZZZZ.UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUFFFFFFFFFFF.....AAAAA.......
+Time 45: Process C swapped out.
+Time 45: Process U swapped out.
+Time 45: Process G swapped in.
+Time 45: Process H swapped in.
+Time 45: Process I swapped in.
+Time 45: Process J swapped in.
+Time 45: IIIIIIIIIIIJJJJJ.DDDDDDDDDDDEEEEEZZZZZGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG.FFFFFFFFFFFHHHHHAAAAA.......
+Time 46: Process Z swapped out.
+Time 46: Process G swapped out.
+Time 46: Process F swapped out.
+Time 46: Process H swapped out.
+Time 46: Process K swapped in.
+Time 46: Process L swapped in.
+Time 46: IIIIIIIIIIIJJJJJ.DDDDDDDDDDDEEEEE.....KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLLLLLLLL......AAAAA.......
+Time 47: Process L swapped out.
+Time 47: Process M swapped in.
+Time 47: Process N swapped in.
+Time 47: Process O swapped in.
+Time 47: IIIIIIIIIIIJJJJJ.DDDDDDDDDDDEEEEE.....KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKOOOOOOOOOOO......AAAAA.......
+Time 48: Process I swapped out.
+Time 48: Process J swapped out.
+Time 48: Process D swapped out.
+Time 48: Process E swapped out.
+Time 48: Process A swapped out.
+Time 48: Process P swapped in.
+Time 48: Process Q swapped in.
+Time 48: Process R swapped in.
+Time 48: Process S swapped in.
+Time 48: RRRRRRRRRRRSSSSSSSSSSSSSSSSS..........KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKOOOOOOOOOOOPPPPPPPPPPPPPPPPP.
+Time 49: Process T swapped in.
+Time 49: RRRRRRRRRRRSSSSSSSSSSSSSSSSSTTTTT.....KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKOOOOOOOOOOOPPPPPPPPPPPPPPPPP.
+Time 50: Process R swapped out.
+Time 50: Process K swapped out.
+Time 50: Process U swapped in.
+Time 50: Process V swapped in.
+Time 50: Process W swapped in.
+Time 50: VVVVV......SSSSSSSSSSSSSSSSSTTTTTUUUUUUUUUUUUUUUUUWWWWWWWWWWW..........OOOOOOOOOOOPPPPPPPPPPPPPPPPP.
+Time 51: Process V swapped out.
+Time 51: Process S swapped out.
+Time 51: Process O swapped out.
+Time 51: ............................TTTTTUUUUUUUUUUUUUUUUUWWWWWWWWWWW.....................PPPPPPPPPPPPPPPPP.
+Time 52: Process T swapped out.
+Time 52: Process P swapped out.
+Time 52: Process X swapped in.
+Time 52: Process Y swapped in.
+Time 52: Process Z swapped in.
+Time 52: Process A swapped in.
+Time 52: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUUUWWWWWWWWWWWYYYYYYYYYYYZZZZZZZZZZZAAAAAAAAAAAAAAAAA
+Time 53: Process Y swapped out.
+Time 53: Process B swapped in.
+Time 53: Process C swapped in.
+Time 53: Process D swapped in.
+Time 53: Process E swapped in.
+Time 53: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUUUWWWWWWWWWWWCCCCCEEEEE.ZZZZZZZZZZZAAAAAAAAAAAAAAAAA
+Time 54: Process X swapped out.
+Time 54: Process W swapped out.
+Time 54: Process A swapped out.
+Time 54: Process F swapped in.
+Time 54: Process G swapped in.
+Time 54: Process H swapped in.
+Time 54: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFUUUUUUUUUUUUUUUUUHHHHH......CCCCCEEEEE.ZZZZZZZZZZZGGGGGGGGGGGGGGGGG
+Time 55: Process F swapped out.
+Time 55: Process U swapped out.
+Time 55: Process C swapped out.
+Time 55: Process Z swapped out.
+Time 55: Process I swapped in.
+Time 55: Process J swapped in.
+Time 55: Process K swapped in.
+Time 55: Process L swapped in.
+Time 55: Process M swapped in.
+Time 55: KKKKKKKKKKKLLLLLLLLLLLLLLLLLMMMMMMMMMMM...........HHHHHIIIIIIIIIIIEEEEEJJJJJJJJJJJ.GGGGGGGGGGGGGGGGG
+Time 56: Process M swapped out.
+Time 56: Process E swapped out.
+Time 56: KKKKKKKKKKKLLLLLLLLLLLLLLLLL......................HHHHHIIIIIIIIIII.....JJJJJJJJJJJ.GGGGGGGGGGGGGGGGG
+Time 57: Process K swapped out.
+Time 57: Process I swapped out.
+Time 57: Process G swapped out.
+Time 57: ...........LLLLLLLLLLLLLLLLL......................HHHHH................JJJJJJJJJJJ..................
+Time 58: ...........LLLLLLLLLLLLLLLLL......................HHHHH................JJJJJJJJJJJ..................
+Time 59: Process H swapped out.
+Time 59: Process N swapped in.
+Time 59: Process O swapped in.
+Time 59: Process P swapped in.
+Time 59: OOOOOOOOOOOLLLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN..........JJJJJJJJJJJPPPPPPPPPPP.......
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: Process D swapped in.
+Time 0: Process E swapped in.
+Time 0: Process F swapped in.
+Time 0: Process G swapped in.
+Time 0: AAAAAAAAAAAAAAAAABBBBBCCCCCCCCCCCDDDDDEEEEEEEEEEEEEEEEEFFFFFGGGGGGGGGGGGGGGGG.......................
+Time 1: Process H swapped in.
+Time 1: Process I swapped in.
+Time 1: AAAAAAAAAAAAAAAAABBBBBCCCCCCCCCCCDDDDDEEEEEEEEEEEEEEEEEFFFFFGGGGGGGGGGGGGGGGGHHHHHIIIIIIIIIII.......
+Time 2: Process D swapped out.
+Time 2: AAAAAAAAAAAAAAAAABBBBBCCCCCCCCCCC.....EEEEEEEEEEEEEEEEEFFFFFGGGGGGGGGGGGGGGGGHHHHHIIIIIIIIIII.......
+Time 3: Process A swapped out.
+Time 3: Process C swapped out.
+Time 3: Process E swapped out.
+Time 3: Process G swapped out.
+Time 3: Process H swapped out.
+Time 3: Process I swapped out.
+Time 3: Process J swapped in.
+Time 3: Process K swapped in.
+Time 3: Process L swapped in.
+Time 3: KKKKKKKKKKK......BBBBBJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFFFFFLLLLLLLLLLLLLLLLL.......................
+Time 4: Process B swapped out.
+Time 4: Process J swapped out.
+Time 4: Process F swapped out.
+Time 4: Process M swapped in.
+Time 4: Process N swapped in.
+Time 4: Process O swapped in.
+Time 4: Process P swapped in.
+Time 4: Process Q swapped in.
+Time 4: Process R swapped in.
+Time 4: KKKKKKKKKKKMMMMMMMMMMMPPPPPPPPPPPPPPPPPRRRRR................LLLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNNNOOOOO.
+Time 5: Process L swapped out.
+Time 5: Process O swapped out.
+Time 5: Process S swapped in.
+Time 5: Process T swapped in.
+Time 5: Process U swapped in.
+Time 5: Process V swapped in.
+Time 5: KKKKKKKKKKKMMMMMMMMMMMPPPPPPPPPPPPPPPPPRRRRRUUUUUUUUUUUUUUUUUVVVVVVVVVVV.....NNNNNNNNNNNNNNNNNSSSSS.
+Time 6: Process K swapped out.
+Time 6: Process V swapped out.
+Time 6: Process N swapped out.
+Time 6: Process W swapped in.
+Time 6: Process X swapped in.
+Time 6: ...........MMMMMMMMMMMPPPPPPPPPPPPPPPPPRRRRRUUUUUUUUUUUUUUUUUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXSSSSS.
+Time 7: Process U swapped out.
+Time 7: Process Y swapped in.
+Time 7: Process Z swapped in.
+Time 7: ZZZZZ......MMMMMMMMMMMPPPPPPPPPPPPPPPPPRRRRRYYYYYYYYYYYYYYYYYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXSSSSS.
+Time 8: Process Z swapped out.
+Time 8: Process M swapped out.
+Time 8: Process R swapped out.
+Time 8: Process A swapped in.
+Time 8: Process B swapped in.
+Time 8: Process C swapped in.
+Time 8: Process D swapped in.
+Time 8: DDDDDDDDDDD...........PPPPPPPPPPPPPPPPP.....YYYYYYYYYYYYYYYYYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXSSSSS.
+Time 9: Process P swapped out.
+Time 9: Process X swapped out.
+Time 9: Process S swapped out.
+Time 9: Process E swapped in.
+Time 9: Process F swapped in.
+Time 9: Process G swapped in.
+Time 9: Process H swapped in.
+Time 9: DDDDDDDDDDDFFFFFFFFFFFHHHHH.................YYYYYYYYYYYYYYYYYEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGGGGG.
+Time 10: Process H swapped out.
+Time 10: DDDDDDDDDDDFFFFFFFFFFF......................YYYYYYYYYYYYYYYYYEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGGGGG.
+Time 11: Process F swapped out.
+Time 11: Process Y swapped out.
+Time 11: Process I swapped in.
+Time 11: Process J swapped in.
+Time 11: Process K swapped in.
+Time 11: Process L swapped in.
+Time 11: DDDDDDDDDDDJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJKKKKKKKKKKKLLLLL.EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEGGGGG.
+Time 12: Process D swapped out.
+Time 12: Process E swapped out.
+Time 12: Process M swapped in.
+Time 12: Process N swapped in.
+Time 12: Process O swapped in.
+Time 12: OOOOO......JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJKKKKKKKKKKKLLLLLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.GGGGG.
+Time 13: Process O swapped out.
+Time 13: Process L swapped out.
+Time 13: ...........JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJKKKKKKKKKKK.....MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.GGGGG.
+Time 14: Process K swapped out.
+Time 14: Process G swapped out.
+Time 14: ...........JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.......
+Time 15: ...........JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.......
+Time 16: Process J swapped out.
+Time 16: Process P swapped in.
+Time 16: Process Q swapped in.
+Time 16: Process R swapped in.
+Time 16: Process S swapped in.
+Time 16: Process T swapped in.
+Time 16: Process U swapped in.
+Time 16: Process V swapped in.
+Time 16: PPPPPPPPPPPPPPPPPRRRRRRRRRRRSSSSSSSSSSSSSSSSSTTTTTUUUUUVVVVVMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMQQQQQ..
+Time 17: Process P swapped out.
+Time 17: Process R swapped out.
+Time 17: Process M swapped out.
+Time 17: Process W swapped in.
+Time 17: Process X swapped in.
+Time 17: Process Y swapped in.
+Time 17: Process Z swapped in.
+Time 17: Process A swapped in.
+Time 17: WWWWWWWWWWWXXXXXYYYYYYYYYYY.SSSSSSSSSSSSSSSSSTTTTTUUUUUVVVVVZZZZZAAAAAAAAAAAAAAAAA...........QQQQQ..
+Time 18: Process U swapped out.
+Time 18: WWWWWWWWWWWXXXXXYYYYYYYYYYY.SSSSSSSSSSSSSSSSSTTTTT.....VVVVVZZZZZAAAAAAAAAAAAAAAAA...........QQQQQ..
+Time 19: Process W swapped out.
+Time 19: Process Q swapped out.
+Time 19: ...........XXXXXYYYYYYYYYYY.SSSSSSSSSSSSSSSSSTTTTT.....VVVVVZZZZZAAAAAAAAAAAAAAAAA..................
+Time 20: Process Y swapped out.
+Time 20: Process S swapped out.
+Time 20: Process V swapped out.
+Time 20: ...........XXXXX.............................TTTTT..........ZZZZZAAAAAAAAAAAAAAAAA..................
+Time 21: Process X swapped out.
+Time 21: Process T swapped out.
+Time 21: Process B swapped in.
+Time 21: Process C swapped in.
+Time 21: Process D swapped in.
+Time 21: Process E swapped in.
+Time 21: Process F swapped in.
+Time 21: DDDDDEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCZZZZZAAAAAAAAAAAAAAAAAFFFFFFFFFFFFFFFFF.
+Time 22: Process Z swapped out.
+Time 22: Process A swapped out.
+Time 22: Process G swapped in.
+Time 22: Process H swapped in.
+Time 22: Process I swapped in.
+Time 22: DDDDDEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCIIIIIGGGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFF.
+Time 23: Process C swapped out.
+Time 23: DDDDDEEEEEEEEEEEBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB...........IIIIIGGGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFF.
+Time 24: Process D swapped out.
+Time 24: Process E swapped out.
+Time 24: Process G swapped out.
+Time 24: Process J swapped in.
+Time 24: ................BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB...........IIIIIJJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFFF.
+Time 25: Process B swapped out.
+Time 25: Process K swapped in.
+Time 25: Process L swapped in.
+Time 25: Process M swapped in.
+Time 25: Process N swapped in.
+Time 25: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLLMMMMMMMMMMMMMMMMMNNNNNIIIIIJJJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFFF.
+Time 26: Process I swapped out.
+Time 26: Process F swapped out.
+Time 26: Process O swapped in.
+Time 26: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLLMMMMMMMMMMMMMMMMMNNNNN.....JJJJJJJJJJJJJJJJJOOOOOOOOOOO.......
+Time 27: Process K swapped out.
+Time 27: Process P swapped in.
+Time 27: Process Q swapped in.
+Time 27: Process R swapped in.
+Time 27: Process S swapped in.
+Time 27: Process T swapped in.
+Time 27: Process U swapped in.
+Time 27: PPPPPPPPPPPPPPPPPTTTTTTTTTTTUUUUULLLLLMMMMMMMMMMMMMMMMMNNNNNQQQQQJJJJJJJJJJJJJJJJJOOOOOOOOOOO.......
+Time 28: Process J swapped out.
+Time 28: Process O swapped out.
+Time 28: Process V swapped in.
+Time 28: Process W swapped in.
+Time 28: Process X swapped in.
+Time 28: Process Y swapped in.
+Time 28: PPPPPPPPPPPPPPPPPTTTTTTTTTTTUUUUULLLLLMMMMMMMMMMMMMMMMMNNNNNQQQQQVVVVVVVVVVVXXXXXXXXXXXXXXXXXYYYYY..
+Time 29: Process L swapped out.
+Time 29: Process Z swapped in.
+Time 29: ZZZZZZZZZZZZZZZZZTTTTTTTTTTTUUUUU.....MMMMMMMMMMMMMMMMMNNNNNQQQQQVVVVVVVVVVVXXXXXXXXXXXXXXXXXYYYYY..
+Time 30: Process U swapped out.
+Time 30: Process M swapped out.
+Time 30: Process N swapped out.
+Time 30: Process Y swapped out.
+Time 30: ZZZZZZZZZZZZZZZZZTTTTTTTTTTT................................QQQQQVVVVVVVVVVVXXXXXXXXXXXXXXXXX.......
+Time 31: Process T swapped out.
+Time 31: Process V swapped out.
+Time 31: Process A swapped in.
+Time 31: Process B swapped in.
+Time 31: Process C swapped in.
+Time 31: ZZZZZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCC.........QQQQQ...........XXXXXXXXXXXXXXXXX.......
+Time 32: Process C swapped out.
+Time 32: Process Q swapped out.
+Time 32: Process D swapped in.
+Time 32: Process E swapped in.
+Time 32: ZZZZZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBEEEEEEEEEEE...............DDDDDDDDDDD.....XXXXXXXXXXXXXXXXX.......
+Time 33: Process E swapped out.
+Time 33: Process D swapped out.
+Time 33: Process X swapped out.
+Time 33: Process F swapped in.
+Time 33: Process G swapped in.
+Time 33: Process H swapped in.
+Time 33: ZZZZZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHHH................
+Time 34: Process Z swapped out.
+Time 34: Process F swapped out.
+Time 34: Process I swapped in.
+Time 34: Process J swapped in.
+Time 34: Process K swapped in.
+Time 34: IIIIIIIIIIIIIIIIIBBBBBBBBBBBBBBBBBKKKKKKKKKKKKKKKKK................HHHHHHHHHHHHHHHHH................
+Time 35: Process I swapped out.
+Time 35: Process B swapped out.
+Time 35: Process H swapped out.
+Time 35: Process L swapped in.
+Time 35: Process M swapped in.
+Time 35: Process N swapped in.
+Time 35: NNNNNNNNNNNNNNNNN.................KKKKKKKKKKKKKKKKKLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLMMMMMMMMMMM.....
+Time 36: Process K swapped out.
+Time 36: Process M swapped out.
+Time 36: Process O swapped in.
+Time 36: Process P swapped in.
+Time 36: Process Q swapped in.
+Time 36: Process R swapped in.
+Time 36: NNNNNNNNNNNNNNNNNPPPPPPPPPPPPPPPPPQQQQQQQQQQQQQQQQQLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLRRRRRRRRRRR.....
+Time 37: Process Q swapped out.
+Time 37: Process L swapped out.
+Time 37: Process S swapped in.
+Time 37: Process T swapped in.
+Time 37: Process U swapped in.
+Time 37: NNNNNNNNNNNNNNNNNPPPPPPPPPPPPPPPPPTTTTTTTTTTTTTTTTTSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSRRRRRRRRRRRUUUUU
+Time 38: Process S swapped out.
+Time 38: Process V swapped in.
+Time 38: Process W swapped in.
+Time 38: Process X swapped in.
+Time 38: NNNNNNNNNNNNNNNNNPPPPPPPPPPPPPPPPPTTTTTTTTTTTTTTTTTWWWWWXXXXXXXXXXXXXXXXX...........RRRRRRRRRRRUUUUU
+Time 39: Process N swapped out.
+Time 39: .................PPPPPPPPPPPPPPPPPTTTTTTTTTTTTTTTTTWWWWWXXXXXXXXXXXXXXXXX...........RRRRRRRRRRRUUUUU
+Time 40: Process P swapped out.
+Time 40: Process U swapped out.
+Time 40: Process Y swapped in.
+Time 40: Process Z swapped in.
+Time 40: Process A swapped in.
+Time 40: YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY.TTTTTTTTTTTTTTTTTWWWWWXXXXXXXXXXXXXXXXXAAAAA......RRRRRRRRRRRZZZZZ
+Time 41: Process T swapped out.
+Time 41: Process R swapped out.
+Time 41: Process B swapped in.
+Time 41: Process C swapped in.
+Time 41: Process D swapped in.
+Time 41: Process E swapped in.
+Time 41: YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYDDDDDDDDDDDDDDDDD.WWWWWXXXXXXXXXXXXXXXXXAAAAABBBBBBBBBBBEEEEE.ZZZZZ
+Time 42: Process A swapped out.
+Time 42: Process F swapped in.
+Time 42: Process G swapped in.
+Time 42: Process H swapped in.
+Time 42: Process I swapped in.
+Time 42: Process J swapped in.
+Time 42: Process K swapped in.
+Time 42: FFFFFFFFFFFGGGGGGGGGGGKKKKK......DDDDDDDDDDDDDDDDD.WWWWWXXXXXXXXXXXXXXXXXHHHHHBBBBBBBBBBBEEEEE.ZZZZZ
+Time 43: Process D swapped out.
+Time 43: Process W swapped out.
+Time 43: Process X swapped out.
+Time 43: Process L swapped in.
+Time 43: FFFFFFFFFFFGGGGGGGGGGGKKKKKLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL.............HHHHHBBBBBBBBBBBEEEEE.ZZZZZ
+Time 44: Process G swapped out.
+Time 44: Process K swapped out.
+Time 44: FFFFFFFFFFF................LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL.............HHHHHBBBBBBBBBBBEEEEE.ZZZZZ
+Time 45: Process H swapped out.
+Time 45: Process E swapped out.
+Time 45: Process Z swapped out.
+Time 45: Process M swapped in.
+Time 45: Process N swapped in.
+Time 45: Process O swapped in.
+Time 45: Process P swapped in.
+Time 45: Process Q swapped in.
+Time 45: FFFFFFFFFFFOOOOOOOOOOOPPPPPLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMMM.BBBBBBBBBBBNNNNNQQQQQ.
+Time 46: Process F swapped out.
+Time 46: Process P swapped out.
+Time 46: Process B swapped out.
+Time 46: Process Q swapped out.
+Time 46: ...........OOOOOOOOOOO.....LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMMM............NNNNN......
+Time 47: ...........OOOOOOOOOOO.....LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMMM............NNNNN......
+Time 48: Process L swapped out.
+Time 48: Process N swapped out.
+Time 48: Process R swapped in.
+Time 48: Process S swapped in.
+Time 48: Process T swapped in.
+Time 48: Process U swapped in.
+Time 48: Process V swapped in.
+Time 48: UUUUU......OOOOOOOOOOOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTTMMMMMMMMMMMMMMMMMVVVVVVVVVVVVVVVVV......
+Time 49: Process O swapped out.
+Time 49: Process W swapped in.
+Time 49: UUUUU.................SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTTMMMMMMMMMMMMMMMMMVVVVVVVVVVVVVVVVVWWWWW.
+Time 50: Process M swapped out.
+Time 50: UUUUU.................SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTT.................VVVVVVVVVVVVVVVVVWWWWW.
+Time 51: Process U swapped out.
+Time 51: Process S swapped out.
+Time 51: Process W swapped out.
+Time 51: Process X swapped in.
+Time 51: Process Y swapped in.
+Time 51: Process Z swapped in.
+Time 51: ......................ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZTTTTT.................VVVVVVVVVVVVVVVVV......
+Time 52: Process T swapped out.
+Time 52: Process A swapped in.
+Time 52: Process B swapped in.
+Time 52: ......................ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZAAAAABBBBBBBBBBB......VVVVVVVVVVVVVVVVV......
+Time 53: Process B swapped out.
+Time 53: Process V swapped out.
+Time 53: Process C swapped in.
+Time 53: Process D swapped in.
+Time 53: Process E swapped in.
+Time 53: EEEEEEEEEEEEEEEEE.....ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZAAAAACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCDDDDD..
+Time 54: Process Z swapped out.
+Time 54: Process F swapped in.
+Time 54: Process G swapped in.
+Time 54: Process H swapped in.
+Time 54: Process I swapped in.
+Time 54: EEEEEEEEEEEEEEEEEGGGGGGGGGGGIIIIIIIIIII................AAAAACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCDDDDD..
+Time 55: Process A swapped out.
+Time 55: Process J swapped in.
+Time 55: Process K swapped in.
+Time 55: Process L swapped in.
+Time 55: Process M swapped in.
+Time 55: EEEEEEEEEEEEEEEEEGGGGGGGGGGGIIIIIIIIIIILLLLLLLLLLLMMMMM.....CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCDDDDD..
+Time 56: Process D swapped out.
+Time 56: EEEEEEEEEEEEEEEEEGGGGGGGGGGGIIIIIIIIIIILLLLLLLLLLLMMMMM.....CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.......
+Time 57: EEEEEEEEEEEEEEEEEGGGGGGGGGGGIIIIIIIIIIILLLLLLLLLLLMMMMM.....CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.......
+Time 58: Process E swapped out.
+Time 58: Process C swapped out.
+Time 58: Process N swapped in.
+Time 58: Process O swapped in.
+Time 58: Process P swapped in.
+Time 58: OOOOOOOOOOOOOOOOOGGGGGGGGGGGIIIIIIIIIIILLLLLLLLLLLMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNPPPPPPPPPPP.
+Time 59: Process G swapped out.
+Time 59: Process I swapped out.
+Time 59: Process M swapped out.
+Time 59: OOOOOOOOOOOOOOOOO......................LLLLLLLLLLL.....NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNPPPPPPPPPPP.
+
+AVERAGE PROCESSES SWAPPED IN OVER 5 RUNS FOR BEST FIT: 129.8
+
+
+WORST FIT ###################################################
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: Process D swapped in.
+Time 0: Process E swapped in.
+Time 0: AAAAABBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE............................
+Time 1: Process A swapped out.
+Time 1: Process E swapped out.
+Time 1: Process F swapped in.
+Time 1: Process G swapped in.
+Time 1: Process H swapped in.
+Time 1: Process I swapped in.
+Time 1: .....BBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCFFFFFGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHIIIII.............
+Time 2: Process B swapped out.
+Time 2: Process C swapped out.
+Time 2: Process I swapped out.
+Time 2: Process J swapped in.
+Time 2: Process K swapped in.
+Time 2: Process L swapped in.
+Time 2: Process M swapped in.
+Time 2: JJJJJJJJJJJJJJJJJKKKKKMMMMMMMMMMM......FFFFFGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHLLLLL.............
+Time 3: Process M swapped out.
+Time 3: Process F swapped out.
+Time 3: Process G swapped out.
+Time 3: Process N swapped in.
+Time 3: Process O swapped in.
+Time 3: Process P swapped in.
+Time 3: JJJJJJJJJJJJJJJJJKKKKKNNNNNNNNNNNNNNNNNPPPPP.....HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHLLLLLOOOOOOOOOOO..
+Time 4: Process K swapped out.
+Time 4: JJJJJJJJJJJJJJJJJ.....NNNNNNNNNNNNNNNNNPPPPP.....HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHLLLLLOOOOOOOOOOO..
+Time 5: Process H swapped out.
+Time 5: Process Q swapped in.
+Time 5: Process R swapped in.
+Time 5: Process S swapped in.
+Time 5: Process T swapped in.
+Time 5: JJJJJJJJJJJJJJJJJ.....NNNNNNNNNNNNNNNNNPPPPPRRRRRRRRRRRRRRRRRSSSSSSSSSSSTTTTT.....LLLLLOOOOOOOOOOO..
+Time 6: Process J swapped out.
+Time 6: Process R swapped out.
+Time 6: Process S swapped out.
+Time 6: Process U swapped in.
+Time 6: ......................NNNNNNNNNNNNNNNNNPPPPPUUUUU.......................TTTTT.....LLLLLOOOOOOOOOOO..
+Time 7: Process T swapped out.
+Time 7: Process L swapped out.
+Time 7: Process V swapped in.
+Time 7: Process W swapped in.
+Time 7: Process X swapped in.
+Time 7: WWWWWWWWWWWXXXXXXXXXXXNNNNNNNNNNNNNNNNNPPPPPUUUUUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV.....OOOOOOOOOOO..
+Time 8: Process N swapped out.
+Time 8: Process P swapped out.
+Time 8: Process V swapped out.
+Time 8: Process O swapped out.
+Time 8: Process Y swapped in.
+Time 8: Process Z swapped in.
+Time 8: Process A swapped in.
+Time 8: Process B swapped in.
+Time 8: Process C swapped in.
+Time 8: WWWWWWWWWWWXXXXXXXXXXXCCCCCCCCCCCCCCCCC.....UUUUUYYYYYYYYYYYYYYYYYZZZZZAAAAABBBBBBBBBBBBBBBBB.......
+Time 9: Process C swapped out.
+Time 9: Process A swapped out.
+Time 9: WWWWWWWWWWWXXXXXXXXXXX......................UUUUUYYYYYYYYYYYYYYYYYZZZZZ.....BBBBBBBBBBBBBBBBB.......
+Time 10: Process Z swapped out.
+Time 10: WWWWWWWWWWWXXXXXXXXXXX......................UUUUUYYYYYYYYYYYYYYYYY..........BBBBBBBBBBBBBBBBB.......
+Time 11: Process W swapped out.
+Time 11: Process U swapped out.
+Time 11: Process B swapped out.
+Time 11: Process D swapped in.
+Time 11: Process E swapped in.
+Time 11: ...........XXXXXXXXXXX...........................YYYYYYYYYYYYYYYYYEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.
+Time 12: Process X swapped out.
+Time 12: Process Y swapped out.
+Time 12: Process F swapped in.
+Time 12: Process G swapped in.
+Time 12: Process H swapped in.
+Time 12: Process I swapped in.
+Time 12: Process J swapped in.
+Time 12: Process K swapped in.
+Time 12: Process L swapped in.
+Time 12: KKKKKKKKKKKLLLLL......FFFFFFFFFFFGGGGGHHHHHIIIIIIIIIIIIIIIII......EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.
+Time 13: Process H swapped out.
+Time 13: KKKKKKKKKKKLLLLL......FFFFFFFFFFFGGGGG.....IIIIIIIIIIIIIIIII......EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.
+Time 14: KKKKKKKKKKKLLLLL......FFFFFFFFFFFGGGGG.....IIIIIIIIIIIIIIIII......EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.
+Time 15: Process K swapped out.
+Time 15: ...........LLLLL......FFFFFFFFFFFGGGGG.....IIIIIIIIIIIIIIIII......EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.
+Time 16: Process E swapped out.
+Time 16: Process M swapped in.
+Time 16: Process N swapped in.
+Time 16: ...........LLLLL......FFFFFFFFFFFGGGGG.....IIIIIIIIIIIIIIIIIMMMMMMMMMMMMMMMMMNNNNNNNNNNN............
+Time 17: Process L swapped out.
+Time 17: Process F swapped out.
+Time 17: Process G swapped out.
+Time 17: Process I swapped out.
+Time 17: Process O swapped in.
+Time 17: Process P swapped in.
+Time 17: Process Q swapped in.
+Time 17: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPPPPPPPPPPPPPPP..........MMMMMMMMMMMMMMMMMNNNNNNNNNNNQQQQQQQQQQQ.
+Time 18: Process R swapped in.
+Time 18: Process S swapped in.
+Time 18: Process T swapped in.
+Time 18: Process U swapped in.
+Time 18: SSSSSSSSSSSTTTTTTTTTTTUUUUUUUUUUUPPPPPPPPPPPPPPPPP..........MMMMMMMMMMMMMMMMMNNNNNNNNNNNQQQQQQQQQQQ.
+Time 19: Process S swapped out.
+Time 19: Process P swapped out.
+Time 19: Process M swapped out.
+Time 19: Process Q swapped out.
+Time 19: Process V swapped in.
+Time 19: Process W swapped in.
+Time 19: Process X swapped in.
+Time 19: ...........TTTTTTTTTTTUUUUUUUUUUUWWWWWWWWWWWWWWWWWXXXXXXXXXXXXXXXXX..........NNNNNNNNNNN............
+Time 20: Process N swapped out.
+Time 20: Process Y swapped in.
+Time 20: Process Z swapped in.
+Time 20: Process A swapped in.
+Time 20: Process B swapped in.
+Time 20: Process C swapped in.
+Time 20: AAAAACCCCC.TTTTTTTTTTTUUUUUUUUUUUWWWWWWWWWWWWWWWWWXXXXXXXXXXXXXXXXXYYYYYYYYYYYZZZZZZZZZZZBBBBBBBBBBB
+Time 21: Process A swapped out.
+Time 21: Process C swapped out.
+Time 21: ...........TTTTTTTTTTTUUUUUUUUUUUWWWWWWWWWWWWWWWWWXXXXXXXXXXXXXXXXXYYYYYYYYYYYZZZZZZZZZZZBBBBBBBBBBB
+Time 22: Process T swapped out.
+Time 22: Process Z swapped out.
+Time 22: Process D swapped in.
+Time 22: DDDDDDDDDDDDDDDDD.....UUUUUUUUUUUWWWWWWWWWWWWWWWWWXXXXXXXXXXXXXXXXXYYYYYYYYYYY...........BBBBBBBBBBB
+Time 23: Process U swapped out.
+Time 23: Process W swapped out.
+Time 23: Process X swapped out.
+Time 23: Process Y swapped out.
+Time 23: Process B swapped out.
+Time 23: Process E swapped in.
+Time 23: Process F swapped in.
+Time 23: Process G swapped in.
+Time 23: Process H swapped in.
+Time 23: Process I swapped in.
+Time 23: DDDDDDDDDDDDDDDDDIIIIIIIIIII.....EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFFFFFGGGGGHHHHHHHHHHHHHHHHH.......
+Time 24: Process I swapped out.
+Time 24: Process J swapped in.
+Time 24: DDDDDDDDDDDDDDDDDJJJJJ...........EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFFFFFGGGGGHHHHHHHHHHHHHHHHH.......
+Time 25: Process D swapped out.
+Time 25: Process J swapped out.
+Time 25: Process F swapped out.
+Time 25: Process K swapped in.
+Time 25: Process L swapped in.
+Time 25: Process M swapped in.
+Time 25: MMMMMMMMMMM......................EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.....GGGGGHHHHHHHHHHHHHHHHH.......
+Time 26: Process E swapped out.
+Time 26: Process N swapped in.
+Time 26: Process O swapped in.
+Time 26: Process P swapped in.
+Time 26: Process Q swapped in.
+Time 26: Process R swapped in.
+Time 26: MMMMMMMMMMMNNNNNNNNNNNNNNNNNPPPPPPPPPPPPPPPPPQQQQQRRRRRRRRRRR..........GGGGGHHHHHHHHHHHHHHHHH.......
+Time 27: Process M swapped out.
+Time 27: Process P swapped out.
+Time 27: Process G swapped out.
+Time 27: Process H swapped out.
+Time 27: Process S swapped in.
+Time 27: Process T swapped in.
+Time 27: Process U swapped in.
+Time 27: ...........NNNNNNNNNNNNNNNNNTTTTTUUUUUUUUUUU.QQQQQRRRRRRRRRRRSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS......
+Time 28: Process N swapped out.
+Time 28: Process U swapped out.
+Time 28: Process R swapped out.
+Time 28: Process V swapped in.
+Time 28: Process W swapped in.
+Time 28: Process X swapped in.
+Time 28: Process Y swapped in.
+Time 28: Process Z swapped in.
+Time 28: YYYYYYYYYYYYYYYYY...........TTTTTZZZZZ.......QQQQQ...........SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS......
+Time 29: Process A swapped in.
+Time 29: AAAAAAAAAAAAAAAAA...........TTTTTZZZZZ.......QQQQQ...........SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS......
+Time 30: Process S swapped out.
+Time 30: Process B swapped in.
+Time 30: Process C swapped in.
+Time 30: Process D swapped in.
+Time 30: Process E swapped in.
+Time 30: AAAAAAAAAAAAAAAAAEEEEEEEEEEETTTTTZZZZZ.......QQQQQBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCC......
+Time 31: Process Q swapped out.
+Time 31: AAAAAAAAAAAAAAAAAEEEEEEEEEEETTTTTZZZZZ............BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCC......
+Time 32: Process T swapped out.
+Time 32: Process C swapped out.
+Time 32: AAAAAAAAAAAAAAAAAEEEEEEEEEEE.....ZZZZZ............BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.................
+Time 33: Process Z swapped out.
+Time 33: AAAAAAAAAAAAAAAAAEEEEEEEEEEE......................BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.................
+Time 34: Process A swapped out.
+Time 34: Process E swapped out.
+Time 34: Process B swapped out.
+Time 34: Process F swapped in.
+Time 34: Process G swapped in.
+Time 34: Process H swapped in.
+Time 34: Process I swapped in.
+Time 34: ............................FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGHHHHHIIIIIIIIIII..................
+Time 35: Process I swapped out.
+Time 35: ............................FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGHHHHH.............................
+Time 36: ............................FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGHHHHH.............................
+Time 37: Process H swapped out.
+Time 37: Process J swapped in.
+Time 37: Process K swapped in.
+Time 37: Process L swapped in.
+Time 37: KKKKKKKKKKKLLLLLLLLLLL......FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ.
+Time 38: Process G swapped out.
+Time 38: KKKKKKKKKKKLLLLLLLLLLL......FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.....JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ.
+Time 39: Process F swapped out.
+Time 39: Process J swapped out.
+Time 39: Process M swapped in.
+Time 39: Process N swapped in.
+Time 39: Process O swapped in.
+Time 39: Process P swapped in.
+Time 39: Process Q swapped in.
+Time 39: KKKKKKKKKKKLLLLLLLLLLLMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNOOOOOOOOOOOOOOOOOPPPPPQQQQQ.................
+Time 40: Process R swapped in.
+Time 40: Process S swapped in.
+Time 40: KKKKKKKKKKKLLLLLLLLLLLMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNOOOOOOOOOOOOOOOOOPPPPPQQQQQRRRRRRRRRRRSSSSS.
+Time 41: Process N swapped out.
+Time 41: Process S swapped out.
+Time 41: Process T swapped in.
+Time 41: Process U swapped in.
+Time 41: KKKKKKKKKKKLLLLLLLLLLLMMMMMMMMMMMMMMMMMTTTTTTTTTTTUUUUU.OOOOOOOOOOOOOOOOOPPPPPQQQQQRRRRRRRRRRR......
+Time 42: Process K swapped out.
+Time 42: Process L swapped out.
+Time 42: Process Q swapped out.
+Time 42: Process V swapped in.
+Time 42: Process W swapped in.
+Time 42: VVVVVVVVVVVWWWWW......MMMMMMMMMMMMMMMMMTTTTTTTTTTTUUUUU.OOOOOOOOOOOOOOOOOPPPPP.....RRRRRRRRRRR......
+Time 43: Process M swapped out.
+Time 43: Process T swapped out.
+Time 43: Process P swapped out.
+Time 43: Process X swapped in.
+Time 43: VVVVVVVVVVVWWWWWXXXXXXXXXXXXXXXXX.................UUUUU.OOOOOOOOOOOOOOOOO..........RRRRRRRRRRR......
+Time 44: Process O swapped out.
+Time 44: VVVVVVVVVVVWWWWWXXXXXXXXXXXXXXXXX.................UUUUU............................RRRRRRRRRRR......
+Time 45: Process U swapped out.
+Time 45: Process R swapped out.
+Time 45: Process Y swapped in.
+Time 45: Process Z swapped in.
+Time 45: Process A swapped in.
+Time 45: VVVVVVVVVVVWWWWWXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAAA.....ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ............
+Time 46: Process V swapped out.
+Time 46: Process W swapped out.
+Time 46: ................XXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAAA.....ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ............
+Time 47: ................XXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAAA.....ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ............
+Time 48: Process X swapped out.
+Time 48: Process A swapped out.
+Time 48: Process B swapped in.
+Time 48: Process C swapped in.
+Time 48: Process D swapped in.
+Time 48: Process E swapped in.
+Time 48: Process F swapped in.
+Time 48: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCDDDDDDDDDDD......ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZFFFFFFFFFFF.
+Time 49: Process Z swapped out.
+Time 49: Process G swapped in.
+Time 49: Process H swapped in.
+Time 49: Process I swapped in.
+Time 49: Process J swapped in.
+Time 49: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCDDDDDDDDDDDGGGGGGGGGGGGGGGGGIIIIIIIIIIIJJJJJ......FFFFFFFFFFF.
+Time 50: Process B swapped out.
+Time 50: Process J swapped out.
+Time 50: Process F swapped out.
+Time 50: Process K swapped in.
+Time 50: Process L swapped in.
+Time 50: KKKKKKKKKKKKKKKKK................CCCCCDDDDDDDDDDDGGGGGGGGGGGGGGGGGIIIIIIIIIIILLLLLLLLLLL............
+Time 51: Process D swapped out.
+Time 51: Process L swapped out.
+Time 51: Process M swapped in.
+Time 51: Process N swapped in.
+Time 51: Process O swapped in.
+Time 51: Process P swapped in.
+Time 51: KKKKKKKKKKKKKKKKKNNNNNOOOOO......CCCCCPPPPP......GGGGGGGGGGGGGGGGGIIIIIIIIIIIMMMMMMMMMMMMMMMMM......
+Time 52: Process N swapped out.
+Time 52: Process O swapped out.
+Time 52: Process G swapped out.
+Time 52: Process M swapped out.
+Time 52: Process Q swapped in.
+Time 52: Process R swapped in.
+Time 52: KKKKKKKKKKKKKKKKK................CCCCCPPPPPQQQQQQQQQQQ............IIIIIIIIIIIRRRRR..................
+Time 53: Process C swapped out.
+Time 53: Process R swapped out.
+Time 53: KKKKKKKKKKKKKKKKK.....................PPPPPQQQQQQQQQQQ............IIIIIIIIIII.......................
+Time 54: Process P swapped out.
+Time 54: Process I swapped out.
+Time 54: Process S swapped in.
+Time 54: Process T swapped in.
+Time 54: KKKKKKKKKKKKKKKKKTTTTTTTTTTT...............QQQQQQQQQQQSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.............
+Time 55: Process K swapped out.
+Time 55: .................TTTTTTTTTTT...............QQQQQQQQQQQSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.............
+Time 56: Process T swapped out.
+Time 56: Process U swapped in.
+Time 56: Process V swapped in.
+Time 56: UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU..........QQQQQQQQQQQSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSVVVVVVVVVVV..
+Time 57: Process Q swapped out.
+Time 57: Process S swapped out.
+Time 57: Process V swapped out.
+Time 57: Process W swapped in.
+Time 57: Process X swapped in.
+Time 57: Process Y swapped in.
+Time 57: Process Z swapped in.
+Time 57: Process A swapped in.
+Time 57: UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUXXXXXXXXXXXXXXXXX....WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAAAAAAAAAAA..
+Time 58: Process B swapped in.
+Time 58: Process C swapped in.
+Time 58: Process D swapped in.
+Time 58: Process E swapped in.
+Time 58: Process F swapped in.
+Time 58: Process G swapped in.
+Time 58: BBBBBCCCCCDDDDDGGGGGGGGGGG.......XXXXXXXXXXXXXXXXX....WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAAAAAAAAAAA..
+Time 59: BBBBBCCCCCDDDDDGGGGGGGGGGG.......XXXXXXXXXXXXXXXXX....WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWAAAAAAAAAAA..
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: Process D swapped in.
+Time 0: Process E swapped in.
+Time 0: Process F swapped in.
+Time 0: Process G swapped in.
+Time 0: AAAAABBBBBBBBBBBBBBBBBCCCCCCCCCCCDDDDDEEEEEEEEEEEFFFFFFFFFFFGGGGGGGGGGGGGGGGG.......................
+Time 1: Process A swapped out.
+Time 1: Process D swapped out.
+Time 1: Process H swapped in.
+Time 1: Process I swapped in.
+Time 1: Process J swapped in.
+Time 1: Process K swapped in.
+Time 1: JJJJJBBBBBBBBBBBBBBBBBCCCCCCCCCCCKKKKKEEEEEEEEEEEFFFFFFFFFFFGGGGGGGGGGGGGGGGGHHHHHHHHHHHIIIIIIIIIII.
+Time 2: Process J swapped out.
+Time 2: Process E swapped out.
+Time 2: Process G swapped out.
+Time 2: Process L swapped in.
+Time 2: .....BBBBBBBBBBBBBBBBBCCCCCCCCCCCKKKKK...........FFFFFFFFFFFLLLLLLLLLLLLLLLLLHHHHHHHHHHHIIIIIIIIIII.
+Time 3: Process K swapped out.
+Time 3: Process F swapped out.
+Time 3: Process H swapped out.
+Time 3: Process I swapped out.
+Time 3: .....BBBBBBBBBBBBBBBBBCCCCCCCCCCC...........................LLLLLLLLLLLLLLLLL.......................
+Time 4: Process C swapped out.
+Time 4: Process M swapped in.
+Time 4: Process N swapped in.
+Time 4: Process O swapped in.
+Time 4: Process P swapped in.
+Time 4: .....BBBBBBBBBBBBBBBBBNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN.....LLLLLLLLLLLLLLLLLOOOOOOOOOOOPPPPP.......
+Time 5: Process B swapped out.
+Time 5: Process N swapped out.
+Time 5: Process Q swapped in.
+Time 5: Process R swapped in.
+Time 5: Process S swapped in.
+Time 5: SSSSS.................RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR.....LLLLLLLLLLLLLLLLLOOOOOOOOOOOPPPPP.......
+Time 6: Process L swapped out.
+Time 6: SSSSS.................RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR......................OOOOOOOOOOOPPPPP.......
+Time 7: SSSSS.................RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR......................OOOOOOOOOOOPPPPP.......
+Time 8: Process R swapped out.
+Time 8: Process O swapped out.
+Time 8: Process T swapped in.
+Time 8: Process U swapped in.
+Time 8: Process V swapped in.
+Time 8: SSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUUUUUUUUVVVVVVVVVVVVVVVVV......................PPPPP.......
+Time 9: Process S swapped out.
+Time 9: Process P swapped out.
+Time 9: Process W swapped in.
+Time 9: Process X swapped in.
+Time 9: .....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUUUUUUUUVVVVVVVVVVVVVVVVVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+Time 10: Process U swapped out.
+Time 10: Process X swapped out.
+Time 10: Process Y swapped in.
+Time 10: Process Z swapped in.
+Time 10: Process A swapped in.
+Time 10: Process B swapped in.
+Time 10: Process C swapped in.
+Time 10: Process D swapped in.
+Time 10: .....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTCCCCCCCCCCCVVVVVVVVVVVVVVVVVYYYYYZZZZZAAAAAAAAAAABBBBBDDDDD...
+Time 11: Process A swapped out.
+Time 11: Process E swapped in.
+Time 11: Process F swapped in.
+Time 11: .....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTCCCCCCCCCCCVVVVVVVVVVVVVVVVVYYYYYZZZZZEEEEEFFFFF.BBBBBDDDDD...
+Time 12: Process T swapped out.
+Time 12: Process V swapped out.
+Time 12: Process E swapped out.
+Time 12: Process G swapped in.
+Time 12: Process H swapped in.
+Time 12: Process I swapped in.
+Time 12: Process J swapped in.
+Time 12: GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG.....CCCCCCCCCCCJJJJJJJJJJJ......YYYYYZZZZZ.....FFFFF.BBBBBDDDDD...
+Time 13: Process F swapped out.
+Time 13: Process B swapped out.
+Time 13: Process K swapped in.
+Time 13: Process L swapped in.
+Time 13: Process M swapped in.
+Time 13: Process N swapped in.
+Time 13: Process O swapped in.
+Time 13: Process P swapped in.
+Time 13: KKKKKKKKKKKKKKKKKLLLLLMMMMMMMMMMM.....CCCCCCCCCCCJJJJJJJJJJJ......YYYYYZZZZZNNNNNPPPPPPPPPPPDDDDD...
+Time 14: Process J swapped out.
+Time 14: Process Y swapped out.
+Time 14: Process D swapped out.
+Time 14: KKKKKKKKKKKKKKKKKLLLLLMMMMMMMMMMM.....CCCCCCCCCCC......................ZZZZZNNNNNPPPPPPPPPPP........
+Time 15: Process L swapped out.
+Time 15: Process C swapped out.
+Time 15: Process Z swapped out.
+Time 15: Process Q swapped in.
+Time 15: Process R swapped in.
+Time 15: Process S swapped in.
+Time 15: KKKKKKKKKKKKKKKKK.....MMMMMMMMMMMRRRRRRRRRRRRRRRRRSSSSS.....................NNNNNPPPPPPPPPPP........
+Time 16: KKKKKKKKKKKKKKKKK.....MMMMMMMMMMMRRRRRRRRRRRRRRRRRSSSSS.....................NNNNNPPPPPPPPPPP........
+Time 17: Process R swapped out.
+Time 17: Process N swapped out.
+Time 17: KKKKKKKKKKKKKKKKK.....MMMMMMMMMMM.................SSSSS..........................PPPPPPPPPPP........
+Time 18: Process K swapped out.
+Time 18: Process M swapped out.
+Time 18: Process P swapped out.
+Time 18: Process T swapped in.
+Time 18: Process U swapped in.
+Time 18: Process V swapped in.
+Time 18: Process W swapped in.
+Time 18: Process X swapped in.
+Time 18: UUUUUUUUUUUVVVVVXXXXXXXXXXXXXXXXX.................SSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT............
+Time 19: Process U swapped out.
+Time 19: Process Y swapped in.
+Time 19: ...........VVVVVXXXXXXXXXXXXXXXXXYYYYYYYYYYYYYYYYYSSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT............
+Time 20: Process V swapped out.
+Time 20: Process S swapped out.
+Time 20: ................XXXXXXXXXXXXXXXXXYYYYYYYYYYYYYYYYY.....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT............
+Time 21: ................XXXXXXXXXXXXXXXXXYYYYYYYYYYYYYYYYY.....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT............
+Time 22: ................XXXXXXXXXXXXXXXXXYYYYYYYYYYYYYYYYY.....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT............
+Time 23: Process X swapped out.
+Time 23: Process T swapped out.
+Time 23: Process Z swapped in.
+Time 23: Process A swapped in.
+Time 23: Process B swapped in.
+Time 23: Process C swapped in.
+Time 23: AAAAAAAAAAABBBBBCCCCCCCCCCC......YYYYYYYYYYYYYYYYYZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.................
+Time 24: Process B swapped out.
+Time 24: Process Y swapped out.
+Time 24: AAAAAAAAAAA.....CCCCCCCCCCC.......................ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.................
+Time 25: Process A swapped out.
+Time 25: Process C swapped out.
+Time 25: Process D swapped in.
+Time 25: Process E swapped in.
+Time 25: ................DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZEEEEE............
+Time 26: ................DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZEEEEE............
+Time 27: Process Z swapped out.
+Time 27: Process F swapped in.
+Time 27: Process G swapped in.
+Time 27: Process H swapped in.
+Time 27: Process I swapped in.
+Time 27: Process J swapped in.
+Time 27: IIIII...........DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHEEEEEJJJJJJJJJJJ.
+Time 28: Process D swapped out.
+Time 28: Process G swapped out.
+Time 28: Process K swapped in.
+Time 28: Process L swapped in.
+Time 28: Process M swapped in.
+Time 28: Process N swapped in.
+Time 28: Process O swapped in.
+Time 28: IIIIIKKKKKLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLMMMMMMMMMMMOOOOO.......HHHHHHHHHHHHHHHHHEEEEEJJJJJJJJJJJ.
+Time 29: Process K swapped out.
+Time 29: Process M swapped out.
+Time 29: Process O swapped out.
+Time 29: Process H swapped out.
+Time 29: Process P swapped in.
+Time 29: Process Q swapped in.
+Time 29: Process R swapped in.
+Time 29: IIIII.....LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLQQQQQQQQQQQQQQQQQRRRRRRRRRRR............EEEEEJJJJJJJJJJJ.
+Time 30: Process I swapped out.
+Time 30: Process L swapped out.
+Time 30: Process E swapped out.
+Time 30: Process J swapped out.
+Time 30: Process S swapped in.
+Time 30: Process T swapped in.
+Time 30: Process U swapped in.
+Time 30: Process V swapped in.
+Time 30: ..........SSSSSUUUUUVVVVVVVVVVVVVVVVV......QQQQQQQQQQQQQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTT............
+Time 31: Process U swapped out.
+Time 31: ..........SSSSS.....VVVVVVVVVVVVVVVVV......QQQQQQQQQQQQQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTT............
+Time 32: Process R swapped out.
+Time 32: ..........SSSSS.....VVVVVVVVVVVVVVVVV......QQQQQQQQQQQQQQQQQ...........TTTTTTTTTTTTTTTTT............
+Time 33: Process V swapped out.
+Time 33: Process Q swapped out.
+Time 33: Process W swapped in.
+Time 33: Process X swapped in.
+Time 33: ..........SSSSSWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXXXXXXXXXXX............TTTTTTTTTTTTTTTTT............
+Time 34: Process T swapped out.
+Time 34: Process Y swapped in.
+Time 34: Process Z swapped in.
+Time 34: ..........SSSSSWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXXXXXXXXXXXZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ........
+Time 35: Process S swapped out.
+Time 35: Process W swapped out.
+Time 35: Process Z swapped out.
+Time 35: Process A swapped in.
+Time 35: Process B swapped in.
+Time 35: Process C swapped in.
+Time 35: BBBBBBBBBBBBBBBBBCCCCCCCCCCC....................XXXXXXXXXXXAAAAAAAAAAA..............................
+Time 36: Process B swapped out.
+Time 36: .................CCCCCCCCCCC....................XXXXXXXXXXXAAAAAAAAAAA..............................
+Time 37: Process C swapped out.
+Time 37: Process D swapped in.
+Time 37: Process E swapped in.
+Time 37: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD...............XXXXXXXXXXXAAAAAAAAAAAEEEEEEEEEEEEEEEEE.............
+Time 38: Process D swapped out.
+Time 38: Process X swapped out.
+Time 38: Process A swapped out.
+Time 38: Process E swapped out.
+Time 38: Process F swapped in.
+Time 38: Process G swapped in.
+Time 38: Process H swapped in.
+Time 38: Process I swapped in.
+Time 38: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGGGGGGGHHHHHHHHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII............
+Time 39: Process J swapped in.
+Time 39: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFGGGGGGGGGGGHHHHHHHHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJ.......
+Time 40: Process G swapped out.
+Time 40: Process J swapped out.
+Time 40: Process K swapped in.
+Time 40: Process L swapped in.
+Time 40: KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK...........HHHHHHHHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIILLLLLLLLLLL.
+Time 41: Process M swapped in.
+Time 41: Process N swapped in.
+Time 41: Process O swapped in.
+Time 41: MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNOOOOO.HHHHHHHHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIILLLLLLLLLLL.
+Time 42: Process M swapped out.
+Time 42: Process O swapped out.
+Time 42: Process H swapped out.
+Time 42: Process I swapped out.
+Time 42: Process L swapped out.
+Time 42: Process P swapped in.
+Time 42: Process Q swapped in.
+Time 42: Process R swapped in.
+Time 42: Process S swapped in.
+Time 42: Process T swapped in.
+Time 42: Process U swapped in.
+Time 42: SSSSSUUUUUUUUUUUUUUUUU...........NNNNN......PPPPPPPPPPPQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTT............
+Time 43: SSSSSUUUUUUUUUUUUUUUUU...........NNNNN......PPPPPPPPPPPQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTT............
+Time 44: Process N swapped out.
+Time 44: Process V swapped in.
+Time 44: Process W swapped in.
+Time 44: SSSSSUUUUUUUUUUUUUUUUUVVVVVVVVVVVVVVVVV.....PPPPPPPPPPPQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTTWWWWW.......
+Time 45: Process S swapped out.
+Time 45: Process U swapped out.
+Time 45: Process P swapped out.
+Time 45: Process X swapped in.
+Time 45: XXXXXXXXXXXXXXXXX.....VVVVVVVVVVVVVVVVV................QQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTTWWWWW.......
+Time 46: Process R swapped out.
+Time 46: Process T swapped out.
+Time 46: XXXXXXXXXXXXXXXXX.....VVVVVVVVVVVVVVVVV................QQQQQ............................WWWWW.......
+Time 47: Process Q swapped out.
+Time 47: Process W swapped out.
+Time 47: Process Y swapped in.
+Time 47: Process Z swapped in.
+Time 47: Process A swapped in.
+Time 47: XXXXXXXXXXXXXXXXX.....VVVVVVVVVVVVVVVVV.....................AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.......
+Time 48: Process B swapped in.
+Time 48: Process C swapped in.
+Time 48: XXXXXXXXXXXXXXXXX.....VVVVVVVVVVVVVVVVVCCCCCCCCCCCCCCCCC....AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.......
+Time 49: Process V swapped out.
+Time 49: XXXXXXXXXXXXXXXXX......................CCCCCCCCCCCCCCCCC....AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.......
+Time 50: Process X swapped out.
+Time 50: Process D swapped in.
+Time 50: Process E swapped in.
+Time 50: Process F swapped in.
+Time 50: Process G swapped in.
+Time 50: EEEEEEEEEEEFFFFFFFFFFFGGGGGGGGGGG......CCCCCCCCCCCCCCCCC....AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.......
+Time 51: EEEEEEEEEEEFFFFFFFFFFFGGGGGGGGGGG......CCCCCCCCCCCCCCCCC....AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.......
+Time 52: Process E swapped out.
+Time 52: Process G swapped out.
+Time 52: Process A swapped out.
+Time 52: Process H swapped in.
+Time 52: Process I swapped in.
+Time 52: Process J swapped in.
+Time 52: Process K swapped in.
+Time 52: KKKKKKKKKKKFFFFFFFFFFFJJJJJJJJJJJ......CCCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII...........
+Time 53: Process C swapped out.
+Time 53: Process L swapped in.
+Time 53: Process M swapped in.
+Time 53: Process N swapped in.
+Time 53: Process O swapped in.
+Time 53: Process P swapped in.
+Time 53: KKKKKKKKKKKFFFFFFFFFFFJJJJJJJJJJJLLLLLLLLLLLLLLLLLPPPPP.IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIMMMMMMMMMMM
+Time 54: Process K swapped out.
+Time 54: Process P swapped out.
+Time 54: ...........FFFFFFFFFFFJJJJJJJJJJJLLLLLLLLLLLLLLLLL......IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIMMMMMMMMMMM
+Time 55: Process F swapped out.
+Time 55: Process I swapped out.
+Time 55: Process M swapped out.
+Time 55: Process Q swapped in.
+Time 55: Process R swapped in.
+Time 55: Process S swapped in.
+Time 55: Process T swapped in.
+Time 55: Process U swapped in.
+Time 55: SSSSSSSSSSSSSSSSSUUUUUJJJJJJJJJJJLLLLLLLLLLLLLLLLLQQQQQQQQQQQQQQQQQRRRRRRRRRRRTTTTTTTTTTTTTTTTT.....
+Time 56: Process U swapped out.
+Time 56: Process Q swapped out.
+Time 56: SSSSSSSSSSSSSSSSS.....JJJJJJJJJJJLLLLLLLLLLLLLLLLL.................RRRRRRRRRRRTTTTTTTTTTTTTTTTT.....
+Time 57: Process J swapped out.
+Time 57: Process L swapped out.
+Time 57: Process V swapped in.
+Time 57: Process W swapped in.
+Time 57: Process X swapped in.
+Time 57: Process Y swapped in.
+Time 57: SSSSSSSSSSSSSSSSSXXXXXXXXXXXYYYYYWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.RRRRRRRRRRRTTTTTTTTTTTTTTTTT.....
+Time 58: Process S swapped out.
+Time 58: Process W swapped out.
+Time 58: Process Z swapped in.
+Time 58: Process A swapped in.
+Time 58: Process B swapped in.
+Time 58: .................XXXXXXXXXXXYYYYYBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.RRRRRRRRRRRTTTTTTTTTTTTTTTTT.....
+Time 59: Process X swapped out.
+Time 59: Process R swapped out.
+Time 59: ............................YYYYYBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB............TTTTTTTTTTTTTTTTT.....
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: Process D swapped in.
+Time 0: Process E swapped in.
+Time 0: Process F swapped in.
+Time 0: Process G swapped in.
+Time 0: AAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCDDDDDEEEEEFFFFFGGGGGGGGGGG.........................
+Time 1: Process G swapped out.
+Time 1: Process H swapped in.
+Time 1: Process I swapped in.
+Time 1: Process J swapped in.
+Time 1: AAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCDDDDDEEEEEFFFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ...
+Time 2: AAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCDDDDDEEEEEFFFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ...
+Time 3: Process B swapped out.
+Time 3: Process F swapped out.
+Time 3: Process K swapped in.
+Time 3: Process L swapped in.
+Time 3: AAAAAKKKKKKKKKKKKKKKKKLLLLLLLLLLL.....CCCCCCCCCCCDDDDDEEEEE.....JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ...
+Time 4: Process A swapped out.
+Time 4: Process L swapped out.
+Time 4: Process C swapped out.
+Time 4: Process D swapped out.
+Time 4: Process E swapped out.
+Time 4: Process J swapped out.
+Time 4: Process M swapped in.
+Time 4: Process N swapped in.
+Time 4: Process O swapped in.
+Time 4: .....KKKKKKKKKKKKKKKKKNNNNNNNNNNNNNNNNNOOOOOOOOOOOOOOOOO........MMMMMMMMMMMMMMMMM...................
+Time 5: .....KKKKKKKKKKKKKKKKKNNNNNNNNNNNNNNNNNOOOOOOOOOOOOOOOOO........MMMMMMMMMMMMMMMMM...................
+Time 6: Process O swapped out.
+Time 6: .....KKKKKKKKKKKKKKKKKNNNNNNNNNNNNNNNNN.........................MMMMMMMMMMMMMMMMM...................
+Time 7: Process N swapped out.
+Time 7: Process P swapped in.
+Time 7: Process Q swapped in.
+Time 7: Process R swapped in.
+Time 7: Process S swapped in.
+Time 7: .....KKKKKKKKKKKKKKKKKQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ.........MMMMMMMMMMMMMMMMMSSSSSSSSSSS........
+Time 8: Process K swapped out.
+Time 8: Process T swapped in.
+Time 8: TTTTTTTTTTT...........QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ.........MMMMMMMMMMMMMMMMMSSSSSSSSSSS........
+Time 9: Process M swapped out.
+Time 9: Process S swapped out.
+Time 9: Process U swapped in.
+Time 9: Process V swapped in.
+Time 9: Process W swapped in.
+Time 9: TTTTTTTTTTT...........QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQUUUUUUUUUUUUUUUUUWWWWWWWWWWWWWWWWW...........
+Time 10: TTTTTTTTTTT...........QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQUUUUUUUUUUUUUUUUUWWWWWWWWWWWWWWWWW...........
+Time 11: Process Q swapped out.
+Time 11: Process U swapped out.
+Time 11: Process X swapped in.
+Time 11: Process Y swapped in.
+Time 11: TTTTTTTTTTTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYYYYYYYYYYY.................WWWWWWWWWWWWWWWWW...........
+Time 12: Process T swapped out.
+Time 12: ...........XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYYYYYYYYYYY.................WWWWWWWWWWWWWWWWW...........
+Time 13: ...........XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXYYYYYYYYYYY.................WWWWWWWWWWWWWWWWW...........
+Time 14: Process X swapped out.
+Time 14: Process W swapped out.
+Time 14: Process Z swapped in.
+Time 14: Process A swapped in.
+Time 14: Process B swapped in.
+Time 14: Process C swapped in.
+Time 14: Process D swapped in.
+Time 14: ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZDDDDD......YYYYYYYYYYYAAAAAAAAAAABBBBBBBBBBBBBBBBBCCCCCCCCCCC......
+Time 15: Process Y swapped out.
+Time 15: Process A swapped out.
+Time 15: Process E swapped in.
+Time 15: Process F swapped in.
+Time 15: Process G swapped in.
+Time 15: EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDDDDDGGGGGGGGGGGGGGGGG...........BBBBBBBBBBBBBBBBBCCCCCCCCCCC......
+Time 16: Process G swapped out.
+Time 16: Process H swapped in.
+Time 16: Process I swapped in.
+Time 16: Process J swapped in.
+Time 16: HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHDDDDDIIIIIIIIIIIIIIIIIJJJJJ......BBBBBBBBBBBBBBBBBCCCCCCCCCCC......
+Time 17: Process I swapped out.
+Time 17: Process B swapped out.
+Time 17: Process K swapped in.
+Time 17: Process L swapped in.
+Time 17: Process M swapped in.
+Time 17: Process N swapped in.
+Time 17: LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDDDDDNNNNN............JJJJJMMMMMMMMMMM............CCCCCCCCCCC......
+Time 18: Process O swapped in.
+Time 18: Process P swapped in.
+Time 18: Process Q swapped in.
+Time 18: Process R swapped in.
+Time 18: OOOOOOOOOOOOOOOOOPPPPP...........DDDDDNNNNNQQQQQ.......JJJJJMMMMMMMMMMMRRRRRRRRRRR.CCCCCCCCCCC......
+Time 19: Process D swapped out.
+Time 19: Process Q swapped out.
+Time 19: Process C swapped out.
+Time 19: Process S swapped in.
+Time 19: Process T swapped in.
+Time 19: SSSSSSSSSSSSSSSSSPPPPP................NNNNN............JJJJJMMMMMMMMMMMRRRRRRRRRRRTTTTTTTTTTT.......
+Time 20: Process S swapped out.
+Time 20: Process P swapped out.
+Time 20: Process U swapped in.
+Time 20: Process V swapped in.
+Time 20: UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.....NNNNNVVVVVVVVVVV.JJJJJMMMMMMMMMMMRRRRRRRRRRRTTTTTTTTTTT.......
+Time 21: Process N swapped out.
+Time 21: Process J swapped out.
+Time 21: Process W swapped in.
+Time 21: Process X swapped in.
+Time 21: Process Y swapped in.
+Time 21: Process Z swapped in.
+Time 21: Process A swapped in.
+Time 21: XXXXXXXXXXXYYYYYYYYYYYAAAAAAAAAAA..........VVVVVVVVVVV......MMMMMMMMMMMRRRRRRRRRRRTTTTTTTTTTT.......
+Time 22: Process V swapped out.
+Time 22: Process M swapped out.
+Time 22: Process T swapped out.
+Time 22: Process B swapped in.
+Time 22: Process C swapped in.
+Time 22: XXXXXXXXXXXYYYYYYYYYYYAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.....RRRRRRRRRRRCCCCC.............
+Time 23: Process R swapped out.
+Time 23: XXXXXXXXXXXYYYYYYYYYYYAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB................CCCCC.............
+Time 24: Process X swapped out.
+Time 24: ...........YYYYYYYYYYYAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB................CCCCC.............
+Time 25: Process Y swapped out.
+Time 25: Process A swapped out.
+Time 25: Process B swapped out.
+Time 25: Process C swapped out.
+Time 25: Process D swapped in.
+Time 25: Process E swapped in.
+Time 25: Process F swapped in.
+Time 25: Process G swapped in.
+Time 25: Process H swapped in.
+Time 25: Process I swapped in.
+Time 25: HHHHH.................DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDEEEEEFFFFFFFFFFFGGGGGGGGGGGIIIIIIIIIIIIIIIII.
+Time 26: Process H swapped out.
+Time 26: ......................DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDEEEEEFFFFFFFFFFFGGGGGGGGGGGIIIIIIIIIIIIIIIII.
+Time 27: ......................DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDEEEEEFFFFFFFFFFFGGGGGGGGGGGIIIIIIIIIIIIIIIII.
+Time 28: ......................DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDEEEEEFFFFFFFFFFFGGGGGGGGGGGIIIIIIIIIIIIIIIII.
+Time 29: Process D swapped out.
+Time 29: Process G swapped out.
+Time 29: Process J swapped in.
+Time 29: Process K swapped in.
+Time 29: Process L swapped in.
+Time 29: JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJKKKKKKKKKKKLLLLLLLLLLLEEEEEFFFFFFFFFFF...........IIIIIIIIIIIIIIIII.
+Time 30: Process E swapped out.
+Time 30: Process F swapped out.
+Time 30: Process I swapped out.
+Time 30: Process M swapped in.
+Time 30: Process N swapped in.
+Time 30: JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJKKKKKKKKKKKLLLLLLLLLLL.....MMMMMMMMMMMMMMMMMNNNNNNNNNNN............
+Time 31: Process M swapped out.
+Time 31: Process O swapped in.
+Time 31: Process P swapped in.
+Time 31: JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJKKKKKKKKKKKLLLLLLLLLLLPPPPPPPPPPPPPPPPP.....NNNNNNNNNNN............
+Time 32: Process K swapped out.
+Time 32: Process N swapped out.
+Time 32: Process Q swapped in.
+Time 32: Process R swapped in.
+Time 32: Process S swapped in.
+Time 32: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQSSSSS......LLLLLLLLLLLPPPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRRR...........
+Time 33: Process Q swapped out.
+Time 33: Process L swapped out.
+Time 33: Process T swapped in.
+Time 33: TTTTTTTTTTTTTTTTT................SSSSS.................PPPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRRR...........
+Time 34: Process T swapped out.
+Time 34: Process R swapped out.
+Time 34: Process U swapped in.
+Time 34: Process V swapped in.
+Time 34: Process W swapped in.
+Time 34: Process X swapped in.
+Time 34: UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUSSSSSWWWWWWWWWWWWWWWWWPPPPPPPPPPPPPPPPPVVVVVVVVVVVXXXXXXXXXXXXXXXXX
+Time 35: Process U swapped out.
+Time 35: Process W swapped out.
+Time 35: Process Y swapped in.
+Time 35: Process Z swapped in.
+Time 35: Process A swapped in.
+Time 35: Process B swapped in.
+Time 35: Process C swapped in.
+Time 35: YYYYYYYYYYYYYYYYYBBBBBBBBBBBCCCCCSSSSSZZZZZZZZZZZZZZZZZPPPPPPPPPPPPPPPPPVVVVVVVVVVVXXXXXXXXXXXXXXXXX
+Time 36: Process S swapped out.
+Time 36: Process Z swapped out.
+Time 36: Process P swapped out.
+Time 36: Process X swapped out.
+Time 36: Process D swapped in.
+Time 36: Process E swapped in.
+Time 36: Process F swapped in.
+Time 36: Process G swapped in.
+Time 36: YYYYYYYYYYYYYYYYYBBBBBBBBBBBCCCCCGGGGGDDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEEVVVVVVVVVVVFFFFFFFFFFFFFFFFF
+Time 37: Process Y swapped out.
+Time 37: Process B swapped out.
+Time 37: Process V swapped out.
+Time 37: Process H swapped in.
+Time 37: Process I swapped in.
+Time 37: Process J swapped in.
+Time 37: Process K swapped in.
+Time 37: Process L swapped in.
+Time 37: Process M swapped in.
+Time 37: HHHHHHHHHHHLLLLLLLLLLLLLLLLLCCCCCGGGGGDDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEEMMMMM......FFFFFFFFFFFFFFFFF
+Time 38: Process H swapped out.
+Time 38: Process C swapped out.
+Time 38: Process D swapped out.
+Time 38: Process N swapped in.
+Time 38: ...........LLLLLLLLLLLLLLLLL.....GGGGGNNNNN............EEEEEEEEEEEEEEEEEMMMMM......FFFFFFFFFFFFFFFFF
+Time 39: Process L swapped out.
+Time 39: Process G swapped out.
+Time 39: Process N swapped out.
+Time 39: Process O swapped in.
+Time 39: Process P swapped in.
+Time 39: Process Q swapped in.
+Time 39: PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPQQQQQ.................EEEEEEEEEEEEEEEEEMMMMM......FFFFFFFFFFFFFFFFF
+Time 40: Process Q swapped out.
+Time 40: Process E swapped out.
+Time 40: Process F swapped out.
+Time 40: Process R swapped in.
+Time 40: Process S swapped in.
+Time 40: Process T swapped in.
+Time 40: Process U swapped in.
+Time 40: RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRTTTTTUUUUUUUUUUU.......................MMMMMSSSSSSSSSSSSSSSSS......
+Time 41: Process R swapped out.
+Time 41: Process M swapped out.
+Time 41: Process V swapped in.
+Time 41: Process W swapped in.
+Time 41: Process X swapped in.
+Time 41: VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTTTTTUUUUUUUUUUUWWWWWXXXXXXXXXXX............SSSSSSSSSSSSSSSSS......
+Time 42: Process U swapped out.
+Time 42: Process X swapped out.
+Time 42: Process Y swapped in.
+Time 42: Process Z swapped in.
+Time 42: Process A swapped in.
+Time 42: Process B swapped in.
+Time 42: VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTTTTT...........WWWWWBBBBBBBBBBBBBBBBB......SSSSSSSSSSSSSSSSS......
+Time 43: Process W swapped out.
+Time 43: Process C swapped in.
+Time 43: Process D swapped in.
+Time 43: Process E swapped in.
+Time 43: DDDDDDDDDDDDDDDDDEEEEE...........TTTTT................BBBBBBBBBBBBBBBBB......SSSSSSSSSSSSSSSSS......
+Time 44: Process D swapped out.
+Time 44: Process T swapped out.
+Time 44: Process S swapped out.
+Time 44: .................EEEEE................................BBBBBBBBBBBBBBBBB.............................
+Time 45: Process E swapped out.
+Time 45: Process F swapped in.
+Time 45: Process G swapped in.
+Time 45: Process H swapped in.
+Time 45: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.....................BBBBBBBBBBBBBBBBBGGGGGHHHHHHHHHHHHHHHHH.......
+Time 46: Process G swapped out.
+Time 46: Process I swapped in.
+Time 46: Process J swapped in.
+Time 46: Process K swapped in.
+Time 46: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFJJJJJJJJJJJKKKKK.....BBBBBBBBBBBBBBBBB.....HHHHHHHHHHHHHHHHH.......
+Time 47: Process B swapped out.
+Time 47: Process L swapped in.
+Time 47: Process M swapped in.
+Time 47: Process N swapped in.
+Time 47: Process O swapped in.
+Time 47: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFJJJJJJJJJJJKKKKKNNNNNNNNNNNNNNNNNOOOOO.....HHHHHHHHHHHHHHHHH.......
+Time 48: Process N swapped out.
+Time 48: Process P swapped in.
+Time 48: Process Q swapped in.
+Time 48: Process R swapped in.
+Time 48: PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPJJJJJJJJJJJKKKKKQQQQQRRRRR.......OOOOO.....HHHHHHHHHHHHHHHHH.......
+Time 49: Process Q swapped out.
+Time 49: Process H swapped out.
+Time 49: Process S swapped in.
+Time 49: Process T swapped in.
+Time 49: Process U swapped in.
+Time 49: Process V swapped in.
+Time 49: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSJJJJJJJJJJJKKKKK.....RRRRR.......OOOOOTTTTTTTTTTTVVVVVVVVVVVVVVVVV.
+Time 50: Process K swapped out.
+Time 50: Process O swapped out.
+Time 50: Process T swapped out.
+Time 50: Process W swapped in.
+Time 50: Process X swapped in.
+Time 50: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSJJJJJJJJJJJ..........RRRRRWWWWWWWWWWWXXXXXXXXXXX.VVVVVVVVVVVVVVVVV.
+Time 51: Process J swapped out.
+Time 51: Process R swapped out.
+Time 51: Process Y swapped in.
+Time 51: Process Z swapped in.
+Time 51: Process A swapped in.
+Time 51: Process B swapped in.
+Time 51: Process C swapped in.
+Time 51: Process D swapped in.
+Time 51: YYYYYYYYYYYYYYYYYZZZZZAAAAAAAAAAADDDDDDDDDDDDDDDDD.........WWWWWWWWWWWXXXXXXXXXXX.VVVVVVVVVVVVVVVVV.
+Time 52: Process Y swapped out.
+Time 52: Process W swapped out.
+Time 52: Process E swapped in.
+Time 52: .................ZZZZZAAAAAAAAAAADDDDDDDDDDDDDDDDDEEEEE...............XXXXXXXXXXX.VVVVVVVVVVVVVVVVV.
+Time 53: Process E swapped out.
+Time 53: Process X swapped out.
+Time 53: Process V swapped out.
+Time 53: Process F swapped in.
+Time 53: .................ZZZZZAAAAAAAAAAADDDDDDDDDDDDDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.................
+Time 54: Process Z swapped out.
+Time 54: Process A swapped out.
+Time 54: Process F swapped out.
+Time 54: Process G swapped in.
+Time 54: Process H swapped in.
+Time 54: Process I swapped in.
+Time 54: Process J swapped in.
+Time 54: JJJJJJJJJJJJJJJJJ................DDDDDDDDDDDDDDDDDGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH......
+Time 55: Process J swapped out.
+Time 55: Process K swapped in.
+Time 55: Process L swapped in.
+Time 55: Process M swapped in.
+Time 55: Process N swapped in.
+Time 55: Process O swapped in.
+Time 55: MMMMMMMMMMMMMMMMMNNNNNOOOOOOOOOOODDDDDDDDDDDDDDDDDGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH......
+Time 56: Process O swapped out.
+Time 56: Process D swapped out.
+Time 56: Process P swapped in.
+Time 56: MMMMMMMMMMMMMMMMMNNNNN...........PPPPPPPPPPP......GGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH......
+Time 57: Process M swapped out.
+Time 57: Process Q swapped in.
+Time 57: Process R swapped in.
+Time 57: Process S swapped in.
+Time 57: Process T swapped in.
+Time 57: Process U swapped in.
+Time 57: Process V swapped in.
+Time 57: RRRRRRRRRRRRRRRRRNNNNNUUUUUUUUUUUPPPPPPPPPPPVVVVV.GGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH......
+Time 58: Process R swapped out.
+Time 58: Process N swapped out.
+Time 58: Process P swapped out.
+Time 58: Process H swapped out.
+Time 58: Process W swapped in.
+Time 58: Process X swapped in.
+Time 58: Process Y swapped in.
+Time 58: Process Z swapped in.
+Time 58: YYYYYYYYYYYYYYYYY.....UUUUUUUUUUU...........VVVVV.GGGGGGGGGGGWWWWWWWWWWWXXXXXXXXXXXZZZZZZZZZZZ......
+Time 59: Process G swapped out.
+Time 59: YYYYYYYYYYYYYYYYY.....UUUUUUUUUUU...........VVVVV............WWWWWWWWWWWXXXXXXXXXXXZZZZZZZZZZZ......
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: Process D swapped in.
+Time 0: Process E swapped in.
+Time 0: Process F swapped in.
+Time 0: Process G swapped in.
+Time 0: AAAAABBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCDDDDDDDDDDDEEEEEFFFFFFFFFFFGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG.
+Time 1: AAAAABBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCDDDDDDDDDDDEEEEEFFFFFFFFFFFGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG.
+Time 2: Process A swapped out.
+Time 2: Process B swapped out.
+Time 2: Process E swapped out.
+Time 2: Process F swapped out.
+Time 2: Process G swapped out.
+Time 2: Process H swapped in.
+Time 2: Process I swapped in.
+Time 2: Process J swapped in.
+Time 2: JJJJJ.................CCCCCCCCCCCCCCCCCDDDDDDDDDDD................HHHHHHHHHHHIIIIIIIIIIIIIIIII......
+Time 3: Process D swapped out.
+Time 3: Process I swapped out.
+Time 3: JJJJJ.................CCCCCCCCCCCCCCCCC...........................HHHHHHHHHHH.......................
+Time 4: JJJJJ.................CCCCCCCCCCCCCCCCC...........................HHHHHHHHHHH.......................
+Time 5: Process J swapped out.
+Time 5: Process C swapped out.
+Time 5: Process H swapped out.
+Time 5: Process K swapped in.
+Time 5: Process L swapped in.
+Time 5: Process M swapped in.
+Time 5: Process N swapped in.
+Time 5: Process O swapped in.
+Time 5: OOOOOOOOOOOOOOOOO.....KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLLLLLLLLLMMMMMMMMMMMNNNNNNNNNNNNNNNNN......
+Time 6: Process K swapped out.
+Time 6: Process M swapped out.
+Time 6: Process P swapped in.
+Time 6: OOOOOOOOOOOOOOOOOPPPPPPPPPPPPPPPPP.....................LLLLLLLLLLL...........NNNNNNNNNNNNNNNNN......
+Time 7: Process O swapped out.
+Time 7: Process L swapped out.
+Time 7: Process Q swapped in.
+Time 7: Process R swapped in.
+Time 7: RRRRRRRRRRR......PPPPPPPPPPPPPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ..........NNNNNNNNNNNNNNNNN......
+Time 8: Process Q swapped out.
+Time 8: Process N swapped out.
+Time 8: Process S swapped in.
+Time 8: Process T swapped in.
+Time 8: Process U swapped in.
+Time 8: Process V swapped in.
+Time 8: Process W swapped in.
+Time 8: RRRRRRRRRRR......PPPPPPPPPPPPPPPPPSSSSSSSSSSSSSSSSSTTTTTTTTTTTUUUUUUUUUUUUUUUUUWWWWWWWWWWW..........
+Time 9: Process R swapped out.
+Time 9: Process P swapped out.
+Time 9: Process X swapped in.
+Time 9: Process Y swapped in.
+Time 9: XXXXXXXXXXXXXXXXXYYYYY............SSSSSSSSSSSSSSSSSTTTTTTTTTTTUUUUUUUUUUUUUUUUUWWWWWWWWWWW..........
+Time 10: Process U swapped out.
+Time 10: Process W swapped out.
+Time 10: Process Z swapped in.
+Time 10: XXXXXXXXXXXXXXXXXYYYYY............SSSSSSSSSSSSSSSSSTTTTTTTTTTTZZZZZZZZZZZZZZZZZ.....................
+Time 11: XXXXXXXXXXXXXXXXXYYYYY............SSSSSSSSSSSSSSSSSTTTTTTTTTTTZZZZZZZZZZZZZZZZZ.....................
+Time 12: Process S swapped out.
+Time 12: Process T swapped out.
+Time 12: Process A swapped in.
+Time 12: Process B swapped in.
+Time 12: XXXXXXXXXXXXXXXXXYYYYYBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB.......ZZZZZZZZZZZZZZZZZ.....................
+Time 13: Process Y swapped out.
+Time 13: Process B swapped out.
+Time 13: Process C swapped in.
+Time 13: Process D swapped in.
+Time 13: XXXXXXXXXXXXXXXXXCCCCCCCCCCCCCCCCCDDDDD.......................ZZZZZZZZZZZZZZZZZ.....................
+Time 14: Process X swapped out.
+Time 14: Process Z swapped out.
+Time 14: Process E swapped in.
+Time 14: Process F swapped in.
+Time 14: Process G swapped in.
+Time 14: .................CCCCCCCCCCCCCCCCCDDDDDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG............................
+Time 15: Process H swapped in.
+Time 15: Process I swapped in.
+Time 15: Process J swapped in.
+Time 15: IIIIIIIIIII......CCCCCCCCCCCCCCCCCDDDDDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHJJJJJ......
+Time 16: IIIIIIIIIII......CCCCCCCCCCCCCCCCCDDDDDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHJJJJJ......
+Time 17: Process D swapped out.
+Time 17: Process G swapped out.
+Time 17: Process K swapped in.
+Time 17: Process L swapped in.
+Time 17: Process M swapped in.
+Time 17: Process N swapped in.
+Time 17: IIIIIIIIIII......CCCCCCCCCCCCCCCCCLLLLLLLLLLLNNNNNNNNNNNNNNNNN..........HHHHHHHHHHHHHHHHHJJJJJ......
+Time 18: Process C swapped out.
+Time 18: Process O swapped in.
+Time 18: IIIIIIIIIIIOOOOOOOOOOOOOOOOO......LLLLLLLLLLLNNNNNNNNNNNNNNNNN..........HHHHHHHHHHHHHHHHHJJJJJ......
+Time 19: Process I swapped out.
+Time 19: Process O swapped out.
+Time 19: Process H swapped out.
+Time 19: Process P swapped in.
+Time 19: Process Q swapped in.
+Time 19: Process R swapped in.
+Time 19: PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP.LLLLLLLLLLLNNNNNNNNNNNNNNNNNRRRRRRRRRRRRRRRRR..........JJJJJ......
+Time 20: Process P swapped out.
+Time 20: Process R swapped out.
+Time 20: Process J swapped out.
+Time 20: Process S swapped in.
+Time 20: Process T swapped in.
+Time 20: SSSSSSSSSSS.......................LLLLLLLLLLLNNNNNNNNNNNNNNNNNTTTTTTTTTTTTTTTTT.....................
+Time 21: Process S swapped out.
+Time 21: Process T swapped out.
+Time 21: Process U swapped in.
+Time 21: Process V swapped in.
+Time 21: Process W swapped in.
+Time 21: VVVVVVVVVVVVVVVVVWWWWWWWWWWW......LLLLLLLLLLLNNNNNNNNNNNNNNNNNUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.....
+Time 22: Process V swapped out.
+Time 22: Process L swapped out.
+Time 22: Process N swapped out.
+Time 22: Process X swapped in.
+Time 22: Process Y swapped in.
+Time 22: YYYYYYYYYYY......WWWWWWWWWWWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.....
+Time 23: Process Y swapped out.
+Time 23: .................WWWWWWWWWWWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.....
+Time 24: .................WWWWWWWWWWWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.....
+Time 25: Process X swapped out.
+Time 25: Process Z swapped in.
+Time 25: Process A swapped in.
+Time 25: Process B swapped in.
+Time 25: AAAAAAAAAAAAAAAAAWWWWWWWWWWWZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUBBBBB
+Time 26: Process W swapped out.
+Time 26: Process U swapped out.
+Time 26: Process C swapped in.
+Time 26: Process D swapped in.
+Time 26: Process E swapped in.
+Time 26: AAAAAAAAAAAAAAAAA...........ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZDDDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEEEBBBBB
+Time 27: Process Z swapped out.
+Time 27: Process E swapped out.
+Time 27: Process B swapped out.
+Time 27: Process F swapped in.
+Time 27: Process G swapped in.
+Time 27: AAAAAAAAAAAAAAAAAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF...........DDDDDDDDDDDDDDDDDGGGGG.................
+Time 28: AAAAAAAAAAAAAAAAAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF...........DDDDDDDDDDDDDDDDDGGGGG.................
+Time 29: Process A swapped out.
+Time 29: Process D swapped out.
+Time 29: Process G swapped out.
+Time 29: Process H swapped in.
+Time 29: Process I swapped in.
+Time 29: IIIII............FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.................
+Time 30: IIIII............FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.................
+Time 31: IIIII............FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.................
+Time 32: Process F swapped out.
+Time 32: Process J swapped in.
+Time 32: Process K swapped in.
+Time 32: Process L swapped in.
+Time 32: IIIIIJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJLLLLL.......HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHKKKKKKKKKKK......
+Time 33: Process K swapped out.
+Time 33: IIIIIJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJLLLLL.......HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH.................
+Time 34: Process I swapped out.
+Time 34: Process H swapped out.
+Time 34: Process M swapped in.
+Time 34: Process N swapped in.
+Time 34: Process O swapped in.
+Time 34: .....JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJLLLLLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNOOOOO..
+Time 35: .....JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJLLLLLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNOOOOO..
+Time 36: Process J swapped out.
+Time 36: Process L swapped out.
+Time 36: Process P swapped in.
+Time 36: PPPPPPPPPPPPPPPPP..........................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNOOOOO..
+Time 37: Process P swapped out.
+Time 37: Process Q swapped in.
+Time 37: Process R swapped in.
+Time 37: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRRRRR.....MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNOOOOO..
+Time 38: Process O swapped out.
+Time 38: Process S swapped in.
+Time 38: SSSSSSSSSSS......................RRRRR.....MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNN.......
+Time 39: Process R swapped out.
+Time 39: Process M swapped out.
+Time 39: Process N swapped out.
+Time 39: Process T swapped in.
+Time 39: Process U swapped in.
+Time 39: Process V swapped in.
+Time 39: Process W swapped in.
+Time 39: Process X swapped in.
+Time 39: Process Y swapped in.
+Time 39: SSSSSSSSSSSVVVVVXXXXXXXXXXXXXXXXX.....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTUUUUUWWWWWWWWWWWYYYYYYYYYYY..
+Time 40: Process T swapped out.
+Time 40: Process W swapped out.
+Time 40: Process Y swapped out.
+Time 40: Process Z swapped in.
+Time 40: Process A swapped in.
+Time 40: SSSSSSSSSSSVVVVVXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.....UUUUUAAAAAAAAAAA.............
+Time 41: SSSSSSSSSSSVVVVVXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.....UUUUUAAAAAAAAAAA.............
+Time 42: Process S swapped out.
+Time 42: Process V swapped out.
+Time 42: ................XXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.....UUUUUAAAAAAAAAAA.............
+Time 43: Process X swapped out.
+Time 43: Process B swapped in.
+Time 43: Process C swapped in.
+Time 43: Process D swapped in.
+Time 43: Process E swapped in.
+Time 43: CCCCCCCCCCCCCCCCCDDDDDDDDDDD.....ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.....UUUUUAAAAAAAAAAAEEEEE........
+Time 44: Process U swapped out.
+Time 44: Process A swapped out.
+Time 44: Process E swapped out.
+Time 44: Process F swapped in.
+Time 44: Process G swapped in.
+Time 44: Process H swapped in.
+Time 44: Process I swapped in.
+Time 44: Process J swapped in.
+Time 44: Process K swapped in.
+Time 44: FFFFFFFFFFFFFFFFFDDDDDDDDDDD.....ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZGGGGGHHHHHIIIIIJJJJJKKKKKKKKKKK...
+Time 45: Process Z swapped out.
+Time 45: Process L swapped in.
+Time 45: Process M swapped in.
+Time 45: Process N swapped in.
+Time 45: Process O swapped in.
+Time 45: FFFFFFFFFFFFFFFFFDDDDDDDDDDDMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMOOOOOGGGGGHHHHHIIIIIJJJJJKKKKKKKKKKK...
+Time 46: Process F swapped out.
+Time 46: Process H swapped out.
+Time 46: Process I swapped out.
+Time 46: Process P swapped in.
+Time 46: PPPPPPPPPPPPPPPPPDDDDDDDDDDDMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMOOOOOGGGGG..........JJJJJKKKKKKKKKKK...
+Time 47: Process J swapped out.
+Time 47: PPPPPPPPPPPPPPPPPDDDDDDDDDDDMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMOOOOOGGGGG...............KKKKKKKKKKK...
+Time 48: Process P swapped out.
+Time 48: Process D swapped out.
+Time 48: Process G swapped out.
+Time 48: ............................MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMOOOOO....................KKKKKKKKKKK...
+Time 49: Process M swapped out.
+Time 49: Process O swapped out.
+Time 49: Process K swapped out.
+Time 49: Process Q swapped in.
+Time 49: Process R swapped in.
+Time 49: Process S swapped in.
+Time 49: Process T swapped in.
+Time 49: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRRSSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT............
+Time 50: Process T swapped out.
+Time 50: Process U swapped in.
+Time 50: Process V swapped in.
+Time 50: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRRRRRRRRRRRRRRRRRSSSSSUUUUUUUUUUUUUUUUUVVVVV.......................
+Time 51: Process R swapped out.
+Time 51: Process W swapped in.
+Time 51: Process X swapped in.
+Time 51: Process Y swapped in.
+Time 51: WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWYYYYY............SSSSSUUUUUUUUUUUUUUUUUVVVVVXXXXXXXXXXXXXXXXX......
+Time 52: Process V swapped out.
+Time 52: Process Z swapped in.
+Time 52: ZZZZZZZZZZZZZZZZZ................YYYYY............SSSSSUUUUUUUUUUUUUUUUU.....XXXXXXXXXXXXXXXXX......
+Time 53: Process S swapped out.
+Time 53: ZZZZZZZZZZZZZZZZZ................YYYYY.................UUUUUUUUUUUUUUUUU.....XXXXXXXXXXXXXXXXX......
+Time 54: Process Y swapped out.
+Time 54: Process U swapped out.
+Time 54: Process A swapped in.
+Time 54: Process B swapped in.
+Time 54: Process C swapped in.
+Time 54: ZZZZZZZZZZZZZZZZZBBBBBCCCCCCCCCCC.....AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA......XXXXXXXXXXXXXXXXX......
+Time 55: Process X swapped out.
+Time 55: ZZZZZZZZZZZZZZZZZBBBBBCCCCCCCCCCC.....AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.............................
+Time 56: Process Z swapped out.
+Time 56: Process A swapped out.
+Time 56: Process D swapped in.
+Time 56: Process E swapped in.
+Time 56: Process F swapped in.
+Time 56: .................BBBBBCCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.
+Time 57: .................BBBBBCCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.
+Time 58: Process B swapped out.
+Time 58: ......................CCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.
+Time 59: Process C swapped out.
+Time 59: Process G swapped in.
+Time 59: Process H swapped in.
+Time 59: HHHHHHHHHHHHHHHHH................DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.
+Time 0: Process A swapped in.
+Time 0: Process B swapped in.
+Time 0: Process C swapped in.
+Time 0: Process D swapped in.
+Time 0: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBCCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD......
+Time 1: Process E swapped in.
+Time 1: Process F swapped in.
+Time 1: Process G swapped in.
+Time 1: GGGGGGGGGGGGGGGGG................BBBBBBBBBBBBBBBBBCCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD......
+Time 2: Process G swapped out.
+Time 2: Process H swapped in.
+Time 2: Process I swapped in.
+Time 2: Process J swapped in.
+Time 2: Process K swapped in.
+Time 2: JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJBBBBBBBBBBBBBBBBBCCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDKKKKK.
+Time 3: Process L swapped in.
+Time 3: Process M swapped in.
+Time 3: Process N swapped in.
+Time 3: Process O swapped in.
+Time 3: OOOOOOOOOOOOOOOOO................BBBBBBBBBBBBBBBBBCCCCCCCCCCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDKKKKK.
+Time 4: Process O swapped out.
+Time 4: Process B swapped out.
+Time 4: Process C swapped out.
+Time 4: Process D swapped out.
+Time 4: Process P swapped in.
+Time 4: Process Q swapped in.
+Time 4: Process R swapped in.
+Time 4: Process S swapped in.
+Time 4: PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPRRRRRSSSSS..................QQQQQQQQQQQQQQQQQ................KKKKK.
+Time 5: Process K swapped out.
+Time 5: Process T swapped in.
+Time 5: Process U swapped in.
+Time 5: Process V swapped in.
+Time 5: Process W swapped in.
+Time 5: TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTRRRRRSSSSSVVVVVVVVVVVVVVVVV.QQQQQQQQQQQQQQQQQUUUUUWWWWW............
+Time 6: Process Q swapped out.
+Time 6: Process X swapped in.
+Time 6: Process Y swapped in.
+Time 6: Process Z swapped in.
+Time 6: TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTRRRRRSSSSSVVVVVVVVVVVVVVVVVYYYYYYYYYYYYYYYYY.UUUUUWWWWWZZZZZZZZZZZ.
+Time 7: Process T swapped out.
+Time 7: Process A swapped in.
+Time 7: Process B swapped in.
+Time 7: Process C swapped in.
+Time 7: Process D swapped in.
+Time 7: Process E swapped in.
+Time 7: Process F swapped in.
+Time 7: EEEEEEEEEEEEEEEEEFFFFF...........RRRRRSSSSSVVVVVVVVVVVVVVVVVYYYYYYYYYYYYYYYYY.UUUUUWWWWWZZZZZZZZZZZ.
+Time 8: Process E swapped out.
+Time 8: Process F swapped out.
+Time 8: Process R swapped out.
+Time 8: Process S swapped out.
+Time 8: Process Z swapped out.
+Time 8: Process G swapped in.
+Time 8: Process H swapped in.
+Time 8: GGGGGGGGGGGGGGGGGHHHHH.....................VVVVVVVVVVVVVVVVVYYYYYYYYYYYYYYYYY.UUUUUWWWWW............
+Time 9: Process G swapped out.
+Time 9: Process V swapped out.
+Time 9: Process Y swapped out.
+Time 9: Process I swapped in.
+Time 9: Process J swapped in.
+Time 9: Process K swapped in.
+Time 9: KKKKKKKKKKKKKKKKKHHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJJJJJJJ............UUUUUWWWWW............
+Time 10: Process K swapped out.
+Time 10: Process U swapped out.
+Time 10: Process W swapped out.
+Time 10: Process L swapped in.
+Time 10: Process M swapped in.
+Time 10: Process N swapped in.
+Time 10: MMMMMMMMMMMNNNNN.HHHHHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJJJJJJJLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL.
+Time 11: Process H swapped out.
+Time 11: MMMMMMMMMMMNNNNN......IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIJJJJJJJJJJJLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL.
+Time 12: Process M swapped out.
+Time 12: Process N swapped out.
+Time 12: Process I swapped out.
+Time 12: Process L swapped out.
+Time 12: Process O swapped in.
+Time 12: Process P swapped in.
+Time 12: ................OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO......JJJJJJJJJJJPPPPPPPPPPP.......................
+Time 13: Process O swapped out.
+Time 13: Process J swapped out.
+Time 13: Process Q swapped in.
+Time 13: Process R swapped in.
+Time 13: Process S swapped in.
+Time 13: Process T swapped in.
+Time 13: Process U swapped in.
+Time 13: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQRRRRRSSSSSTTTTTTTTTTTTTTTTT......PPPPPPPPPPPUUUUUUUUUUUUUUUUU......
+Time 14: Process Q swapped out.
+Time 14: Process V swapped in.
+Time 14: Process W swapped in.
+Time 14: Process X swapped in.
+Time 14: WWWWWWWWWWWWWWWWWXXXXXXXXXXX.....RRRRRSSSSSTTTTTTTTTTTTTTTTT......PPPPPPPPPPPUUUUUUUUUUUUUUUUU......
+Time 15: WWWWWWWWWWWWWWWWWXXXXXXXXXXX.....RRRRRSSSSSTTTTTTTTTTTTTTTTT......PPPPPPPPPPPUUUUUUUUUUUUUUUUU......
+Time 16: Process X swapped out.
+Time 16: Process U swapped out.
+Time 16: WWWWWWWWWWWWWWWWW................RRRRRSSSSSTTTTTTTTTTTTTTTTT......PPPPPPPPPPP.......................
+Time 17: Process S swapped out.
+Time 17: Process P swapped out.
+Time 17: Process Y swapped in.
+Time 17: Process Z swapped in.
+Time 17: WWWWWWWWWWWWWWWWW................RRRRR.....TTTTTTTTTTTTTTTTTZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.......
+Time 18: Process W swapped out.
+Time 18: Process R swapped out.
+Time 18: Process T swapped out.
+Time 18: Process A swapped in.
+Time 18: Process B swapped in.
+Time 18: Process C swapped in.
+Time 18: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA..........CCCCCCCCCCC......ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.......
+Time 19: Process D swapped in.
+Time 19: Process E swapped in.
+Time 19: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDEEEEE.....CCCCCCCCCCC......ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.......
+Time 20: Process F swapped in.
+Time 20: Process G swapped in.
+Time 20: FFFFFFFFFFFFFFFFFGGGGG...........EEEEE.....CCCCCCCCCCC......ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.......
+Time 21: Process Z swapped out.
+Time 21: Process H swapped in.
+Time 21: Process I swapped in.
+Time 21: Process J swapped in.
+Time 21: FFFFFFFFFFFFFFFFFGGGGG...........EEEEE.....CCCCCCCCCCCHHHHHHHHHHHHHHHHHIIIIIIIIIIIJJJJJJJJJJJ.......
+Time 22: Process K swapped in.
+Time 22: Process L swapped in.
+Time 22: Process M swapped in.
+Time 22: KKKKKKKKKKKKKKKKKGGGGGLLLLL......EEEEE.....CCCCCCCCCCCHHHHHHHHHHHHHHHHHIIIIIIIIIIIJJJJJJJJJJJMMMMM..
+Time 23: Process C swapped out.
+Time 23: Process J swapped out.
+Time 23: Process N swapped in.
+Time 23: KKKKKKKKKKKKKKKKKGGGGGLLLLL......EEEEENNNNNNNNNNN.....HHHHHHHHHHHHHHHHHIIIIIIIIIII...........MMMMM..
+Time 24: Process G swapped out.
+Time 24: Process L swapped out.
+Time 24: Process E swapped out.
+Time 24: KKKKKKKKKKKKKKKKK.....................NNNNNNNNNNN.....HHHHHHHHHHHHHHHHHIIIIIIIIIII...........MMMMM..
+Time 25: Process K swapped out.
+Time 25: Process H swapped out.
+Time 25: Process O swapped in.
+Time 25: Process P swapped in.
+Time 25: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.....NNNNNNNNNNNPPPPP.................IIIIIIIIIII...........MMMMM..
+Time 26: Process I swapped out.
+Time 26: Process Q swapped in.
+Time 26: Process R swapped in.
+Time 26: Process S swapped in.
+Time 26: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ.....NNNNNNNNNNNPPPPPSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS......MMMMM..
+Time 27: Process N swapped out.
+Time 27: Process S swapped out.
+Time 27: Process M swapped out.
+Time 27: Process T swapped in.
+Time 27: Process U swapped in.
+Time 27: Process V swapped in.
+Time 27: Process W swapped in.
+Time 27: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQUUUUUUUUUUUWWWWWPPPPPTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTVVVVVVVVVVV..
+Time 28: Process U swapped out.
+Time 28: Process P swapped out.
+Time 28: Process X swapped in.
+Time 28: Process Y swapped in.
+Time 28: XXXXXXXXXXXXXXXXXYYYYY......................WWWWW.....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTVVVVVVVVVVV..
+Time 29: Process X swapped out.
+Time 29: Process Y swapped out.
+Time 29: Process W swapped out.
+Time 29: Process Z swapped in.
+Time 29: Process A swapped in.
+Time 29: ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZAAAAAAAAAAA..........TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTVVVVVVVVVVV..
+Time 30: Process A swapped out.
+Time 30: Process V swapped out.
+Time 30: Process B swapped in.
+Time 30: Process C swapped in.
+Time 30: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCC....TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT.............
+Time 31: Process T swapped out.
+Time 31: Process D swapped in.
+Time 31: Process E swapped in.
+Time 31: Process F swapped in.
+Time 31: Process G swapped in.
+Time 31: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEFFFFFFFFFFFGGGGG.
+Time 32: Process E swapped out.
+Time 32: Process H swapped in.
+Time 32: Process I swapped in.
+Time 32: Process J swapped in.
+Time 32: Process K swapped in.
+Time 32: Process L swapped in.
+Time 32: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIJJJJJKKKKKLLLLL.FFFFFFFFFFFGGGGG.
+Time 33: Process B swapped out.
+Time 33: Process M swapped in.
+Time 33: Process N swapped in.
+Time 33: Process O swapped in.
+Time 33: Process P swapped in.
+Time 33: Process Q swapped in.
+Time 33: Process R swapped in.
+Time 33: NNNNNOOOOOOOOOOORRRRRRRRRRRRRRRRRCCCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIJJJJJKKKKKLLLLL.FFFFFFFFFFFGGGGG.
+Time 34: Process R swapped out.
+Time 34: Process F swapped out.
+Time 34: Process G swapped out.
+Time 34: Process S swapped in.
+Time 34: Process T swapped in.
+Time 34: Process U swapped in.
+Time 34: NNNNNOOOOOOOOOOOSSSSSSSSSSSUUUUU.CCCCCCCCCCCCCCCCCIIIIIIIIIIIIIIIIIJJJJJKKKKKLLLLLTTTTTTTTTTTTTTTTT.
+Time 35: Process N swapped out.
+Time 35: Process C swapped out.
+Time 35: Process K swapped out.
+Time 35: Process V swapped in.
+Time 35: Process W swapped in.
+Time 35: .....OOOOOOOOOOOSSSSSSSSSSSUUUUUWWWWWWWWWWWWWWWWW.IIIIIIIIIIIIIIIIIJJJJJ.....LLLLLTTTTTTTTTTTTTTTTT.
+Time 36: Process S swapped out.
+Time 36: Process J swapped out.
+Time 36: Process L swapped out.
+Time 36: Process T swapped out.
+Time 36: Process X swapped in.
+Time 36: .....OOOOOOOOOOO...........UUUUUWWWWWWWWWWWWWWWWW.IIIIIIIIIIIIIIIIIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Time 37: Process O swapped out.
+Time 37: Process I swapped out.
+Time 37: ...........................UUUUUWWWWWWWWWWWWWWWWW..................XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Time 38: ...........................UUUUUWWWWWWWWWWWWWWWWW..................XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Time 39: Process U swapped out.
+Time 39: Process X swapped out.
+Time 39: Process Y swapped in.
+Time 39: Process Z swapped in.
+Time 39: ZZZZZZZZZZZZZZZZZ...............WWWWWWWWWWWWWWWWWYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY..................
+Time 40: Process W swapped out.
+Time 40: ZZZZZZZZZZZZZZZZZ................................YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY..................
+Time 41: ZZZZZZZZZZZZZZZZZ................................YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY..................
+Time 42: Process Z swapped out.
+Time 42: Process A swapped in.
+Time 42: Process B swapped in.
+Time 42: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA................YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYBBBBBBBBBBBBBBBBB.
+Time 43: Process Y swapped out.
+Time 43: Process C swapped in.
+Time 43: Process D swapped in.
+Time 43: Process E swapped in.
+Time 43: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDEEEEE...........................BBBBBBBBBBBBBBBBB.
+Time 44: Process F swapped in.
+Time 44: Process G swapped in.
+Time 44: FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDDDDDDDDDDDDDDDDEEEEEGGGGGGGGGGG................BBBBBBBBBBBBBBBBB.
+Time 45: Process F swapped out.
+Time 45: Process G swapped out.
+Time 45: Process B swapped out.
+Time 45: Process H swapped in.
+Time 45: Process I swapped in.
+Time 45: Process J swapped in.
+Time 45: Process K swapped in.
+Time 45: HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHDDDDDDDDDDDDDDDDDEEEEEIIIIIIIIIIIIIIIIIKKKKKKKKKKKKKKKKK...........
+Time 46: Process D swapped out.
+Time 46: Process L swapped in.
+Time 46: HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHLLLLLLLLLLLLLLLLLEEEEEIIIIIIIIIIIIIIIIIKKKKKKKKKKKKKKKKK...........
+Time 47: Process M swapped in.
+Time 47: Process N swapped in.
+Time 47: Process O swapped in.
+Time 47: Process P swapped in.
+Time 47: Process Q swapped in.
+Time 47: NNNNNNNNNNNNNNNNNOOOOOOOOOOOQQQQQLLLLLLLLLLLLLLLLLEEEEEIIIIIIIIIIIIIIIIIKKKKKKKKKKKKKKKKKPPPPPPPPPPP
+Time 48: Process N swapped out.
+Time 48: Process E swapped out.
+Time 48: Process K swapped out.
+Time 48: Process R swapped in.
+Time 48: RRRRRRRRRRR......OOOOOOOOOOOQQQQQLLLLLLLLLLLLLLLLL.....IIIIIIIIIIIIIIIII.................PPPPPPPPPPP
+Time 49: Process Q swapped out.
+Time 49: RRRRRRRRRRR......OOOOOOOOOOO.....LLLLLLLLLLLLLLLLL.....IIIIIIIIIIIIIIIII.................PPPPPPPPPPP
+Time 50: Process L swapped out.
+Time 50: Process I swapped out.
+Time 50: Process P swapped out.
+Time 50: Process S swapped in.
+Time 50: Process T swapped in.
+Time 50: RRRRRRRRRRR......OOOOOOOOOOOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT......
+Time 51: Process R swapped out.
+Time 51: Process T swapped out.
+Time 51: Process U swapped in.
+Time 51: .................OOOOOOOOOOOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSUUUUUUUUUUU............................
+Time 52: Process O swapped out.
+Time 52: ............................SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSUUUUUUUUUUU............................
+Time 53: ............................SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSUUUUUUUUUUU............................
+Time 54: Process S swapped out.
+Time 54: Process V swapped in.
+Time 54: Process W swapped in.
+Time 54: Process X swapped in.
+Time 54: Process Y swapped in.
+Time 54: Process Z swapped in.
+Time 54: VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVWWWWWWWWWWWWWWWWWYYYYY......UUUUUUUUUUUXXXXXXXXXXXXXXXXXZZZZZZZZZZZ
+Time 55: Process V swapped out.
+Time 55: Process W swapped out.
+Time 55: Process U swapped out.
+Time 55: Process A swapped in.
+Time 55: Process B swapped in.
+Time 55: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBB......YYYYY.................XXXXXXXXXXXXXXXXXZZZZZZZZZZZ
+Time 56: Process C swapped in.
+Time 56: Process D swapped in.
+Time 56: Process E swapped in.
+Time 56: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDBBBBBBBBBBB......YYYYYEEEEE............XXXXXXXXXXXXXXXXXZZZZZZZZZZZ
+Time 57: Process Y swapped out.
+Time 57: Process Z swapped out.
+Time 57: Process F swapped in.
+Time 57: Process G swapped in.
+Time 57: Process H swapped in.
+Time 57: Process I swapped in.
+Time 57: HHHHHHHHHHHHHHHHHIIIII...........BBBBBBBBBBB...........EEEEE............XXXXXXXXXXXXXXXXX...........
+Time 58: Process H swapped out.
+Time 58: Process I swapped out.
+Time 58: Process E swapped out.
+Time 58: Process J swapped in.
+Time 58: JJJJJJJJJJJJJJJJJ................BBBBBBBBBBB............................XXXXXXXXXXXXXXXXX...........
+Time 59: Process X swapped out.
+Time 59: Process K swapped in.
+Time 59: Process L swapped in.
+Time 59: Process M swapped in.
+Time 59: JJJJJJJJJJJJJJJJJ................BBBBBBBBBBBLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMMM......
+
+AVERAGE PROCESSES SWAPPED IN OVER 5 RUNS FOR WORST FIT: 136.0
+
+

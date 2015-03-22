@@ -2,9 +2,9 @@ import java.util.Random;
 
 public class Process
 {
-	public int size;
-	public int duration;
-	public char name;
+	private int size;
+	private int duration;
+	private char name;
 	
 	public Process(int name) {
 		Random rand = new Random();
@@ -21,6 +21,24 @@ public class Process
 				break;
 		}
 		this.duration = rand.nextInt(5) + 1;
+	}
+	public int duration() {
+		return this.duration;
+	}
+	public int size() {
+		return this.size;
+	}
+	public char name() {
+		return this.name;
+	}
+	public void setSize(int size) {
+		this.size = size;
+	}
+	public void setName(char name) {
+		this.name = name;
+	} 
+	public void setDuration(int duration) {
+		this.duration = duration;
 	}
 }
 
