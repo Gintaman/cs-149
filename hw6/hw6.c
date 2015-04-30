@@ -12,7 +12,7 @@
 #define READ_END 0
 #define WRITE_END 1
 
-fd_set readFiles, fdSeter;
+fd_set inputs, inputfds;
 struct itimerval timer;
 struct timeval timeout;
 time_t startTime;
@@ -22,7 +22,7 @@ char buffer2[BUFFER_SIZE];
 FILE *fhandler;
 int messageCount = 1;
 int timesUp = 0;
-int pipes[5][2];
+int fd[5][2];
 
 void timerHandler(int signal) 
 {
@@ -31,13 +31,13 @@ void timerHandler(int signal)
 	exit(0);
 }
 
-void readFromPipe(int readPipeEnd, int childPipe)
+void readFromPipe(int readPipeEnd, int pipeId)
 {
 	struct timeval currentTime;
 	gettimeofday(&currentTime, NULL);
 	float now = (float) ((currentTime.tv_sec - start.tv_sec) + (currentTime.tv_usec - start.tv_usec)/1000000.);
 	read(readPipeEnd, buffer, BUFFER_SIZE);
-	if(childPipe == 4) {
+	if(pipeId == 4) {
 		fprintf(fhandler, "%5.3f: You typed: %s", now, buffer);
 	}
 	else {
@@ -62,8 +62,8 @@ int main()
 	gettimeofday(&start, NULL);
 	srand(time(0));
 
-	FD_ZERO(&fdSeter);
-	FD_SET(0, &fdSeter);
+	FD_ZERO(&inputfds);
+	FD_SET(0, &inputfds);
 
 	pid_t pid;
 	int selectPipeNumber;
@@ -71,11 +71,11 @@ int main()
 	int childNames[5];
 
 	for(i = 0; i < 5; i++) { 
-		if(pipe(pipes[i]) == -1) {
+		if(pipe(fd[i]) == -1) {
 			perror("Pipe error");
 			exit(1);
 		}
-		FD_SET(pipes[i][0], &fdSeter);		
+		FD_SET(fd[i][0], &inputfds);		
 		if((pid = fork()) == -1) {
 			perror("Fork error");
 			exit(1);
@@ -86,8 +86,8 @@ int main()
 
 	while(!timesUp){
 		if(pid > 0){ //parent
-			readFiles = fdSeter;
-			if((selectPipeNumber = select(FD_SETSIZE, &readFiles, NULL, NULL, NULL)) == -1) {
+			inputs = inputfds;
+			if((selectPipeNumber = select(FD_SETSIZE, &inputs, NULL, NULL, NULL)) == -1) {
 				exit(1);
 			}
 			else if(selectPipeNumber == 0) {
@@ -95,8 +95,8 @@ int main()
 			}
 			else {
 				for(i = 0; i < 5; i++) {
-					if(FD_ISSET(pipes[i][0], &readFiles)) {
-						readFromPipe(pipes[i][0], i);
+					if(FD_ISSET(fd[i][0], &inputs)) {
+						readFromPipe(fd[i][0], i);
 						struct timeval currentTime;
 						gettimeofday(&currentTime, NULL);
 						float now = (float) ((currentTime.tv_sec - start.tv_sec) + (currentTime.tv_usec - start.tv_usec)/1000000.);
@@ -109,13 +109,13 @@ int main()
 			if(i == 4) {
 				fgets(buffer2, BUFFER_SIZE, stdin);
 				snprintf(buffer, BUFFER_SIZE, "%s", buffer2);
-				writeToPipe(pipes[i]);
+				writeToPipe(fd[i]);
 			}
 			else {
-				readFiles = fdSeter;
+				inputs = inputfds;
 				sleep(rand()%3);
 				sprintf(buffer, "Child %d message %d", (i+1), messageCount++);
-				writeToPipe(pipes[i]);
+				writeToPipe(fd[i]);
 			}
 		}
 	}	
