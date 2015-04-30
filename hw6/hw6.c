@@ -1,84 +1,124 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <fcntl.h>
 #include <unistd.h>
-#include <pthread.h>
-#include <semaphore.h>
+#include <time.h>
+#include <assert.h>
 #include <signal.h>
+#include <sys/types.h>
 #include <sys/time.h>
 
+#define BUFFER_SIZE	100 
+#define READ_END 0
+#define WRITE_END 1
+
+fd_set readFiles, fdSeter;
 struct itimerval timer;
+struct timeval timeout;
 time_t startTime;
+struct timeval start;
+char buffer[BUFFER_SIZE];
+char buffer2[BUFFER_SIZE];
+FILE *fhandler;
+int messageCount = 1;
 int timesUp = 0;
+int pipes[5][2];
 
 void timerHandler(int signal) 
 {
+	assert(signal == SIGALRM);
 	timesUp = 1;
+	exit(0);
 }
 
-float getTime() 
+void readFromPipe(int readPipeEnd, int childPipe)
 {
-	clock_t t1, t2;
-	t1 = clock();
-	int i;
-	for(i = 0; i < CLOCKS_PER_SEC; i++) {
-		int x = 90;
+	struct timeval currentTime;
+	gettimeofday(&currentTime, NULL);
+	float now = (float) ((currentTime.tv_sec - start.tv_sec) + (currentTime.tv_usec - start.tv_usec)/1000000.);
+	read(readPipeEnd, buffer, BUFFER_SIZE);
+	if(childPipe == 4) {
+		fprintf(fhandler, "%5.3f: You typed: %s", now, buffer);
 	}
-	t2 = clock();
-	float diff = (((float)t2 - (float)t1) / 1000000.0F ) * 1000;
-	return diff;
+	else {
+		fprintf(fhandler, "%5.3f: %s\n", now, buffer);
+	}
 }
 
-int main(int argc, char *argv[]) 
+void writeToPipe(int *pipeDescriptor)
 {
+	close(pipeDescriptor[READ_END]);
+	write(pipeDescriptor[WRITE_END], buffer, BUFFER_SIZE);
+}
+
+int main()
+{
+	fhandler = fopen("output.txt", "a+");
+
 	time(&startTime);
-	timer.it_value.tv_sec = 3;
+	timer.it_value.tv_sec = 30;
 	setitimer(ITIMER_REAL, &timer, NULL);
 	signal(SIGALRM, timerHandler);
+	gettimeofday(&start, NULL);
 	srand(time(0));
 
-	int fd[2]; //file descriptor array. fd[0] is for reading, fd[1] is for writing
-	int numBytes;
-	pid_t childpid; //child
-	char string[] = "hello, world\n";
-	char readbuffer[80];
+	FD_ZERO(&fdSeter);
+	FD_SET(0, &fdSeter);
 
-	FILE *fhandler;
-	fhandler = fopen("output.txt", "a+");
-	
-	pipe(fd); //create our pipe
+	pid_t pid;
+	int selectPipeNumber;
+	int i;
+	int childNames[5];
 
-	/*
-	 * Note on the call to fork(). fork() returns a process id, but after fork has been called there are two process running -- the 
-	 * parent process and the child process. fork is called ONCE, but returns TWICE. The parent process is returned the pid of the 
-	 * spawned child, but the child is returned 0. By checking the return value, a process can determine whether is the child or 
-	 * the parent. So if childpid == 0, then the process is the child, otherwise the process is the parent.
-	 */
-	if((childpid = fork()) == -1) { //error forking child process 
-		perror("fork error\n");
-		exit(1);
-	}
-
-	while(!timesUp) {
-		//BEGIN FIRST PROCESS---------------------------------------------------------------------------------------
-		//child process WRITES to parent. close unused READ end. 
-		sleep(rand()%3);
-		int i = 0;
-		
-		if(childpid == 0) { //current process is the CHILD process.
-			close(fd[0]); //child process closes input side of pipe
-			write(fd[1], string, (strlen(string)+1));
-			exit(0);
-		} 
-		else { //parent process READS from child. close unused WRITE end
-			close(fd[1]); //parent process closes output side of pipe
-			numBytes = read(fd[0], readbuffer, sizeof(readbuffer));
-			printf("received string: %s", readbuffer);
-			//fprintf(fhandler, "some text: %s\n", readbuffer);
+	for(i = 0; i < 5; i++) { 
+		if(pipe(pipes[i]) == -1) {
+			perror("Pipe error");
+			exit(1);
 		}
-		//END FIRST PROCESS-----------------------------------------------------------------------------------------
+		FD_SET(pipes[i][0], &fdSeter);		
+		if((pid = fork()) == -1) {
+			perror("Fork error");
+			exit(1);
+		}
+		if(pid == 0) //each child will have its own i 
+			break;
 	}
-	
-	fclose(fhandler);
+
+	while(!timesUp){
+		if(pid > 0){ //parent
+			readFiles = fdSeter;
+			if((selectPipeNumber = select(FD_SETSIZE, &readFiles, NULL, NULL, NULL)) == -1) {
+				exit(1);
+			}
+			else if(selectPipeNumber == 0) {
+				perror("Nothing read");
+			}
+			else {
+				for(i = 0; i < 5; i++) {
+					if(FD_ISSET(pipes[i][0], &readFiles)) {
+						readFromPipe(pipes[i][0], i);
+						struct timeval currentTime;
+						gettimeofday(&currentTime, NULL);
+						float now = (float) ((currentTime.tv_sec - start.tv_sec) + (currentTime.tv_usec - start.tv_usec)/1000000.);
+						fprintf(fhandler, "%6.3f Parent \n", now);
+					}
+				}
+			}
+		}
+		else {
+			if(i == 4) {
+				fgets(buffer2, BUFFER_SIZE, stdin);
+				snprintf(buffer, BUFFER_SIZE, "%s", buffer2);
+				writeToPipe(pipes[i]);
+			}
+			else {
+				readFiles = fdSeter;
+				sleep(rand()%3);
+				sprintf(buffer, "Child %d message %d", (i+1), messageCount++);
+				writeToPipe(pipes[i]);
+			}
+		}
+	}	
 	exit(0);
+	fclose(fhandler);	
 }
